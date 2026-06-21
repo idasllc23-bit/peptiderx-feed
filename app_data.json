@@ -1,0 +1,755 @@
+{
+  "peptides": [
+    {
+      "id": "p-bpc157",
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "aka": [
+        "Body Protection Compound 157"
+      ],
+      "category": "recovery",
+      "shortSummary": "Frequently discussed in relation to tissue recovery and gut comfort.",
+      "overview": "BPC-157 is a synthetic peptide that appears in research discussions about soft-tissue recovery and digestive comfort. It is studied largely in preclinical settings.",
+      "mechanism": "This peptide is frequently discussed in relation to angiogenesis (new blood vessel formation) and connective-tissue signaling in research literature.",
+      "discussedFor": [
+        "Recovery",
+        "Joints & mobility",
+        "Gut health"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Stable gastric pentadecapeptide BPC-157: experimental overview",
+          "sourceType": "review",
+          "publication": "Journal of Physiology (review)",
+          "year": 2020,
+          "summary": "A narrative review summarizing preclinical experiments exploring tissue-healing pathways. Not human clinical evidence."
+        },
+        {
+          "title": "Community recovery notes (summarized)",
+          "sourceType": "anecdotal",
+          "summary": "Aggregated, anonymized community discussion themes around perceived recovery. Anecdotal and unverified."
+        }
+      ]
+    },
+    {
+      "id": "p-ipamorelin",
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "aka": [],
+      "category": "sleep",
+      "shortSummary": "Often discussed in relation to sleep quality and recovery in research conversations.",
+      "overview": "Ipamorelin is a growth-hormone-secretagogue peptide commonly referenced in research discussions about sleep and recovery.",
+      "mechanism": "Frequently discussed in relation to the ghrelin/GH pathway in published research.",
+      "discussedFor": [
+        "Recovery",
+        "Sleep",
+        "Energy"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Growth hormone secretagogues: a clinical review",
+          "sourceType": "review",
+          "publication": "Endocrine Reviews (review)",
+          "year": 2019,
+          "summary": "Reviews the GH-secretagogue class broadly. General context, not a recommendation."
+        }
+      ]
+    },
+    {
+      "id": "p-cjc1295",
+      "slug": "cjc-1295",
+      "name": "CJC-1295",
+      "aka": [
+        "CJC-1295 DAC"
+      ],
+      "category": "metabolic",
+      "shortSummary": "Discussed alongside Ipamorelin in research about recovery and body composition.",
+      "overview": "CJC-1295 is a peptide referenced in research discussions about the growth-hormone axis, often mentioned together with Ipamorelin.",
+      "mechanism": "Frequently discussed in relation to GHRH analog activity in research literature.",
+      "discussedFor": [
+        "Recovery",
+        "Energy",
+        "Weight & metabolism"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "GHRH analogs: mechanistic overview",
+          "sourceType": "preclinical",
+          "year": 2018,
+          "summary": "Preclinical mechanistic discussion. Not human clinical data."
+        }
+      ]
+    },
+    {
+      "id": "p-semax",
+      "slug": "semax",
+      "name": "Semax",
+      "aka": [],
+      "category": "cognition",
+      "shortSummary": "Frequently discussed in relation to focus and cognitive research.",
+      "overview": "Semax is a peptide studied largely in regional research literature and discussed in relation to focus and cognition.",
+      "mechanism": "Frequently discussed in relation to BDNF expression in research contexts.",
+      "discussedFor": [
+        "Cognition & focus",
+        "Energy"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Neuropeptide research: regional clinical literature",
+          "sourceType": "clinical",
+          "year": 2017,
+          "summary": "Summarized regional clinical research. Methodology varies; interpret with caution."
+        }
+      ]
+    },
+    {
+      "id": "p-thymosin-beta4",
+      "slug": "thymosin-beta-4",
+      "name": "Thymosin Beta-4",
+      "aka": [
+        "TB-500 (related fragment)"
+      ],
+      "category": "joints",
+      "shortSummary": "Referenced in research discussions about tissue repair and flexibility.",
+      "overview": "Thymosin Beta-4 is a naturally occurring peptide referenced in research about cell migration and tissue repair.",
+      "mechanism": "Frequently discussed in relation to actin regulation and cell migration in research.",
+      "discussedFor": [
+        "Recovery",
+        "Joints & mobility"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Thymosin beta-4 in tissue repair (review)",
+          "sourceType": "review",
+          "year": 2021,
+          "summary": "Reviews preclinical repair pathways. Not clinical guidance."
+        }
+      ]
+    },
+    {
+      "id": "p-ghk-cu",
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "aka": [
+        "Copper Peptide"
+      ],
+      "category": "skin",
+      "shortSummary": "Commonly discussed in relation to skin and aging research.",
+      "overview": "GHK-Cu is a copper-binding peptide widely referenced in skin and cosmetic research discussions.",
+      "mechanism": "Frequently discussed in relation to collagen signaling and antioxidant pathways.",
+      "discussedFor": [
+        "Skin & aging",
+        "Recovery"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Copper peptides in dermatologic research",
+          "sourceType": "review",
+          "year": 2018,
+          "summary": "Overview of cosmetic and dermatologic research themes."
+        }
+      ]
+    },
+    {
+      "id": "p-tirzepatide",
+      "slug": "tirzepatide",
+      "name": "Tirzepatide",
+      "aka": [
+        "Mounjaro",
+        "Zepbound",
+        "GIP/GLP-1"
+      ],
+      "category": "metabolic",
+      "shortSummary": "A dual GIP/GLP-1 receptor agonist widely discussed in weight and metabolic research.",
+      "overview": "Tirzepatide is an FDA-approved dual GIP/GLP-1 receptor agonist heavily referenced in clinical research on body weight and glucose metabolism. It is a prescription medication.",
+      "mechanism": "Frequently discussed in relation to dual incretin (GIP + GLP-1) receptor activity in clinical literature.",
+      "discussedFor": [
+        "Weight & metabolism",
+        "Energy"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "Tirzepatide in weight management (SURMOUNT program)",
+          "sourceType": "clinical",
+          "publication": "NEJM (clinical trials)",
+          "year": 2022,
+          "summary": "Large randomized clinical trials studied tirzepatide for body-weight outcomes. Prescription medication — discuss with a clinician."
+        }
+      ]
+    },
+    {
+      "id": "p-retatrutide",
+      "slug": "retatrutide",
+      "name": "Retatrutide",
+      "aka": [
+        "Reta",
+        "LY3437943",
+        "Triple agonist"
+      ],
+      "category": "metabolic",
+      "shortSummary": "An investigational triple GIP/GLP-1/glucagon agonist discussed in weight-loss research.",
+      "overview": "Retatrutide is an investigational triple receptor agonist (GIP, GLP-1, glucagon) studied in clinical trials for body weight. It is not FDA-approved.",
+      "mechanism": "Frequently discussed in relation to triple incretin/glucagon receptor activity in trial literature.",
+      "discussedFor": [
+        "Weight & metabolism",
+        "Energy"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "Retatrutide phase 2 obesity trial",
+          "sourceType": "clinical",
+          "publication": "NEJM (phase 2)",
+          "year": 2023,
+          "summary": "A phase 2 randomized trial evaluated retatrutide for body-weight change. Investigational — not approved."
+        }
+      ]
+    },
+    {
+      "id": "p-semaglutide",
+      "slug": "semaglutide",
+      "name": "Semaglutide",
+      "aka": [
+        "Ozempic",
+        "Wegovy",
+        "GLP-1"
+      ],
+      "category": "metabolic",
+      "shortSummary": "A GLP-1 receptor agonist widely referenced in weight and glucose research.",
+      "overview": "Semaglutide is an FDA-approved GLP-1 receptor agonist extensively studied in clinical research on body weight and type 2 diabetes. It is a prescription medication.",
+      "mechanism": "Frequently discussed in relation to GLP-1 receptor activation in clinical literature.",
+      "discussedFor": [
+        "Weight & metabolism",
+        "Energy"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "Semaglutide for weight management (STEP program)",
+          "sourceType": "clinical",
+          "publication": "NEJM (clinical trials)",
+          "year": 2021,
+          "summary": "Randomized clinical trials studied semaglutide for body-weight outcomes. Prescription medication."
+        }
+      ]
+    },
+    {
+      "id": "p-tesamorelin",
+      "slug": "tesamorelin",
+      "name": "Tesamorelin",
+      "aka": [
+        "Egrifta",
+        "GHRH analog"
+      ],
+      "category": "metabolic",
+      "shortSummary": "A GHRH analog discussed in research on visceral fat and body composition.",
+      "overview": "Tesamorelin is an FDA-approved GHRH analog referenced in clinical research on body composition. It is a prescription medication.",
+      "mechanism": "Frequently discussed in relation to GHRH-receptor activity and the GH/IGF-1 axis.",
+      "discussedFor": [
+        "Weight & metabolism",
+        "Recovery"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "Tesamorelin and visceral adiposity (clinical)",
+          "sourceType": "clinical",
+          "year": 2018,
+          "summary": "Clinical trials studied tesamorelin for body-composition endpoints. Prescription medication."
+        }
+      ]
+    },
+    {
+      "id": "p-aod9604",
+      "slug": "aod-9604",
+      "name": "AOD-9604",
+      "aka": [
+        "hGH fragment 176-191"
+      ],
+      "category": "metabolic",
+      "shortSummary": "A growth-hormone fragment discussed in fat-metabolism research.",
+      "overview": "AOD-9604 is a fragment of growth hormone referenced in preclinical research discussions about fat metabolism.",
+      "mechanism": "Frequently discussed in relation to lipolysis pathways in preclinical literature.",
+      "discussedFor": [
+        "Weight & metabolism"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "AOD-9604 lipolysis research (preclinical)",
+          "sourceType": "preclinical",
+          "year": 2014,
+          "summary": "Preclinical studies explored fat-metabolism signaling. Human evidence is limited."
+        }
+      ]
+    },
+    {
+      "id": "p-mots-c",
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "aka": [
+        "Mitochondrial-derived peptide"
+      ],
+      "category": "metabolic",
+      "shortSummary": "A mitochondrial-derived peptide discussed in energy and metabolic research.",
+      "overview": "MOTS-c is a mitochondrial-derived peptide studied in preclinical research on metabolism and exercise physiology.",
+      "mechanism": "Frequently discussed in relation to AMPK signaling and metabolic regulation in research literature.",
+      "discussedFor": [
+        "Energy",
+        "Weight & metabolism"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "MOTS-c metabolic regulation (preclinical)",
+          "sourceType": "preclinical",
+          "year": 2021,
+          "summary": "Preclinical studies explored metabolic signaling. Not human clinical data."
+        }
+      ]
+    },
+    {
+      "id": "p-tb500",
+      "slug": "tb-500",
+      "name": "TB-500",
+      "aka": [
+        "Thymosin Beta-4 fragment",
+        "TB500"
+      ],
+      "category": "recovery",
+      "shortSummary": "A synthetic fragment discussed alongside Thymosin Beta-4 in recovery research.",
+      "overview": "TB-500 is a synthetic peptide related to Thymosin Beta-4, referenced in preclinical discussions of tissue repair and flexibility.",
+      "mechanism": "Frequently discussed in relation to actin regulation and cell migration in preclinical literature.",
+      "discussedFor": [
+        "Recovery",
+        "Joints & mobility"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Thymosin Beta-4 and tissue repair (review)",
+          "sourceType": "review",
+          "year": 2019,
+          "summary": "Preclinical review of repair-related pathways. Not human clinical evidence."
+        }
+      ]
+    },
+    {
+      "id": "p-sermorelin",
+      "slug": "sermorelin",
+      "name": "Sermorelin",
+      "aka": [
+        "GHRH 1-29"
+      ],
+      "category": "recovery",
+      "shortSummary": "A GHRH peptide discussed in research on sleep, recovery and the GH axis.",
+      "overview": "Sermorelin is a GHRH-analog peptide referenced in research discussions about the growth-hormone axis, sleep and recovery.",
+      "mechanism": "Frequently discussed in relation to GHRH-receptor activity in research literature.",
+      "discussedFor": [
+        "Recovery",
+        "Sleep",
+        "Energy"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "GHRH analogs overview (review)",
+          "sourceType": "review",
+          "year": 2017,
+          "summary": "General review of the GHRH-analog class. Context, not a recommendation."
+        }
+      ]
+    },
+    {
+      "id": "p-mk677",
+      "slug": "mk-677",
+      "name": "MK-677",
+      "aka": [
+        "Ibutamoren",
+        "MK-0677"
+      ],
+      "category": "recovery",
+      "shortSummary": "An oral GH secretagogue discussed in sleep, recovery and appetite research.",
+      "overview": "MK-677 (ibutamoren) is an orally active growth-hormone secretagogue referenced in research about the GH axis, sleep and appetite. It is a non-peptide compound often grouped with peptide research.",
+      "mechanism": "Frequently discussed in relation to ghrelin-receptor activity and GH release in research literature.",
+      "discussedFor": [
+        "Sleep",
+        "Recovery",
+        "Energy"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Ghrelin mimetics and GH secretion (review)",
+          "sourceType": "review",
+          "year": 2018,
+          "summary": "Reviews GH-secretagogue research broadly. Context, not a recommendation."
+        }
+      ]
+    },
+    {
+      "id": "p-selank",
+      "slug": "selank",
+      "name": "Selank",
+      "aka": [
+        "TP-7"
+      ],
+      "category": "cognition",
+      "shortSummary": "A peptide discussed in research on focus, calm and cognition.",
+      "overview": "Selank is a synthetic peptide referenced in preclinical research discussions about cognition and stress signaling.",
+      "mechanism": "Frequently discussed in relation to tuftsin-related and neuropeptide pathways in preclinical literature.",
+      "discussedFor": [
+        "Cognition & focus"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Selank neuropeptide research (preclinical)",
+          "sourceType": "preclinical",
+          "year": 2016,
+          "summary": "Preclinical studies explored cognition-related pathways. Not human clinical data."
+        }
+      ]
+    },
+    {
+      "id": "p-epitalon",
+      "slug": "epitalon",
+      "name": "Epitalon",
+      "aka": [
+        "Epithalon",
+        "Epithalamin"
+      ],
+      "category": "aging",
+      "shortSummary": "A peptide discussed in longevity and skin-aging research.",
+      "overview": "Epitalon is a synthetic peptide referenced in preclinical research discussions about aging biology and telomere science.",
+      "mechanism": "Frequently discussed in relation to telomerase and pineal/circadian signaling in preclinical literature.",
+      "discussedFor": [
+        "Skin & aging"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Epitalon and aging biology (preclinical)",
+          "sourceType": "preclinical",
+          "year": 2015,
+          "summary": "Preclinical and small studies explored aging-related markers. Not robust human clinical evidence."
+        }
+      ]
+    },
+    {
+      "id": "p-kpv",
+      "slug": "kpv",
+      "name": "KPV",
+      "aka": [
+        "Lysine-Proline-Valine"
+      ],
+      "category": "gut",
+      "shortSummary": "A short peptide discussed in gut-comfort and inflammation research.",
+      "overview": "KPV is a tripeptide referenced in preclinical research discussions about gut comfort and inflammatory signaling.",
+      "mechanism": "Frequently discussed in relation to anti-inflammatory melanocortin pathways in preclinical literature.",
+      "discussedFor": [
+        "Gut health",
+        "Recovery"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "KPV anti-inflammatory research (preclinical)",
+          "sourceType": "preclinical",
+          "year": 2017,
+          "summary": "Preclinical studies explored inflammatory signaling. Not human clinical data."
+        }
+      ]
+    },
+    {
+      "id": "p-thymosin-alpha1",
+      "slug": "thymosin-alpha-1",
+      "name": "Thymosin Alpha-1",
+      "aka": [
+        "Ta1",
+        "Zadaxin"
+      ],
+      "category": "immune",
+      "shortSummary": "A peptide discussed in immune-support research.",
+      "overview": "Thymosin Alpha-1 is a peptide referenced in clinical research discussions about immune modulation; it is approved in some countries.",
+      "mechanism": "Frequently discussed in relation to T-cell and immune signaling in research literature.",
+      "discussedFor": [
+        "Recovery"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "Thymosin Alpha-1 immune research (review)",
+          "sourceType": "review",
+          "year": 2019,
+          "summary": "Reviews immune-modulation research. Regulatory status varies by country."
+        }
+      ]
+    },
+    {
+      "id": "p-dsip",
+      "slug": "dsip",
+      "name": "DSIP",
+      "aka": [
+        "Delta Sleep-Inducing Peptide"
+      ],
+      "category": "sleep",
+      "shortSummary": "A peptide discussed in sleep-related research.",
+      "overview": "DSIP is a naturally occurring peptide referenced in preclinical research discussions about sleep regulation.",
+      "mechanism": "Frequently discussed in relation to sleep-regulatory and neuroendocrine pathways in preclinical literature.",
+      "discussedFor": [
+        "Sleep"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "DSIP sleep research (preclinical)",
+          "sourceType": "preclinical",
+          "year": 2013,
+          "summary": "Preclinical studies explored sleep-related signaling. Human evidence is limited."
+        }
+      ]
+    }
+  ],
+  "news": {
+    "summary": "Peptide research findings and FDA / regulatory updates are refreshed here daily. General research only. This is not medical advice.",
+    "board": [],
+    "timeline": [],
+    "generatedAt": "2026-06-20T20:18:18.417Z"
+  },
+  "podcasts": [
+    {
+      "id": "pod-peptalk",
+      "show": "Peptalk: Peptides Unpacked",
+      "host": "Dr. Kylie Burton (functional medicine) & Jessica Briecke",
+      "description": "A dedicated peptide show breaking down research and practical questions, launched at the start of 2026.",
+      "launchedLabel": "Jan 2026",
+      "sort": 70,
+      "links": [
+        {
+          "label": "Apple",
+          "url": "https://podcasts.apple.com/us/podcast/peptalk-peptides-unpacked/id1857738461"
+        }
+      ],
+      "topics": [
+        "Recovery",
+        "Weight & metabolism"
+      ]
+    },
+    {
+      "id": "pod-peptide-phds",
+      "show": "The Peptide PhDs Podcast",
+      "host": "Dr. Mark Bartlett, PhD & Dr. Alan Jones, PhD",
+      "description": "Two scientists unpacking peptide research in biweekly episodes — mechanism-focused and evidence-led.",
+      "launchedLabel": "Mid 2025",
+      "sort": 60,
+      "links": [
+        {
+          "label": "Apple",
+          "url": "https://podcasts.apple.com/us/podcast/the-peptide-phds-podcast/id1846205928"
+        },
+        {
+          "label": "Spotify",
+          "url": "https://open.spotify.com/show/005VwT9lArrWXZPcTJscI3"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PL4VwAr8yUbYJXhACi5I95WzMvtYFUNYl3"
+        }
+      ],
+      "topics": [
+        "Recovery",
+        "Cognition & focus"
+      ]
+    },
+    {
+      "id": "pod-peptides-longevity",
+      "show": "Peptides and Longevity",
+      "host": "Dr. Kent Holtorf, MD (integrative / regenerative medicine)",
+      "description": "Redefining aging through peptides and longevity medicine; ~50 episodes through 2025.",
+      "launchedLabel": "Early 2025",
+      "sort": 50,
+      "links": [
+        {
+          "label": "Apple",
+          "url": "https://podcasts.apple.com/us/podcast/peptides-and-longevity-redefining-aging-and/id1794553020"
+        },
+        {
+          "label": "Spotify",
+          "url": "https://open.spotify.com/show/6ZZtDbdcxK0v70CdtLklC0"
+        }
+      ],
+      "topics": [
+        "Skin & aging",
+        "Energy"
+      ]
+    },
+    {
+      "id": "pod-peptide-podcast",
+      "show": "The Peptide Podcast",
+      "host": "“The Peptide Queen,” clinical pharmacist (15+ yrs)",
+      "description": "Short, frequent episodes that explain individual peptides in plain language.",
+      "launchedLabel": "2022",
+      "sort": 40,
+      "links": [
+        {
+          "label": "Apple",
+          "url": "https://podcasts.apple.com/us/podcast/the-peptide-podcast/id1631612359"
+        }
+      ],
+      "topics": [
+        "Recovery",
+        "Weight & metabolism"
+      ]
+    },
+    {
+      "id": "pod-huberman",
+      "show": "Huberman Lab",
+      "host": "Dr. Andrew Huberman, PhD (Stanford)",
+      "description": "Flagship episode \"Benefits & Risks of Peptide Therapeutics\" plus a guest episode with Dr. Craig Koniver, MD.",
+      "launchedLabel": "2021 · peptide ep. 2024",
+      "sort": 30,
+      "links": [
+        {
+          "label": "Apple",
+          "url": "https://podcasts.apple.com/us/podcast/benefits-risks-of-peptide-therapeutics-for-physical/id1545953110?i=1000651046717"
+        },
+        {
+          "label": "Website",
+          "url": "https://www.hubermanlab.com/episode/benefits-risks-of-peptide-therapeutics-for-physical-mental-health"
+        }
+      ],
+      "topics": [
+        "Recovery",
+        "Sleep",
+        "Cognition & focus"
+      ]
+    },
+    {
+      "id": "pod-gladden",
+      "show": "Gladden Longevity Podcast",
+      "host": "Dr. Jeffrey Gladden, MD (feat. Dr. Elizabeth Yurth, MD)",
+      "description": "Longevity-focused show with standout peptide episodes from double board-certified guests.",
+      "launchedLabel": "2017",
+      "sort": 20,
+      "links": [
+        {
+          "label": "Apple",
+          "url": "https://podcasts.apple.com/za/podcast/the-peptide-protocol-that-changes-everything-about/id1318912042?i=1000760488051"
+        }
+      ],
+      "topics": [
+        "Joints & mobility",
+        "Energy"
+      ]
+    },
+    {
+      "id": "pod-hyman",
+      "show": "The Dr. Hyman Show",
+      "host": "Dr. Mark Hyman, MD (feat. Dr. Edwin Lee, MD)",
+      "description": "Functional-medicine show with recurring peptide episodes on metabolism and healthy aging.",
+      "launchedLabel": "Ongoing",
+      "sort": 10,
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://drhyman.com/blogs/content/podcast-ep914"
+        }
+      ],
+      "topics": [
+        "Weight & metabolism",
+        "Gut health"
+      ]
+    }
+  ],
+  "clinics": [
+    {
+      "id": "clinic-sample-national",
+      "name": "Sample Telehealth Peptide Clinic",
+      "description": "Placeholder nationwide telehealth provider. Replace with a real clinic that consults in all states.",
+      "states": [],
+      "nationwide": true,
+      "phone": "+1-555-0100",
+      "email": "hello@example.com",
+      "website": "https://example.com",
+      "sample": true
+    },
+    {
+      "id": "clinic-sample-ca",
+      "name": "Sample West Coast Wellness",
+      "description": "Placeholder in-person clinic serving a few western states. Replace with real details.",
+      "states": [
+        "CA",
+        "NV",
+        "AZ",
+        "OR",
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "+1-555-0111",
+      "email": "care@example.com",
+      "website": "https://example.com",
+      "sample": true
+    },
+    {
+      "id": "clinic-sample-tx",
+      "name": "Sample South Central Health",
+      "description": "Placeholder clinic serving the south-central region. Replace with real details.",
+      "states": [
+        "TX",
+        "OK",
+        "LA",
+        "NM",
+        "AR"
+      ],
+      "nationwide": false,
+      "phone": "+1-555-0122",
+      "email": "info@example.com",
+      "website": "https://example.com",
+      "sample": true
+    },
+    {
+      "id": "clinic-sample-fl",
+      "name": "Sample Southeast Longevity",
+      "description": "Placeholder clinic serving the southeast. Replace with real details.",
+      "states": [
+        "FL",
+        "GA",
+        "SC",
+        "NC",
+        "TN",
+        "AL"
+      ],
+      "nationwide": false,
+      "phone": "+1-555-0133",
+      "email": "contact@example.com",
+      "website": "https://example.com",
+      "sample": true
+    },
+    {
+      "id": "clinic-sample-ny",
+      "name": "Sample Northeast Peptide Group",
+      "description": "Placeholder clinic serving the northeast corridor. Replace with real details.",
+      "states": [
+        "NY",
+        "NJ",
+        "CT",
+        "MA",
+        "PA",
+        "RI"
+      ],
+      "nationwide": false,
+      "phone": "+1-555-0144",
+      "email": "reception@example.com",
+      "website": "https://example.com",
+      "sample": true
+    }
+  ]
+}
