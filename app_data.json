@@ -522,7 +522,7 @@
     "summary": "Peptide research findings and FDA / regulatory updates are refreshed here daily. General research only. This is not medical advice.",
     "board": [],
     "timeline": [],
-    "generatedAt": "2026-06-20T20:18:18.417Z"
+    "generatedAt": "2026-06-21T03:01:53.741Z"
   },
   "podcasts": [
     {
@@ -671,85 +671,5400 @@
   ],
   "clinics": [
     {
-      "id": "clinic-sample-national",
-      "name": "Sample Telehealth Peptide Clinic",
-      "description": "Placeholder nationwide telehealth provider. Replace with a real clinic that consults in all states.",
-      "states": [],
-      "nationwide": true,
-      "phone": "+1-555-0100",
-      "email": "hello@example.com",
-      "website": "https://example.com",
-      "sample": true
-    },
-    {
-      "id": "clinic-sample-ca",
-      "name": "Sample West Coast Wellness",
-      "description": "Placeholder in-person clinic serving a few western states. Replace with real details.",
+      "id": "trua-health-wellness-ak",
+      "name": "Trua Health & Wellness",
+      "description": "",
       "states": [
-        "CA",
-        "NV",
-        "AZ",
-        "OR",
-        "WA"
+        "AK"
       ],
       "nationwide": false,
-      "phone": "+1-555-0111",
-      "email": "care@example.com",
-      "website": "https://example.com",
-      "sample": true
+      "phone": "(907) 802-6500",
+      "email": "",
+      "website": "https://www.truahealth.com/",
+      "address": "4361 Boniface Pkwy Anchorage, Alaska 99504",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
     },
     {
-      "id": "clinic-sample-tx",
-      "name": "Sample South Central Health",
-      "description": "Placeholder clinic serving the south-central region. Replace with real details.",
+      "id": "bayside-regenerative-medicine-al",
+      "name": "Bayside Regenerative Medicine",
+      "description": "",
       "states": [
-        "TX",
-        "OK",
-        "LA",
-        "NM",
-        "AR"
-      ],
-      "nationwide": false,
-      "phone": "+1-555-0122",
-      "email": "info@example.com",
-      "website": "https://example.com",
-      "sample": true
-    },
-    {
-      "id": "clinic-sample-fl",
-      "name": "Sample Southeast Longevity",
-      "description": "Placeholder clinic serving the southeast. Replace with real details.",
-      "states": [
-        "FL",
-        "GA",
-        "SC",
-        "NC",
-        "TN",
         "AL"
       ],
       "nationwide": false,
-      "phone": "+1-555-0133",
-      "email": "contact@example.com",
-      "website": "https://example.com",
-      "sample": true
+      "phone": "(251) 517-1050",
+      "email": "",
+      "website": "http://baysideregenerativemedicine.com/",
+      "address": "100 N Bancroft St A2 Fairhope, Alabama 36532",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
     },
     {
-      "id": "clinic-sample-ny",
-      "name": "Sample Northeast Peptide Group",
-      "description": "Placeholder clinic serving the northeast corridor. Replace with real details.",
+      "id": "biowell-therapeutics-al",
+      "name": "BioWell Therapeutics",
+      "description": "",
       "states": [
-        "NY",
-        "NJ",
-        "CT",
-        "MA",
-        "PA",
+        "AL"
+      ],
+      "nationwide": false,
+      "phone": "(256) 858-1470",
+      "email": "",
+      "website": "http://biowelltherapeutics.com/",
+      "address": "218 RHETT AVE SW Huntsville, Alabama 35801",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "vitalogy-wellness-center-and-medspa-al",
+      "name": "Vitalogy Wellness Center and Medspa",
+      "description": "",
+      "states": [
+        "AL"
+      ],
+      "nationwide": false,
+      "phone": "(205) 413-8599",
+      "email": "brook.oubre@vitalogywellness.com",
+      "website": "https://vitalogywellnessandmedspa.com/",
+      "address": "2704 20th St S Homewood, Alabama 35209",
+      "contact": "Brook Oubre",
+      "contactTitle": "Registered Dietitian",
+      "sample": false
+    },
+    {
+      "id": "enhanced-healthcare-of-the-ozarks-ar",
+      "name": "Enhanced Healthcare of the Ozarks",
+      "description": "",
+      "states": [
+        "AR"
+      ],
+      "nationwide": false,
+      "phone": "(479) 721-1043",
+      "email": "",
+      "website": "http://enhanced-healthcare.org/",
+      "address": "5102 W Pauline Whitaker Pkwy Rogers, Arkansas 72758",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "arizona-prohealth-az",
+      "name": "Arizona Prohealth",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 831-7970",
+      "email": "",
+      "website": "http://www.azprohealth.com/",
+      "address": "1400 N Gilbert Rd Gilbert, Arizona 85234",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "enovative-wellness-center-az",
+      "name": "Enovative Wellness Center",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(602) 614-9905",
+      "email": "",
+      "website": "https://www.doctorgregjones.com/",
+      "address": "4425 N 24th St Phoenix, Arizona 85016",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "estrella-women-s-health-center-az",
+      "name": "Estrella Women’s Health Center",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(623) 846-7558",
+      "email": "",
+      "website": "http://www.estrellawomenshealthcenter.com/",
+      "address": "9930 W Indian School Rd Phoenix, Arizona 85037",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "incredible-health-llc-az",
+      "name": "Incredible Health LLC",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 418-3678",
+      "email": "drharrison@incredible-health.com",
+      "website": "http://www.incrediblehealthcenter.com/",
+      "address": "10595 N Tatum Blvd # E142 Paradise Valley, Arizona 85253",
+      "contact": "Dr. Toni Harrison",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "incredible-health-llc-az-2",
+      "name": "Incredible Health, LLC",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 418-3678",
+      "email": "drharrison@incredible-health.com",
+      "website": "http://www.incrediblehealthcenter.com/",
+      "address": "10595 N Tatum Blvd Paradise Valley, Arizona 85253",
+      "contact": "Dr. Toni Harrison",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "lifestyle-spectrum-az",
+      "name": "Lifestyle Spectrum",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(520) 547-2820",
+      "email": "",
+      "website": "http://lifestylespectrum.com/",
+      "address": "6127 N La Cholla Blvd Tucson, Arizona 85741",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "modernized-wellness-az",
+      "name": "Modernized Wellness",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 712-2980",
+      "email": "",
+      "website": "http://www.modernizedwellness.com/",
+      "address": "9700 N 91st St Scottsdale, Arizona 85258",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "munderloh-integrated-medical-az",
+      "name": "Munderloh Integrated Medical",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(928) 556-0707",
+      "email": "lauren@azintegratedmedical.com",
+      "website": "https://azintegratedmedical.com/",
+      "address": "1501 S Yale Street, Ste 250 Flagstaff, Arizona 86001",
+      "contact": "Lauren Dennis",
+      "contactTitle": "Practice Administrator",
+      "sample": false
+    },
+    {
+      "id": "munderloh-integrated-medical-az-2",
+      "name": "Munderloh Integrated Medical",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(928) 556-0707",
+      "email": "lauren@azintegratedmedical.com",
+      "website": "http://azintegratedmedical.com/",
+      "address": "1501 S. Yale St. #250 Flagstaff, Arizona 86001",
+      "contact": "Lauren Dennis",
+      "contactTitle": "Practice Administrator",
+      "sample": false
+    },
+    {
+      "id": "nizhoni-functional-medicine-az",
+      "name": "Nizhoni Functional Medicine",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(602) 441-3455",
+      "email": "",
+      "website": "https://nizhonimedicine.com/",
+      "address": "11000 N Scottsdale Rd Ste 180, Scottsdale AZ, USA Scottsdale, Arizona 85254",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "ong-institute-for-plastic-surgery-health-az",
+      "name": "Ong Institute for Plastic Surgery & Health",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 771-7771",
+      "email": "",
+      "website": "http://www.onginstitute.com/",
+      "address": "9377 E Bell Rd Scottsdale, Arizona 85260",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "peace-wellness-center-az",
+      "name": "Peace Wellness Center",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(602) 439-0000",
+      "email": "",
+      "website": "https://peacewellnesscenter.com/",
+      "address": "640 W. Maryland Ave. Ste. 3 Phoenix, Arizona 85013",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "prolean-wellness-az",
+      "name": "Prolean Wellness",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 477-6334",
+      "email": "celeste@proleanwellness.com",
+      "website": "https://www.proleanwellness.com/",
+      "address": "9360 East Raintree Dr. Scottsdale, Arizona 85260",
+      "contact": "Celeste Dana",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "reflexion-medical-rejuvenation-az",
+      "name": "Reflexion Medical Rejuvenation",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(623) 266-1041",
+      "email": "",
+      "website": "http://www.myreflexionmedical.com/",
+      "address": "14815 W. Bell Road Surprise, Arizona 85374",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "sedona-integrative-osteopathy-dr-emily-burgoon-d-az",
+      "name": "Sedona Integrative Osteopathy, Dr. Emily Burgoon D.O.",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(540) 798-5655",
+      "email": "",
+      "website": "http://www.sedonaosteopathy.com/",
+      "address": "45 Castle Rock Rd Village of Oak Creek, Arizona 86351",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "tanque-verde-internal-medicine-az",
+      "name": "Tanque Verde Internal Medicine",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(520) 207-7296",
+      "email": "",
+      "website": "http://www.lasalamd.com/",
+      "address": "7459 E Tanque Verde Rd Tucson, Arizona 85715",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-hormone-zone-az",
+      "name": "The Hormone Zone",
+      "description": "Contact: Dr. John Robinson (Physician/Owner/CMO) [email not in Apollo]",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 338-8070",
+      "email": "b.mason@hormone-zone.com",
+      "website": "https://hormone-zone.com/",
+      "address": "9377 E Bell Rd Scottsdale, Arizona 85260",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "transformyou-az",
+      "name": "Transformyou",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 839-4131",
+      "email": "",
+      "website": "http://www.transformyou.com/",
+      "address": "4025 S McClintock Dr Tempe, Arizona 85282",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "vitalitymds-az",
+      "name": "VitalityMDs",
+      "description": "",
+      "states": [
+        "AZ"
+      ],
+      "nationwide": false,
+      "phone": "(480) 425-8700",
+      "email": "jreveal@vitalitymds.com",
+      "website": "http://www.vitalitymds.com/",
+      "address": "8415 N Pima Rd Scottsdale, Arizona 85258",
+      "contact": "Jacqueline Reveal, DNP",
+      "contactTitle": "Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "alpha-hormones-ca",
+      "name": "Alpha Hormones",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(213) 334-4111",
+      "email": "drtek@alphahormones.com",
+      "website": "https://alphahormones.com/",
+      "address": "800 Fairmount Ave suite 323 Pasadena, California 91105",
+      "contact": "Dr. Rotana Tek",
+      "contactTitle": "CEO & Medical Director",
+      "sample": false
+    },
+    {
+      "id": "alpha-hormones-ca-2",
+      "name": "Alpha Hormones",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(213) 334-4111",
+      "email": "drtek@alphahormones.com",
+      "website": "https://www.alphahormones.com/",
+      "address": "468 N Camden Dr Beverly Hills, California 90210",
+      "contact": "Dr. Rotana Tek",
+      "contactTitle": "CEO & Medical Director",
+      "sample": false
+    },
+    {
+      "id": "anatara-medicine-ca",
+      "name": "Anatara Medicine",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(415) 345-0099",
+      "email": "ann@anataramedicine.com",
+      "website": "http://www.anataramedicine.com/",
+      "address": "1700 California St San Francisco, California 94109",
+      "contact": "Dr. Ann Lee",
+      "contactTitle": "MD",
+      "sample": false
+    },
+    {
+      "id": "anti-aging-center-at-make-you-well-ca",
+      "name": "Anti Aging Center at Make you Well",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(424) 247-4962",
+      "email": "socalbhrt@mdofficemail.com",
+      "website": "https://socalbhrt.com/",
+      "address": "23400 Hawthorne Blvd Torrance, California 90505",
+      "contact": "Dr. Judi Goldstone",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "barx-md-ca",
+      "name": "Barx MD",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(949) 706-1212",
+      "email": "",
+      "website": "http://www.http://barxmd.com",
+      "address": "2675 Irvine Ave Laguna Niguel, California 92677",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "beach-cities-wellness-ca",
+      "name": "Beach Cities Wellness",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(949) 478-2521",
+      "email": "",
+      "website": "http://www.beachcitieswellness.co/",
+      "address": "1501 Westcliff Dr Newport Beach, California 92660",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "best-life-medical-center-ca",
+      "name": "Best Life Medical Center",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(916) 435-2700",
+      "email": "",
+      "website": "http://bestlifemedicalcenter.com/",
+      "address": "10004 Foothills Blvd Roseville, California 95747",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "best-life-medical-center-inc-ca",
+      "name": "Best Life Medical Center, Inc.",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(916) 435-2700",
+      "email": "",
+      "website": "http://www.bestlifemedicalcenter.com/",
+      "address": "2241 Sunset Blvd., Suite C, Rocklin CA 95765 Rocklin, California 95765",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bijan-pourat-md-ca",
+      "name": "Bijan Pourat MD",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 734-7303",
+      "email": "",
+      "website": "https://pouratmd.com/",
+      "address": "9001 Wilshire Blvd Beverly Hills, California 90211",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "glendale-whole-health-ca",
+      "name": "Glendale Whole Health",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(818) 551-0464",
+      "email": "dr.speller@glendalewholehealth.com",
+      "website": "http://www.glendalewholehealth.com/",
+      "address": "230 N Maryland Ave #110 Glendale, California 91206",
+      "contact": "Dr. Cristal Speller",
+      "contactTitle": "Medical Director",
+      "sample": false
+    },
+    {
+      "id": "health-and-vitality-center-ca",
+      "name": "Health and Vitality Center",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 477-1166",
+      "email": "",
+      "website": "https://healthandvitalitycenter.com/",
+      "address": "11600 Wilshire Blvd Los Angeles, California 90025",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "healthbridge-newport-ca",
+      "name": "HealthBridge Newport",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(949) 715-9321",
+      "email": "",
+      "website": "http://www.drgina.com/",
+      "address": "20271 SW Birch Street Newport Beach, California 92660",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "holtorf-medical-group-ca",
+      "name": "Holtorf Medical Group",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 375-2705",
+      "email": "kholty@holtorfmed.com",
+      "website": "https://www.holtorfmed.com/",
+      "address": "2232 E Maple Ave El Segundo, California 90245",
+      "contact": "Dr. Kent Holtorf",
+      "contactTitle": "Physician/Founder",
+      "sample": false
+    },
+    {
+      "id": "infinity-epigenetics-ca",
+      "name": "Infinity Epigenetics",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(415) 286-6530",
+      "email": "",
+      "website": "http://infinityepigenetics.com/",
+      "address": "2186 Geary Blvd San Francisco, California 94115",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "joy-wellness-partners-ca",
+      "name": "Joy Wellness Partners",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(858) 609-0866",
+      "email": "liz@joywellnesspartners.com",
+      "website": "https://joywellnesspartners.com/",
+      "address": "3333 Camino del Rio S San Diego, California 92108",
+      "contact": "Liz Crumrine",
+      "contactTitle": "Clinic Manager",
+      "sample": false
+    },
+    {
+      "id": "kinder-fayssoux-md-ca",
+      "name": "Kinder Fayssoux, MD",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(760) 469-9900",
+      "email": "",
+      "website": "https://kinderfayssouxmd.com/",
+      "address": "41750 Rancho Las Palmas Dr Rancho Mirage, California 92270",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "lam-clinic-ca",
+      "name": "LAM CLINIC",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(714) 709-8000",
+      "email": "drcarrie@drlam.com",
+      "website": "https://www.lamclinic.com/",
+      "address": "2492 Walnut Ave Tustin, California 92780",
+      "contact": "Dr. Carrie Lam",
+      "contactTitle": "Medical Doctor",
+      "sample": false
+    },
+    {
+      "id": "medical-institute-of-healthy-aging-ca",
+      "name": "Medical Institute of Healthy Aging",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(925) 979-0979",
+      "email": "pkim@mdiha.com",
+      "website": "https://www.mdiha.com/",
+      "address": "1776 Ygnacio Valley Road Walnut Creek, California 94598",
+      "contact": "Dr. Paul Kim",
+      "contactTitle": "CEO/Founder",
+      "sample": false
+    },
+    {
+      "id": "naina-md-bevelry-hills-anti-aging-regenerative-c-ca",
+      "name": "NAINA MD BEVELRY HILLS ANTI-AGING & REGENERATIVE CLINIC",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 777-7511",
+      "email": "",
+      "website": "http://www.nainamd.com/",
+      "address": "450 N Bedford Dr Beverly Hills, California 90210",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "naina-md-beverly-hills-anti-aging-regenerative-c-ca",
+      "name": "NAINA MD BEVERLY HILLS ANTI-AGING & REGENERATIVE CLINIC",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 777-7511",
+      "email": "",
+      "website": "http://www.nainamd.com/",
+      "address": "450 N. Bedford Drive Beverly Hills, California 90210",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "nexthealth-ca",
+      "name": "NextHealth",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 295-2075",
+      "email": "drshah@next-health.com",
+      "website": "http://www.next-health.com/",
+      "address": "10250 SANTA MONICA BLVD. Los Angeles, California 90067",
+      "contact": "Darshan Shah, MD",
+      "contactTitle": "Founder & Executive Chairman",
+      "sample": false
+    },
+    {
+      "id": "norcal-medicine-longevity-institute-ca",
+      "name": "NorCal Medicine Longevity Institute",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "50550391131",
+      "email": "",
+      "website": "http://norcalmedicine.com/",
+      "address": "2235 Douglas Blvd roseville, California 95661",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "optimum-wellness-longevity-ca",
+      "name": "Optimum Wellness & Longevity",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "951279500",
+      "email": "",
+      "website": "https://drgowrirocco.com/",
+      "address": "1315 Corona Pointe Court, Suite 101 Corona, California 92879",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "peptiderx-ca",
+      "name": "PeptideRx",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 774-4064",
+      "email": "",
+      "website": "https://www.drambernd.com/",
+      "address": "1612 S Catalina Ave Los Angeles, California 90277",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "perfect-youth-ca",
+      "name": "Perfect YOUth",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(949) 364-6888",
+      "email": "",
+      "website": "http://www.yeralpatelmd.com/",
+      "address": "4700 Von Karman Ave Irvine, California 92612",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "pristine-wellness-center-ca",
+      "name": "Pristine Wellness Center",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "",
+      "email": "",
+      "website": "",
+      "address": "",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "pristine-wellness-center-ca-2",
+      "name": "Pristine Wellness Center",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(650) 487-0844",
+      "email": "",
+      "website": "https://www.pristinewellnesscenter.com/",
+      "address": "900 North San Antonio Road Los Altos, California 94022",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "pure-health-ca",
+      "name": "Pure Health",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(760) 322-2520",
+      "email": "c.king@purehealthmedicine.com",
+      "website": "http://purehealthmedicine.com/",
+      "address": "1492 N Palm Canyon Dr Palm Springs, California 92262",
+      "contact": "Corey King",
+      "contactTitle": "Naturopathic Doctor",
+      "sample": false
+    },
+    {
+      "id": "robertson-wellness-and-aesthetics-ca",
+      "name": "Robertson Wellness and Aesthetics",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 407-0542",
+      "email": "vadim@rwacenter.com",
+      "website": "http://www.rwacenter.com/",
+      "address": "150 N. Robertson BLvd #206 Beverly Hills, California 90211",
+      "contact": "Vadim Borchenko",
+      "contactTitle": "CEO",
+      "sample": false
+    },
+    {
+      "id": "sklar-center-for-restorative-medicine-ca",
+      "name": "Sklar Center for Restorative Medicine",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(562) 596-5196",
+      "email": "drsklar@sklarcenter.com",
+      "website": "https://www.sklarcenter.com/",
+      "address": "5000 E Spring St Long Beach, California 90815",
+      "contact": "Dr. Susan Sklar",
+      "contactTitle": "Founder",
+      "sample": false
+    },
+    {
+      "id": "smilemarin-ca",
+      "name": "Smilemarin",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(415) 461-3141",
+      "email": "",
+      "website": "http://smilemarin.com/",
+      "address": "1000 S Eliseo Dr Greenbrae, California 94904",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "sourcemd-integrated-wellness-solutions-ca",
+      "name": "SourceMD: Integrated Wellness Solutions",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(760) 230-1317",
+      "email": "",
+      "website": "https://www.davelarsonmd.com/",
+      "address": "345 Saxony Rd Encinitas, California 92024",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-art-and-science-of-medicine-ca",
+      "name": "The Art and Science of Medicine",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(805) 526-3213",
+      "email": "",
+      "website": "",
+      "address": "1189 Amazon Way Simi Valley, California 93065",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-mills-institute-ca",
+      "name": "The Mills Institute",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(916) 259-5205",
+      "email": "",
+      "website": "http://themillsinstitute.com/",
+      "address": "5170 Golden Foothill Pkwy El Dorado Hills, California 95762",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-peak-performance-pros-los-angeles-ca",
+      "name": "The Peak Performance Pros (Los Angeles)",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(310) 774-4064",
+      "email": "",
+      "website": "https://thepeakperformancepros.com/home",
+      "address": "1612 S Catalina Ave Redondo Beach, California 90277",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "trinity-wellness-ca",
+      "name": "Trinity Wellness",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(518) 703-5404",
+      "email": "",
+      "website": "https://chwbonline.com/find-a-doctor/brian-trainor/",
+      "address": "453 C Ave Coronado, California 92118",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "valley-wellness-center-ca",
+      "name": "Valley Wellness Center",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(209) 577-2799",
+      "email": "",
+      "website": "http://www.valleywellnesscenter.com/",
+      "address": "1300 Mable Ave Suite C Modesto, California 95355",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "wellness-mdr-ca",
+      "name": "Wellness MDR",
+      "description": "",
+      "states": [
+        "CA"
+      ],
+      "nationwide": false,
+      "phone": "(855) 985-7246",
+      "email": "",
+      "website": "https://www.wellnessmdr.com/",
+      "address": "13160 Mindanao Way Ste 300 Los Angeles, California 90292",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "arsenal-health-and-fitness-co",
+      "name": "Arsenal Health and Fitness",
+      "description": "",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(303) 495-1944",
+      "email": "jake@arsenalhealth.com",
+      "website": "https://www.arsenalhealth.com/",
+      "address": "5450 Wadsworth Bypass unit b Arvada, Colorado 80002",
+      "contact": "Jake Rowzee",
+      "contactTitle": "Co-Owner",
+      "sample": false
+    },
+    {
+      "id": "colorado-medical-solutions-co",
+      "name": "Colorado Medical Solutions",
+      "description": "Contact: Dr. Dean Jones (Owner), drdean@comedsolutions.com [Apollo verified]",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(720) 550-6907",
+      "email": "drdean@comedsolutions.com",
+      "website": "https://coloradomedicalsolutions.com/",
+      "address": "621 17th Street, Denver Denver, Colorado 80293",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "colorado-medical-solutions-colorado-springs-co",
+      "name": "Colorado Medical Solutions Colorado Springs",
+      "description": "Contact: Dr. Dean Jones (Owner), drdean@comedsolutions.com [Apollo verified]",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(719) 308-2314",
+      "email": "drdean@comedsolutions.com",
+      "website": "https://coloradomedicalsolutions.com/",
+      "address": "1465 Kelly Johnson Blv, 300 Colorado Springs, Colorado 80920",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "inspero-medical-center-co",
+      "name": "InSpero Medical Center",
+      "description": "",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(970) 569-2030",
+      "email": "",
+      "website": "https://www.insperomedical.com/",
+      "address": "137 Main Street Unit C101 Edwards, Colorado 81632",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "interlinked-md-co",
+      "name": "Interlinked MD",
+      "description": "",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(720) 303-1445",
+      "email": "",
+      "website": "http://www.interlinkedmd.com/",
+      "address": "101B West Hampden Ave Englewood, Colorado 80110",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "jones-medical-institute-co",
+      "name": "Jones Medical Institute",
+      "description": "",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(630) 734-8888",
+      "email": "",
+      "website": "https://www.jonesinstituteusa.com/",
+      "address": "390 Interlocken Crescent Broomfield, Colorado 80021",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "r-med-spa-co",
+      "name": "R Med Spa",
+      "description": "",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(970) 501-0610",
+      "email": "",
+      "website": "http://rmedspadurango.com/",
+      "address": "679 E 2nd Ave unit 1 Durango, Colorado 81301",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "r-med-spa-co-2",
+      "name": "R Med Spa",
+      "description": "",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(970) 501-0610",
+      "email": "",
+      "website": "http://rmedspadurango.com/",
+      "address": "679 E 2nd Ave Durango, Colorado 81301",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "r-med-spa-durango-co",
+      "name": "R Med Spa Durango",
+      "description": "",
+      "states": [
+        "CO"
+      ],
+      "nationwide": false,
+      "phone": "(970) 501-0610",
+      "email": "",
+      "website": "http://rmedspadurango.com/",
+      "address": "679 E 2nd Ave unit 1 Durango, Colorado 81301",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "alternity-healthcare-llc-ct",
+      "name": "Alternity Healthcare, LLC",
+      "description": "",
+      "states": [
+        "CT"
+      ],
+      "nationwide": false,
+      "phone": "(860) 561-2294",
+      "email": "dr.ebanks@alternityhealthcare.com",
+      "website": "https://alternityhealthcare.com/",
+      "address": "639 Park Rd West Hartford, Connecticut 06107",
+      "contact": "Desmond Ebanks",
+      "contactTitle": "Founder & Medical Director",
+      "sample": false
+    },
+    {
+      "id": "henry-sobo-md-optimal-health-medical-llc-ct",
+      "name": "Henry Sobo, MD./ Optimal Health Medical, LLC",
+      "description": "",
+      "states": [
+        "CT"
+      ],
+      "nationwide": false,
+      "phone": "(203) 348-8805",
+      "email": "",
+      "website": "http://www.drsobo.com/",
+      "address": "111 High Ridge Rd., Stamford, CT 06905 Stamford, Connecticut 06905",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "henry-sobo-md-optimal-health-medical-llc-ct-2",
+      "name": "Henry Sobo, MD/ Optimal Health Medical, LLC",
+      "description": "",
+      "states": [
+        "CT"
+      ],
+      "nationwide": false,
+      "phone": "(203) 348-8805",
+      "email": "",
+      "website": "http://www.drsobo.com/",
+      "address": "111 High Ridge Rd Stamford, Connecticut 06905",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "whole-body-medicine-ct",
+      "name": "Whole Body Medicine",
+      "description": "",
+      "states": [
+        "CT"
+      ],
+      "nationwide": false,
+      "phone": "(203) 371-0300",
+      "email": "jgarcia@wholebodymed.com",
+      "website": "https://wholebodymed.com/",
+      "address": "501 Kings Hwy E Fairfield, Connecticut 06825",
+      "contact": "Jaider Garcia",
+      "contactTitle": "EEG Technician",
+      "sample": false
+    },
+    {
+      "id": "delaware-integrative-medicine-de",
+      "name": "Delaware Integrative Medicine",
+      "description": "",
+      "states": [
+        "DE"
+      ],
+      "nationwide": false,
+      "phone": "(302) 258-8853",
+      "email": "",
+      "website": "http://www.delawareintegrativemedicine.com/",
+      "address": "20930 Dupont Blvd Georgetown, Delaware 19947",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "advanced-individualized-medicine-of-naples-fl",
+      "name": "Advanced individualized Medicine of Naples",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(239) 260-3880",
+      "email": "",
+      "website": "http://www.naplesaim.com/",
+      "address": "720 Goodlette Rd N Naples, Florida 34102",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "amethyst-wellness-fl",
+      "name": "Amethyst Wellness",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(386) 283-4180",
+      "email": "",
+      "website": "https://www.amethystwellness.com/",
+      "address": "50 Cypress Point Pkwy Palm Coast, Florida 32164",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "balda-health-fl",
+      "name": "Balda Health",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 557-1767",
+      "email": "",
+      "website": "http://www.baldahealth.com/",
+      "address": "1411 N Flagler Dr. west palm beach, Florida 33401",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bay-area-modern-medical-center-fl",
+      "name": "BAY AREA MODERN MEDICAL CENTER",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(844) 789-2266",
+      "email": "",
+      "website": "http://www.bammc.com/",
+      "address": "3644 Henderson Blvd Tampa, Florida 33609",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "biodesign-wellness-fl",
+      "name": "BioDesign Wellness",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7770",
+      "email": "",
+      "website": "https://www.biodesignwellness.com/",
+      "address": "4111 W. Kennedy Blvd Tampa, Florida 33609",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "boost-wellness-fl",
+      "name": "Boost! Wellness",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(941) 210-5674",
+      "email": "",
+      "website": "http://www.boost4wellness.com/",
+      "address": "2199 Ringling Blvd Sarasota, Florida 34237",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "crozier-clinic-fl",
+      "name": "crozier clinic",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(407) 732-7668",
+      "email": "",
+      "website": "http://www.crozierclinic.com/",
+      "address": "1301 S. International Pkwy Suite 1041 lake mary, Florida 32746",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "dasilva-institute-fl",
+      "name": "DaSilva Institute",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(941) 388-0940",
+      "email": "arielle@dasilvainstitute.com",
+      "website": "https://www.dasilvainstitute.com/",
+      "address": "1961 Floyd St Sarasota, Florida 34239",
+      "contact": "Arielle Bennett",
+      "contactTitle": "Nursing Supervisor",
+      "sample": false
+    },
+    {
+      "id": "db-md-fl",
+      "name": "DB MD",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(954) 459-5487",
+      "email": "",
+      "website": "http://www.dbmd.health/",
+      "address": "3516 NE 12th Ave Oakland Park, Florida 33334",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "doctors-studio-fl",
+      "name": "Doctors Studio",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 444-7751",
+      "email": "jennifer@doctorsstudio.com",
+      "website": "https://www.doctorsstudio.com/",
+      "address": "2595 NW Boca Raton Blvd Boca Raton, Florida 33431",
+      "contact": "Jennifer Wright, NP",
+      "contactTitle": "Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "enlightened-living-medicine-fl",
+      "name": "Enlightened Living Medicine",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 985-1977",
+      "email": "",
+      "website": "http://elmedicine.com/",
+      "address": "2560 RCA Blvd Palm Beach Gardens, Florida 33410",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "florida-aesthetics-and-wellness-fl",
+      "name": "Florida Aesthetics and Wellness",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(813) 345-4044",
+      "email": "abida@floridaaesthetics.com",
+      "website": "https://floridaaesthetics.com/",
+      "address": "1767 S Kings Ave Brandon, Florida 33511",
+      "contact": "Abida Saleh",
+      "contactTitle": "Managing Director",
+      "sample": false
+    },
+    {
+      "id": "florida-health-wellness-institute-fl",
+      "name": "Florida Health & Wellness Institute",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(850) 436-4444",
+      "email": "",
+      "website": "https://floridahwi.com/",
+      "address": "1004 Scenic Hwy Pensacola, Florida 32503",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "fountain-of-youth-fl",
+      "name": "Fountain of Youth",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(239) 357-6020",
+      "email": "jeffstfirmin@fountainofyouthswfl.com",
+      "website": "http://www.fountainofyouthswfl.com/",
+      "address": "6846 International Center Blvd suite a Fort Myers, Florida 33912",
+      "contact": "Jeffrey Firmin, PA-C",
+      "contactTitle": "Physician Assistant",
+      "sample": false
+    },
+    {
+      "id": "gentera-med-fl",
+      "name": "Gentera Med",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(305) 676-8929",
+      "email": "dayanha@genteramed.com",
+      "website": "http://www.genteramed.com/",
+      "address": "550 Biltmore Way Coral Gables, Florida 33134",
+      "contact": "Dayanha Bencid",
+      "contactTitle": "Operations Manager",
+      "sample": false
+    },
+    {
+      "id": "healthy-living-and-longevity-medical-center-fl",
+      "name": "Healthy Living and Longevity Medical Center",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 842-7422",
+      "email": "",
+      "website": "http://www.hllmc.com/",
+      "address": "11380 Prosperity Farms Road, #114, Palm Beach Gardens, FL 33410 Palm Beach Gardens, Florida 33410",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "healthy-living-and-longevity-medical-center-fl-2",
+      "name": "Healthy Living and Longevity Medical Center",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 842-7422",
+      "email": "",
+      "website": "https://hllmc.com/",
+      "address": "11380 Prosperity Farms Rd Palm Beach Gardens, Florida 33410",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "healthyme-medical-therapies-fl",
+      "name": "HealthyMe Medical Therapies",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(786) 731-4238",
+      "email": "",
+      "website": "https://www.healthymemia.com/",
+      "address": "9600 NE 2nd Ave Miami Shores, Florida 33138",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "iheal-fl",
+      "name": "iheal",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(239) 325-6499",
+      "email": "dreverett@iheal.co",
+      "website": "http://ihealnaples.com/",
+      "address": "3375 Pine Ridge Rd Naples, Florida 34109",
+      "contact": "Dr. Timothy Everett",
+      "contactTitle": "Medical Doctor",
+      "sample": false
+    },
+    {
+      "id": "integrative-therapeutics-llc-fl",
+      "name": "integrative therapeutics LLC",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(813) 337-7535",
+      "email": "",
+      "website": "https://www.inttherapeutics.com/",
+      "address": "8330 Stone Run Ct Town 'n' Country, Florida 33615",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "kristin-wulff-md-abaarm-faamm-vital-rejuvenation-fl",
+      "name": "Kristin Wulff, MD, ABAARM, FAAMM – Vital Rejuvenation",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(386) 238-9872",
+      "email": "patricia@wellnessolympia.com",
+      "website": "https://www.vital-rejuvenation.com/",
+      "address": "1462 W Granada Blvd Ormond Beach, Florida 32174",
+      "contact": "Patricia Sylwester",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "lado-healing-institute-fl",
+      "name": "Lado Healing Institute",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "23484328",
+      "email": "neesha@ladomd.com",
+      "website": "http://www..ladomd.com/",
+      "address": "Fountain Medical Ct Bonita Springs, Florida 34135",
+      "contact": "Neesha Nicklaus-Soulliere",
+      "contactTitle": "Psychiatric Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "m-spa-fl",
+      "name": "M SPA",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 867-9595",
+      "email": "",
+      "website": "http://mspaboca.com/",
+      "address": "21065 Powerline Rd Boca Raton, Florida 33433",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "nu-image-medical-fl",
+      "name": "Nu Image Medical",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(888) 520-3438",
+      "email": "",
+      "website": "http://nuimagemedical.com/",
+      "address": "1209 N Tampa St Tampa, Florida 33602",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "nuceria-health-fl",
+      "name": "Nuceria Health",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(305) 398-4370",
+      "email": "",
+      "website": "http://www.mynuceria.com/",
+      "address": "8585 Sunset Dr Miami, Florida 33143",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "one-pharmacy-fl",
+      "name": "One Pharmacy",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(386) 447-8944",
+      "email": "",
+      "website": "https://www.one-pharmacy.com/",
+      "address": "85 Cypress Point Pkwy UNIT B Palm Coast, Florida 32164-8455",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "optigenesis-fl",
+      "name": "OptiGenesis",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(813) 602-1727",
+      "email": "dlarson@opti-genesis.com",
+      "website": "https://opti-genesis.com/",
+      "address": "28775 Corbara Place wesley chapel, Florida 33543",
+      "contact": "Daniel Larson",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "peakform-fl",
+      "name": "PEAKFORM",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(352) 729-1329",
+      "email": "",
+      "website": "https://www.peakformmd.com/",
+      "address": "18130 US-441 Mount Dora, Florida 32757",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "phytogenics-llc-fl",
+      "name": "PHYTOGENICS LLC",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "95461258317542237701",
+      "email": "",
+      "website": "https://www.phytogenixrx.com/",
+      "address": "4501 NW 31st Ave Oakland Park, Florida 33309",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "regenerative-institute-of-medicine-fl",
+      "name": "Regenerative Institute of Medicine",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(239) 513-0055",
+      "email": "",
+      "website": "https://drheather.net/",
+      "address": "2350 Vanderbilt Beach Rd North Naples, Florida 34109",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "restorative-medical-center-fl",
+      "name": "Restorative Medical Center",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(941) 625-0304",
+      "email": "",
+      "website": "http://www.restorativemedicalcenter.com/",
+      "address": "329 Nokomis Ave South Venice, Florida 34285",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-biostation-fl",
+      "name": "the biostation",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 257-2511",
+      "email": "keith@thebiostation.com",
+      "website": "https://thebiostation.com/",
+      "address": "3100 N Federal Hwy Delray Beach, Florida 33483",
+      "contact": "Keith Foulis",
+      "contactTitle": "Co-Founder",
+      "sample": false
+    },
+    {
+      "id": "the-biostation-fl-2",
+      "name": "the biostation",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 257-2511",
+      "email": "keith@thebiostation.com",
+      "website": "http://www.thebiostation.com/",
+      "address": "3100 FL-5 Delray Beach, Florida 33483",
+      "contact": "Keith Foulis",
+      "contactTitle": "Co-Founder",
+      "sample": false
+    },
+    {
+      "id": "the-biostation-fl-3",
+      "name": "the biostation",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 257-2511",
+      "email": "keith@thebiostation.com",
+      "website": "https://thebiostation.com/",
+      "address": "3100 S Federal Hwy Delray Beach, Florida 33483",
+      "contact": "Keith Foulis",
+      "contactTitle": "Co-Founder",
+      "sample": false
+    },
+    {
+      "id": "thrivex-fl",
+      "name": "ThriveX™",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(954) 441-4244",
+      "email": "stuart@thrivex.com",
+      "website": "http://thrivex.com/",
+      "address": "2655 E Oakland Park Blvd Fort Lauderdale, Florida 33306",
+      "contact": "Stuart Haan",
+      "contactTitle": "Director & Founder",
+      "sample": false
+    },
+    {
+      "id": "tringali-vibrant-health-fl",
+      "name": "TRINGALI VIBRANT HEALTH",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 283-1166",
+      "email": "julie@tringali-health.com",
+      "website": "https://tringali-health.com/",
+      "address": "11380 Prosperity Farms Rd Palm Beach Gardens, Florida 33410",
+      "contact": "Julie Vargas, NP",
+      "contactTitle": "Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "tringali-vibrant-health-fl-2",
+      "name": "Tringali Vibrant Health",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 283-1166",
+      "email": "julie@tringali-health.com",
+      "website": "https://www.tringali-health.com/",
+      "address": "225 S Olive Ave West Palm Beach, Florida 33401",
+      "contact": "Julie Vargas, NP",
+      "contactTitle": "Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "universal-wellness-concepts-fl",
+      "name": "Universal Wellness Concepts",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(727) 744-7475",
+      "email": "drmiranda@universalwellnessconcepts.com",
+      "website": "http://www.universalwellnessconcepts.com/",
+      "address": "8010 25th Ct E Sarasota, Florida 34243",
+      "contact": "Dr. Miranda Giusti",
+      "contactTitle": "Founder",
+      "sample": false
+    },
+    {
+      "id": "vital-roots-functional-medicine-fl",
+      "name": "Vital Roots Functional Medicine",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(407) 494-1319",
+      "email": "",
+      "website": "https://www.vitalrootsflorida.com/",
+      "address": "1788 W Fairbanks Ave Winter Park, Florida 32789",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "wellness-iv-infusion-therapy-fl",
+      "name": "Wellness Iv Infusion Therapy",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(786) 490-6074",
+      "email": "",
+      "website": "http://www.wellnessivinfusiontherapy.com/",
+      "address": "6255 Stirling Rd Davie, Florida 33314",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "winter-park-family-physicians-fl",
+      "name": "Winter Park Family Physicians",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(407) 647-2550",
+      "email": "",
+      "website": "https://winterparkfamilyphysicians.com/",
+      "address": "5745 Canton Cove suite 121 , Winter Springs Florida 32708 Winter Springs, Florida 32708",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "wright-aesthetics-fl",
+      "name": "Wright Aesthetics",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(727) 250-5590",
+      "email": "",
+      "website": "http://www.wrightaesthetics.com/",
+      "address": "2745 FL-580 Suite 101 Clearwater, Florida 33761",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "youthful-balance-medical-center-fl",
+      "name": "Youthful Balance Medical Center",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(561) 537-0537",
+      "email": "",
+      "website": "http://www.youthfulbalance.net/",
+      "address": "10887 N Military Trail Palm Beach Gardens, Florida 33410",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "yunique-medical-fl",
+      "name": "Yunique Medical",
+      "description": "",
+      "states": [
+        "FL"
+      ],
+      "nationwide": false,
+      "phone": "(352) 209-4249",
+      "email": "",
+      "website": "http://www.yuniquemedical.com/",
+      "address": "2510 SE 17th St Ocala, Florida 34471",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "2umedical-ga",
+      "name": "2UMedical",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(404) 847-9555",
+      "email": "robert@2umedical.com",
+      "website": "https://2umedical.com/",
+      "address": "3125 E Shadowlawn Ave NE Atlanta, Georgia 30305",
+      "contact": "Dr. Robert Kaufmann",
+      "contactTitle": "Concierge Physician",
+      "sample": false
+    },
+    {
+      "id": "innovation-md-ga",
+      "name": "Innovation MD",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(470) 252-6710",
+      "email": "",
+      "website": "http://innovationmd.com/",
+      "address": "2022 Windward Ln Gainesville, Georgia 30501",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "lile-wellness-partners-ga",
+      "name": "Lile Wellness Partners",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(678) 381-1420",
+      "email": "drlaura@lilewellness.com",
+      "website": "https://www.lilewellness.com/",
+      "address": "7185 Avalon Blvd Alpharetta, Georgia 30009",
+      "contact": "Dr. Laura Lile",
+      "contactTitle": "Founder & CEO",
+      "sample": false
+    },
+    {
+      "id": "premier-health-wellness-ga",
+      "name": "Premier Health & Wellness",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(678) 418-6990",
+      "email": "",
+      "website": "http://www.premier-health-wellness.com/",
+      "address": "5404 Hillandale Park Ct Lithonia, Georgia 30058",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "three-d-wellness-ga",
+      "name": "Three D Wellness",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(678) 621-8100",
+      "email": "sonzacurtis@threedwellness.com",
+      "website": "https://www.threedwellness.com/",
+      "address": "555 Sun Valley Dr Roswell, Georgia 30076",
+      "contact": "Dr. Sonza Curtis",
+      "contactTitle": "Founder & CEO",
+      "sample": false
+    },
+    {
+      "id": "thryv-medical-ga",
+      "name": "Thryv Medical",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(470) 760-8144",
+      "email": "",
+      "website": "https://www.thryvmedical.com/",
+      "address": "5422 GA-20 #101 Sugar Hill, Georgia 30518",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "vine-medical-associates-ga",
+      "name": "Vine Medical Associates",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(404) 446-3600",
+      "email": "",
+      "website": "http://www.vinemedical.com/",
+      "address": "11660 Alpharetta Hwy Roswell, Georgia 30076",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "wolfson-weight-loss-wellness-ga",
+      "name": "Wolfson Weight Loss & Wellness",
+      "description": "",
+      "states": [
+        "GA"
+      ],
+      "nationwide": false,
+      "phone": "(404) 968-9642",
+      "email": "",
+      "website": "http://wolfsonweightloss.com/",
+      "address": "6667 Vernon Woods Dr NE Sandy Springs, Georgia 30328",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-hi",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "HI"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-hi",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "HI"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-hi",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "HI"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-hi",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "HI"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "integrative-health-and-hormone-clinic-ia",
+      "name": "Integrative Health and Hormone Clinic",
+      "description": "",
+      "states": [
+        "IA"
+      ],
+      "nationwide": false,
+      "phone": "(319) 363-0033",
+      "email": "drgray@ihhclinic.com",
+      "website": "http://www.ihhclinic.com/",
+      "address": "1731 Boyson Road Hiawatha, Iowa 52233",
+      "contact": "Dr. Stephanie Gray, DNP",
+      "contactTitle": "Owner / Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "nourish-mind-body-ia",
+      "name": "Nourish Mind & Body",
+      "description": "",
+      "states": [
+        "IA"
+      ],
+      "nationwide": false,
+      "phone": "(319) 332-1696",
+      "email": "",
+      "website": "http://www.nourishyourmindbody.com/",
+      "address": "2300 Swan Lake Blvd Independence, Iowa 50644",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "alpine-wellness-clinic-id",
+      "name": "Alpine Wellness Clinic",
+      "description": "",
+      "states": [
+        "ID"
+      ],
+      "nationwide": false,
+      "phone": "(208) 917-2772",
+      "email": "awc@alpinewellnessclinic.com",
+      "website": "http://alpinewellnessclinic.com/",
+      "address": "5655 N Glenwood St Garden City, Idaho 83714",
+      "contact": "Alpine Wellness Clinic",
+      "contactTitle": "General",
+      "sample": false
+    },
+    {
+      "id": "designed-health-id",
+      "name": "Designed Health",
+      "description": "",
+      "states": [
+        "ID"
+      ],
+      "nationwide": false,
+      "phone": "(208) 495-6555",
+      "email": "",
+      "website": "http://www.dhboise.com/",
+      "address": "2537 W State St Boise, Idaho 83702",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "idaho-brain-and-body-institute-id",
+      "name": "Idaho Brain and Body Institute",
+      "description": "",
+      "states": [
+        "ID"
+      ],
+      "nationwide": false,
+      "phone": "(208) 550-2380",
+      "email": "",
+      "website": "https://idahobrainandbody.com/",
+      "address": "1678 S Woodsage Ave Meridian, Idaho 83642",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "integrative-health-of-lewison-id",
+      "name": "Integrative Health of Lewison",
+      "description": "",
+      "states": [
+        "ID"
+      ],
+      "nationwide": false,
+      "phone": "(208) 799-3333",
+      "email": "",
+      "website": "http://www.integrative-health.com/",
+      "address": "3510 12th Street, 200 Lewiston, Idaho 83501",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "integrative-health-of-lewiston-id",
+      "name": "Integrative Health of Lewiston",
+      "description": "",
+      "states": [
+        "ID"
+      ],
+      "nationwide": false,
+      "phone": "(208) 799-3333",
+      "email": "",
+      "website": "https://www.integrative-health.com/",
+      "address": "3510 12th Street Lewiston, Idaho 83501",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "aesthetic-and-anti-aging-institute-il",
+      "name": "Aesthetic and Anti-Aging institute",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(309) 837-2000",
+      "email": "",
+      "website": "http://global-antiaging.com/",
+      "address": "1915 S Michigan Ave Chicago, Illinois 60616",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "aesthetic-anti-aging-institute-il",
+      "name": "Aesthetic Anti-Aging Institute",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(309) 837-2000",
+      "email": "",
+      "website": "http://global-antiaging.com/",
+      "address": "1915 S Michigan Ave Chicago, Illinois 60616",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "case-integrative-health-il",
+      "name": "Case Integrative Health",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(773) 675-1400",
+      "email": "drkelley@caseintegrativehealth.com",
+      "website": "http://www.caseintegrativehealth.com/",
+      "address": "1732 W. Hubbard St. Chicago, Illinois 60622",
+      "contact": "Dr. Casey Kelley",
+      "contactTitle": "Founder & Medical Director",
+      "sample": false
+    },
+    {
+      "id": "defined-medical-aesthetics-il",
+      "name": "Defined Medical Aesthetics",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(847) 805-3642",
+      "email": "",
+      "website": "https://definedmed.com/",
+      "address": "21660 W Field Pkwy Deer Park, Illinois 60010",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "longevity-wellness-anti-aging-institute-inc-il",
+      "name": "LONGEVITY WELLNESS & ANTI-AGING INSTITUTE INC.",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(800) 994-8346",
+      "email": "",
+      "website": "https://www.longevitymedicineusa.com/",
+      "address": "712 N. DEARBORN, SUITE 101 Chicago, Illinois 60654",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "paulina-medical-clinic-il",
+      "name": "Paulina Medical Clinic",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(773) 583-7793",
+      "email": "ross.rentea@truebotanica.com",
+      "website": "http://www.paulinamedicalclinic.com/",
+      "address": "3525 W Peterson Ave Lincolnwood, Illinois 60712",
+      "contact": "Dr. Ross Rentea",
+      "contactTitle": "Medical Director",
+      "sample": false
+    },
+    {
+      "id": "regeneveda-il",
+      "name": "Regeneveda",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(855) 734-3683",
+      "email": "",
+      "website": "http://www.regeneveda.com/",
+      "address": "1 E Delaware Pl Chicago, Illinois 60611",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "salugenesis-il",
+      "name": "SaluGenesis",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(815) 271-7300",
+      "email": "",
+      "website": "https://www.salugenesis.com/",
+      "address": "31 N Virginia St Crystal Lake, Illinois 60014",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-pazio-institute-il",
+      "name": "The Pazio Institute",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(844) 734-3678",
+      "email": "",
+      "website": "http://www.thepazioinstitute.com/",
+      "address": "1019 W Fulton Market Chicago, Illinois 60607",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "victory-men-s-health-il",
+      "name": "Victory Men’s Health",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(618) 632-9000",
+      "email": "lauren@victorymenshealth.com",
+      "website": "http://victorymenshealth.com/",
+      "address": "1405 N Green Mt Rd Ste 240 O'Fallon, Illinois 62269",
+      "contact": "Lauren Finnerty, APN",
+      "contactTitle": "Advanced Practice Nurse",
+      "sample": false
+    },
+    {
+      "id": "xsculpt-il",
+      "name": "XSculpt",
+      "description": "",
+      "states": [
+        "IL"
+      ],
+      "nationwide": false,
+      "phone": "(773) 561-7911",
+      "email": "dr.adajar@xsculpt.com",
+      "website": "http://www.xsculpt.com/",
+      "address": "310 W Superior St, Second floor Chicago, Illinois 60654",
+      "contact": "Dr. Marc Adajar",
+      "contactTitle": "Co-Founder",
+      "sample": false
+    },
+    {
+      "id": "advanced-anti-aging-weight-loss-in",
+      "name": "Advanced Anti-Aging & Weight Loss",
+      "description": "",
+      "states": [
+        "IN"
+      ],
+      "nationwide": false,
+      "phone": "(812) 475-9199",
+      "email": "",
+      "website": "http://evansvilleantiaging.com/",
+      "address": "1221 N ROYAL AVE Evansville, Indiana 47715",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bion-aesthetics-and-med-spa-in",
+      "name": "Bion Aesthetics and Med Spa",
+      "description": "",
+      "states": [
+        "IN"
+      ],
+      "nationwide": false,
+      "phone": "(317) 797-9139",
+      "email": "",
+      "website": "https://bionmedspa.com/",
+      "address": "5510 S East St Indianapolis, Indiana 46227",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "cadenza-medical-clinic-in",
+      "name": "Cadenza Medical Clinic",
+      "description": "",
+      "states": [
+        "IN"
+      ],
+      "nationwide": false,
+      "phone": "(219) 707-8226",
+      "email": "",
+      "website": "https://www.cadenzawellness.com/",
+      "address": "332 W US Hwy 30 Valparaiso, Indiana 46385",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "spahr-center-in",
+      "name": "Spahr Center",
+      "description": "",
+      "states": [
+        "IN"
+      ],
+      "nationwide": false,
+      "phone": "(317) 606-8640",
+      "email": "",
+      "website": "https://www.spahrcenter.com/",
+      "address": "1200 S Peru St Cicero, Indiana 46034",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-guyer-institute-of-molecular-medicine-in",
+      "name": "The Guyer Institute of Molecular Medicine",
+      "description": "",
+      "states": [
+        "IN"
+      ],
+      "nationwide": false,
+      "phone": "(317) 580-9355",
+      "email": "padkins@daleguyermd.com",
+      "website": "https://theguyerinstitute.com/",
+      "address": "836 E 86th St Indianapolis, Indiana 46240",
+      "contact": "Pam Adkins",
+      "contactTitle": "Practice Manager",
+      "sample": false
+    },
+    {
+      "id": "titan-wellness-center-in",
+      "name": "Titan Wellness Center",
+      "description": "",
+      "states": [
+        "IN"
+      ],
+      "nationwide": false,
+      "phone": "(317) 514-2845",
+      "email": "",
+      "website": "http://www.titanwellnesshrt.com/",
+      "address": "520 E 8th Street Anderson, Indiana 46012",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "aspen-grey-ks",
+      "name": "Aspen Grey",
+      "description": "",
+      "states": [
+        "KS"
+      ],
+      "nationwide": false,
+      "phone": "(316) 655-7788",
+      "email": "",
+      "website": "http://aspengreymd.com/",
+      "address": "1447 N Rock Rd Wichita, Kansas 67206",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "new-health-montana-ks",
+      "name": "New Health Montana",
+      "description": "",
+      "states": [
+        "KS"
+      ],
+      "nationwide": false,
+      "phone": "(406) 721-2537",
+      "email": "",
+      "website": "http://www.newhealthmontana.com/",
+      "address": "690 SW Higgins. Ste E Haddam, Kansas 66944",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "be-medispa-ky",
+      "name": "Be Medispa",
+      "description": "",
+      "states": [
+        "KY"
+      ],
+      "nationwide": false,
+      "phone": "(859) 266-5483",
+      "email": "doctor@bemedispa.com",
+      "website": "https://www.bemedispa.com/reviews/",
+      "address": "812 E High St Lexington, Kentucky 40502",
+      "contact": "Dr. Paul Hester",
+      "contactTitle": "Owner/CEO",
+      "sample": false
+    },
+    {
+      "id": "center-for-integrative-and-age-management-medici-ky",
+      "name": "Center for Integrative and Age-Management Medicine (IAAM)",
+      "description": "",
+      "states": [
+        "KY"
+      ],
+      "nationwide": false,
+      "phone": "(502) 451-7720",
+      "email": "",
+      "website": "http://www.iaamed.com/",
+      "address": "3703 Taylorsville Rd., Suite 120 Louisville, Kentucky 40220",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "michelle-clay-fnp-llc-ky",
+      "name": "Michelle Clay, FNP, LLC",
+      "description": "",
+      "states": [
+        "KY"
+      ],
+      "nationwide": false,
+      "phone": "(270) 210-3158",
+      "email": "",
+      "website": "http://www.michelleclayfnp.com/",
+      "address": "Mayfield Mayfield, Kentucky 42066",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "egan-wellness-med-spa-la",
+      "name": "Egan Wellness & Med Spa",
+      "description": "",
+      "states": [
+        "LA"
+      ],
+      "nationwide": false,
+      "phone": "(985) 892-3031",
+      "email": "jsimoneaux@eganhealthcare.com",
+      "website": "http://www.pamelaegan.com/",
+      "address": "1116 W 21st Ave Covington, Louisiana 70433",
+      "contact": "Jamie Simoneaux",
+      "contactTitle": "Front Office Associate",
+      "sample": false
+    },
+    {
+      "id": "totalcare-health-wellness-medical-center-la",
+      "name": "TotalCare Health & Wellness Medical Center",
+      "description": "",
+      "states": [
+        "LA"
+      ],
+      "nationwide": false,
+      "phone": "(337) 264-7209",
+      "email": "",
+      "website": "http://www.totalcare-la.com/",
+      "address": "1101 South College Lafayette, Louisiana 70503",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "my-health-101-pc-ma",
+      "name": "My Health 101 PC",
+      "description": "",
+      "states": [
+        "MA"
+      ],
+      "nationwide": false,
+      "phone": "(781) 800-4138",
+      "email": "",
+      "website": "http://www.myhealth101.org/",
+      "address": "465 Waverley Oaks Rd Waltham, Massachusetts 02452",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "new-england-skin-center-ma",
+      "name": "New England Skin Center",
+      "description": "",
+      "states": [
+        "MA"
+      ],
+      "nationwide": false,
+      "phone": "(781) 803-2455",
+      "email": "",
+      "website": "https://www.newenglandskincenter.com/",
+      "address": "994 Middle St Weymouth, Massachusetts 02188",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "northampton-integrative-medicine-ma",
+      "name": "Northampton Integrative Medicine",
+      "description": "",
+      "states": [
+        "MA"
+      ],
+      "nationwide": false,
+      "phone": "(413) 584-7787",
+      "email": "ebaldwin@nimed.org",
+      "website": "https://www.nimed.org/",
+      "address": "395 Pleasant St Northampton, Massachusetts 01060",
+      "contact": "Erin Baldwin, FNP",
+      "contactTitle": "Family Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "optimal-wellness-md-ma",
+      "name": "Optimal Wellness MD",
+      "description": "",
+      "states": [
+        "MA"
+      ],
+      "nationwide": false,
+      "phone": "(781) 933-4200",
+      "email": "",
+      "website": "https://www.optimalwellnessmd.com/",
+      "address": "300 Tradecenter Drive Woburn, Massachusetts 01801",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "shakthi-health-and-wellness-center-md",
+      "name": "Shakthi Health and Wellness Center",
+      "description": "",
+      "states": [
+        "MD"
+      ],
+      "nationwide": false,
+      "phone": "(301) 703-5067",
+      "email": "",
+      "website": "http://raowellness.com/",
+      "address": "2702 Back Acre Cir Mount Airy, Maryland 21771",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "today-s-integrative-health-md",
+      "name": "Today’s Integrative Health",
+      "description": "",
+      "states": [
+        "MD"
+      ],
+      "nationwide": false,
+      "phone": "(301) 770-6650",
+      "email": "",
+      "website": "https://www.todaysintegrativehealth.com/about/",
+      "address": "6321 Executive Blvd North Bethesda, Maryland 20852",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "today-s-integrative-health-md-2",
+      "name": "Today’s Integrative Health",
+      "description": "",
+      "states": [
+        "MD"
+      ],
+      "nationwide": false,
+      "phone": "(301) 770-6650",
+      "email": "",
+      "website": "https://www.todaysintegrativehealth.com/",
+      "address": "6321 Executive Blvd Rockvile, Maryland 20852",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-me",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "ME"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-me",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "ME"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-me",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "ME"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-me",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "ME"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "cratus-medical-vitality-institute-mi",
+      "name": "Cratus Medical Vitality Institute",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(586) 580-2673",
+      "email": "",
+      "website": "https://cratusmedical.com/",
+      "address": "45977 Hayes Rd Shelby Charter Township, Michigan 48315",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "cratus-medical-vitality-institute-mi-2",
+      "name": "Cratus Medical Vitality Institute",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(248) 973-8408",
+      "email": "",
+      "website": "https://cratusmedical.com/",
+      "address": "7035 Orchard Lake Rd West Bloomfield Township, Michigan 48322",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "cratus-medical-vitality-institute-mi-3",
+      "name": "Cratus Medical Vitality Institute",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(248) 922-4900",
+      "email": "",
+      "website": "https://cratusmedical.com/",
+      "address": "5715 Bella Rose blvd Clarkston, Michigan 66937",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "cratus-medical-vitality-institute-mi-4",
+      "name": "Cratus Medical Vitality Institute",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(248) 348-4900",
+      "email": "",
+      "website": "https://cratusmedical.com/",
+      "address": "44325 W 12 Mile Rd Novi, Michigan 48377",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "cratus-medical-vitality-institute-mi-5",
+      "name": "Cratus Medical Vitality Institute",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(248) 841-1197",
+      "email": "",
+      "website": "https://cratusmedical.com/",
+      "address": "3950 S Rochester Rd Rochester Hills, Michigan 48307",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "great-lakes-pmr-mi",
+      "name": "Great Lakes PMR",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "734287",
+      "email": "",
+      "website": "http://www.greatlakespmr.net/",
+      "address": "3247 Biddle Ave Wyandotte, Michigan 48192",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "lile-wellness-partners-mi",
+      "name": "Lile Wellness Partners",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(678) 381-1420",
+      "email": "drlaura@lilewellness.com",
+      "website": "https://www.lilewellness.com/",
+      "address": "135 N Old Woodward Ave suite 200 Birmingham, Michigan 48009",
+      "contact": "Dr. Laura Lile",
+      "contactTitle": "Founder & CEO",
+      "sample": false
+    },
+    {
+      "id": "lile-wellness-partners-mi-2",
+      "name": "Lile Wellness Partners",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(678) 381-1420",
+      "email": "drlaura@lilewellness.com",
+      "website": "https://www.lilewellness.com/",
+      "address": "24201 Meridian Rd Grosse Ile Township, Michigan 48138",
+      "contact": "Dr. Laura Lile",
+      "contactTitle": "Founder & CEO",
+      "sample": false
+    },
+    {
+      "id": "sir-ne-medspa-and-wellness-mi",
+      "name": "Sirène medspa and wellness",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(248) 649-2626",
+      "email": "",
+      "website": "https://sirenemedspa.com/",
+      "address": "43700 Woodward Avenue suite 202, Bloomfield Hills bloomfield hills, Michigan 48302",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "transcend-company-mi",
+      "name": "Transcend Company",
+      "description": "",
+      "states": [
+        "MI"
+      ],
+      "nationwide": false,
+      "phone": "(248) 520-5407",
+      "email": "ernest@transcendcompany.com",
+      "website": "https://transcendcompany.com/",
+      "address": "2701 Cambridge Ct # 518 Auburn Hills, Michigan 48326",
+      "contact": "Ernest Colling",
+      "contactTitle": "Founder",
+      "sample": false
+    },
+    {
+      "id": "advanced-health-and-vitality-mn",
+      "name": "Advanced Health and Vitality",
+      "description": "",
+      "states": [
+        "MN"
+      ],
+      "nationwide": false,
+      "phone": "(952) 922-8005",
+      "email": "",
+      "website": "https://www.advancedhealthandvitality.com/",
+      "address": "6600 FRANCE AVE. S. Edina, Minnesota 55435",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "advanced-health-and-vitality-mn-2",
+      "name": "Advanced Health and Vitality",
+      "description": "",
+      "states": [
+        "MN"
+      ],
+      "nationwide": false,
+      "phone": "(952) 922-8005",
+      "email": "",
+      "website": "https://www.advancedhealthandvitality.com/",
+      "address": "6600 FRANCE AVE. S., SUITE 145 Edina, Minnesota 55435",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "alexander-y-zubkov-md-pllc-mn",
+      "name": "Alexander Y. Zubkov, MD, PLLC",
+      "description": "",
+      "states": [
+        "MN"
+      ],
+      "nationwide": false,
+      "phone": "(952) 920-7200",
+      "email": "",
+      "website": "https://zubkovmd.com/",
+      "address": "3400 W 66th St Edina, Minnesota 55435",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bioage-health-mn",
+      "name": "BioAge Health",
+      "description": "",
+      "states": [
+        "MN"
+      ],
+      "nationwide": false,
+      "phone": "(651) 405-6716",
+      "email": "kodamamd@bioagehealth.com",
+      "website": "http://www.bioagehealth.com/",
+      "address": "3460 Washington Dr Eagan, Minnesota 55122",
+      "contact": "Catherine Kodama, MD",
+      "contactTitle": "Physician",
+      "sample": false
+    },
+    {
+      "id": "417-health-wellness-mo",
+      "name": "417 Health & Wellness",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(417) 368-3489",
+      "email": "justin@417healthwellness.com",
+      "website": "http://417healthwellness.com/",
+      "address": "1850 S. Stewart ave springfield, Missouri 65804",
+      "contact": "Justin Joiner, NP",
+      "contactTitle": "Nurse Practitioner/Owner",
+      "sample": false
+    },
+    {
+      "id": "417-health-wellness-mo-2",
+      "name": "417 Health & Wellness",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(417) 368-3489",
+      "email": "justin@417healthwellness.com",
+      "website": "https://www.417healthwellness.com/",
+      "address": "1850 S. Stewart St. springfield, Missouri 65804",
+      "contact": "Justin Joiner, NP",
+      "contactTitle": "Nurse Practitioner/Owner",
+      "sample": false
+    },
+    {
+      "id": "advanced-practice-wellness-clinic-quentin-w-casw-mo",
+      "name": "Advanced Practice Wellness Clinic – Quentin W Caswell MSN, APRN, FNP-C, ABHRT-C",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(417) 781-2046",
+      "email": "quentin@apclinic.net",
+      "website": "https://apclinic.net/",
+      "address": "1901 E 32nd St Joplin, Missouri 64804",
+      "contact": "Quentin Caswell, FNP",
+      "contactTitle": "Owner / Family Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "bonnie-s-friehling-md-mo",
+      "name": "Bonnie S. Friehling, MD",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(573) 446-1200",
+      "email": "",
+      "website": "https://www.drbfriehling.com/",
+      "address": "1511 Chapel Hill Rd Columbia, Missouri 65203",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "core-medical-center-mo",
+      "name": "Core Medical Center",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(816) 229-1941",
+      "email": "dr.aston@coremedcenter.com",
+      "website": "http://www.coremedcenter.com/",
+      "address": "1131 W Main St Blue Springs, Missouri 64015",
+      "contact": "Dr. Aston Goldsworthy",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "environmental-health-center-mo",
+      "name": "Environmental Health Center",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(314) 921-5600",
+      "email": "2biz@ehacstl.com",
+      "website": "http://www.ehacstl.com/",
+      "address": "763 S New Ballas Rd Town and Country, Missouri 63141",
+      "contact": "Dr. Tipu Sultan",
+      "contactTitle": "MD",
+      "sample": false
+    },
+    {
+      "id": "optimal-medicine-mo",
+      "name": "Optimal Medicine",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(314) 821-7577",
+      "email": "",
+      "website": "https://www.drrajivlyadavado.com/",
+      "address": "1050 Old Des Peres Road Suite 100 St. Louis, Missouri 63131",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-institute-of-natural-health-mo",
+      "name": "The Institute of Natural Health",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(314) 293-8123",
+      "email": "tjwilliams@inhstl.com",
+      "website": "http://www.inhstl.com/",
+      "address": "1034 S Brentwood Blvd Ste 530 Richmond Heights, Missouri 63117",
+      "contact": "Dr. TJ Williams",
+      "contactTitle": "Owner / Physician",
+      "sample": false
+    },
+    {
+      "id": "victory-men-s-health-mo",
+      "name": "Victory Men’s Health",
+      "description": "",
+      "states": [
+        "MO"
+      ],
+      "nationwide": false,
+      "phone": "(314) 833-9000",
+      "email": "lauren@victorymenshealth.com",
+      "website": "http://www.victorymenshealth.com/",
+      "address": "1036 Town and Country Crossing Dr Town and Country, Missouri 63017",
+      "contact": "Lauren Finnerty, APN",
+      "contactTitle": "Advanced Practice Nurse",
+      "sample": false
+    },
+    {
+      "id": "the-wae-clinic-ms",
+      "name": "The WAE Clinic",
+      "description": "",
+      "states": [
+        "MS"
+      ],
+      "nationwide": false,
+      "phone": "(662) 545-4599",
+      "email": "susan@thewaeclinic.com",
+      "website": "https://www.thewaeclinic.com/",
+      "address": "201 E Sunflower Rd Ste 5 cleveland, Mississippi 38732",
+      "contact": "Susan Prather, FNP",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-mt",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "MT"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-mt",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "MT"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-mt",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "MT"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-mt",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "MT"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "aesthetics-medical-spa-and-ageless-integrative-m-nc",
+      "name": "Aesthetics medical Spa and Ageless Integrative Medicine",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(828) 697-1592",
+      "email": "",
+      "website": "http://www.aestheticsmedicalspa.com/",
+      "address": "1210 Greenville Hwy Hendersonville, North Carolina 28792",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "biltmore-restorative-medicine-and-aesthetics-nc",
+      "name": "Biltmore Restorative Medicine and Aesthetics",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(828) 505-2885",
+      "email": "gibrahim@biltmorerestorative.com",
+      "website": "https://www.biltmorerestorativemedicine.com/",
+      "address": "1 Vanderbilt Park Dr Asheville, North Carolina 28803",
+      "contact": "George Ibrahim",
+      "contactTitle": "Medical Director",
+      "sample": false
+    },
+    {
+      "id": "center-for-wellness-pa-nc",
+      "name": "Center For Wellness, PA",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(704) 847-2022",
+      "email": "",
+      "website": "https://www.cfwellness.com/",
+      "address": "1258 Mann Drive Matthews, North Carolina 28105",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "companion-health-pllc-nc",
+      "name": "Companion Health, PLLC",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(704) 360-5018",
+      "email": "carlos@companionhealthnc.com",
+      "website": "http://www.companionhealthnc.com/",
+      "address": "309 S Sharon Amity Rd Charlotte, North Carolina 28211",
+      "contact": "Carlos Jorge",
+      "contactTitle": "Co-Founder & CMO",
+      "sample": false
+    },
+    {
+      "id": "dr-scott-s-restorative-health-nc",
+      "name": "Dr. Scott’s Restorative Health",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(704) 282-9355",
+      "email": "",
+      "website": "https://www.doctorscotts.com/",
+      "address": "6640 Old Monroe Rd Indian Trail, North Carolina 28079",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "essential-health-cary-nc",
+      "name": "Essential Health – Cary",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(919) 926-3010",
+      "email": "elizabeth.sierakowski@essentialhealth.health",
+      "website": "https://essentialhealth.health/",
+      "address": "3750 NW Cary Parkway Cary, North Carolina 27513",
+      "contact": "Dr. Elizabeth Sierakowski",
+      "contactTitle": "Owner / Co-Founder",
+      "sample": false
+    },
+    {
+      "id": "harriet-hansell-md-pllc-nc",
+      "name": "Harriet Hansell, MD, PLLC",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(833) 426-7355",
+      "email": "",
+      "website": "http://www.drhansell.com/",
+      "address": "3604 Shannon Rd Durham, North Carolina 27707",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "triangle-functional-medicine-nc",
+      "name": "Triangle Functional Medicine",
+      "description": "",
+      "states": [
+        "NC"
+      ],
+      "nationwide": false,
+      "phone": "(919) 758-2622",
+      "email": "carson.shearer@trianglefunctionalmedicine.com",
+      "website": "http://www.trianglefunctionalmedicine.com/",
+      "address": "809 Spring Forest Rd Raleigh, North Carolina 27609",
+      "contact": "Dr. Carson Shearer",
+      "contactTitle": "Physician / Owner",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-nd",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "ND"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-nd",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "ND"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-nd",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "ND"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-nd",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "ND"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "elevate-ne",
+      "name": "Elevate",
+      "description": "",
+      "states": [
+        "NE"
+      ],
+      "nationwide": false,
+      "phone": "(308) 383-2008",
+      "email": "",
+      "website": "https://www.elevatehealth.fit/",
+      "address": "403 Lexington Cir Grand Island, Nebraska 68803",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "schrock-medical-clinic-ne",
+      "name": "Schrock Medical Clinic",
+      "description": "",
+      "states": [
+        "NE"
+      ],
+      "nationwide": false,
+      "phone": "(308) 236-6499",
+      "email": "sschrock@schrockmedical.com",
+      "website": "https://www.schrockmedical.com/",
+      "address": "1616 W 39th St STE A Kearney, Nebraska 68845",
+      "contact": "Sam Schrock",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "grassroots-functional-medicine-nh",
+      "name": "GRASSROOTS FUNCTIONAL MEDICINE",
+      "description": "",
+      "states": [
+        "NH"
+      ],
+      "nationwide": false,
+      "phone": "(888) 644-7668",
+      "email": "seth@grassrootsfm.com",
+      "website": "http://www.grassrootsfunctionalmedicine.com/",
+      "address": "1 Oak Ridge Rd Lebanon, New Hampshire 03784",
+      "contact": "Seth Osgood, NP",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "you-holistic-nh",
+      "name": "You Holistic",
+      "description": "",
+      "states": [
+        "NH"
+      ],
+      "nationwide": false,
+      "phone": "(603) 309-2030",
+      "email": "irina@youholistic.com",
+      "website": "http://youholistic.com/",
+      "address": "149 Epping Road Exeter, New Hampshire",
+      "contact": "Irina Serebryakova",
+      "contactTitle": "Founder, FNP",
+      "sample": false
+    },
+    {
+      "id": "wertheimer-center-for-functional-medicine-nj",
+      "name": "Wertheimer Center for Functional Medicine",
+      "description": "",
+      "states": [
+        "NJ"
+      ],
+      "nationwide": false,
+      "phone": "(201) 891-2861",
+      "email": "",
+      "website": "http://www.wertheimercenter.com/",
+      "address": "801 Franklin Ave Franklin Lakes, New Jersey 07417",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "360-medicine-nm",
+      "name": "360 Medicine",
+      "description": "",
+      "states": [
+        "NM"
+      ],
+      "nationwide": false,
+      "phone": "(505) 795-7111",
+      "email": "russcanfield@360medicine.com",
+      "website": "http://360medicine.com/",
+      "address": "66 Avenida Aldea Santa Fe, New Mexico 87507",
+      "contact": "Dr. Russ Canfield",
+      "contactTitle": "Family Physician",
+      "sample": false
+    },
+    {
+      "id": "enhanced-wellness-nm",
+      "name": "Enhanced Wellness",
+      "description": "",
+      "states": [
+        "NM"
+      ],
+      "nationwide": false,
+      "phone": "(505) 323-8100",
+      "email": "",
+      "website": "http://www.enhancedwellnessnm.com/",
+      "address": "5200 Eubank Blvd NE #C-3 Albuquerque, New Mexico 87111",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "balanced-health-llc-nv",
+      "name": "Balanced Health LLC",
+      "description": "",
+      "states": [
+        "NV"
+      ],
+      "nationwide": false,
+      "phone": "(775) 204-0261",
+      "email": "",
+      "website": "http://ourbalancedhealth.com/",
+      "address": "896 W Nye Ln Carson City, Nevada 89703",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "dermabella-medical-spa-nv",
+      "name": "Dermabella Medical Spa",
+      "description": "",
+      "states": [
+        "NV"
+      ],
+      "nationwide": false,
+      "phone": "(702) 228-0491",
+      "email": "",
+      "website": "http://dermabellamedicalspa.com/",
+      "address": "Parking lot, 7170 Smoke Ranch Rd Las Vegas, Nevada 89128",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "holsitic-hormone-solutions-alignology-nv",
+      "name": "Holsitic Hormone Solutions @ ALIGNOLOGY",
+      "description": "",
+      "states": [
+        "NV"
+      ],
+      "nationwide": false,
+      "phone": "(702) 642-5446",
+      "email": "",
+      "website": "http://www.alignology.co/",
+      "address": "9525 Hillwood Dr Las Vegas, Nevada 89134",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "klothogenics-nv",
+      "name": "KlothoGenics",
+      "description": "",
+      "states": [
+        "NV"
+      ],
+      "nationwide": false,
+      "phone": "(702) 367-7777",
+      "email": "",
+      "website": "https://www.klothogenics.com/",
+      "address": "5145 S Durango Dr Las Vegas, Nevada 89113",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "regenerative-medicine-institute-of-nevada-nv",
+      "name": "Regenerative Medicine Institute of Nevada",
+      "description": "",
+      "states": [
+        "NV"
+      ],
+      "nationwide": false,
+      "phone": "(702) 870-0058",
+      "email": "",
+      "website": "https://www.rminlasvegas.com/",
+      "address": "6020 S. Rainbow Blvd Spring Valley, Nevada 89118",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "regenerative-medicine-institute-of-nevada-nv-2",
+      "name": "Regenerative Medicine Institute of Nevada",
+      "description": "",
+      "states": [
+        "NV"
+      ],
+      "nationwide": false,
+      "phone": "(702) 870-0058",
+      "email": "",
+      "website": "http://www.rminlasvegas.com/",
+      "address": "6020 S. Rainbow Blvd Las Vegas, Nevada 89118",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "dr-magdalena-swierczewski-integrative-concierge--ny",
+      "name": "Dr. Magdalena Swierczewski, Integrative ~ Concierge Medicine",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(631) 283-0015",
+      "email": "",
+      "website": "https://drmagdalenas.com/",
+      "address": "33 Flying Point Rd Southampton, New York 11968",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "hebe-medical-spa-ny",
+      "name": "Hebe Medical Spa",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(845) 765-8181",
+      "email": "irina@thehebespa.com",
+      "website": "https://thehebespa.com/",
+      "address": "1131 Main Street fishkill, New York 12524",
+      "contact": "Irina Damyanidu",
+      "contactTitle": "CEO / Co-Founder",
+      "sample": false
+    },
+    {
+      "id": "integrative-rheumatology-of-westchester-dr-david-ny",
+      "name": "Integrative Rheumatology of Westchester-Dr David Lans",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(914) 235-5577",
+      "email": "",
+      "website": "https://www.drlans.org/",
+      "address": "838 Pelhamdale Ave New Rochelle, New York 10801",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "leviathan-wellness-ny",
+      "name": "Leviathan Wellness",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(212) 203-1728",
+      "email": "",
+      "website": "https://www.leviathanwellness.com/",
+      "address": "632 Broadway Suite 303 New York, New York 10003",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "magdolna-saringer-md-ifmcp-ny",
+      "name": "Magdolna Saringer, MD IFMCP",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(212) 721-2650",
+      "email": "",
+      "website": "http://www.drsaringer.com/",
+      "address": "154 W 70th Street New York, New York 10023",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "reviva-wellness-ny",
+      "name": "Reviva Wellness",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(518) 482-2121",
+      "email": "",
+      "website": "https://www.jeanpaulspa.com/about/about-reviva/",
+      "address": "1475 Western Ave Albany, New York 12203",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "reviva-wellness-ny-2",
+      "name": "Reviva Wellness",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(518) 250-4026",
+      "email": "",
+      "website": "http://www.reviva-wellness.com/",
+      "address": "922 Troy Schenectady Rd Latham, New York 12110",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "westchester-wellness-medicine-ny",
+      "name": "westchester wellness medicine",
+      "description": "",
+      "states": [
+        "NY"
+      ],
+      "nationwide": false,
+      "phone": "(914) 202-0620",
+      "email": "",
+      "website": "http://www.westchesterwellnessmedicine.com/",
+      "address": "7-11 S Broadway Suite 100 New Rochelle, New York 10601",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "ace-integrative-health-oh",
+      "name": "Ace Integrative Health",
+      "description": "",
+      "states": [
+        "OH"
+      ],
+      "nationwide": false,
+      "phone": "(513) 280-8891",
+      "email": "getintouch@aceintegrativehealth.com",
+      "website": "http://www.aceintegrativehealth.com/",
+      "address": "Cannot determine address at this location. mason, ohio 45040",
+      "contact": "Dr. Achint Choksy",
+      "contactTitle": "Founder, CEO & Medical Director",
+      "sample": false
+    },
+    {
+      "id": "elite-body-and-laser-oh",
+      "name": "Elite Body and Laser",
+      "description": "",
+      "states": [
+        "OH"
+      ],
+      "nationwide": false,
+      "phone": "(614) 334-4944",
+      "email": "",
+      "website": "https://www.elitebodyandlaser.com/",
+      "address": "60 Powell Rd Lewis Center, Ohio 43035",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "limelight-laser-and-medical-spa-oh",
+      "name": "Limelight Laser and Medical Spa",
+      "description": "",
+      "states": [
+        "OH"
+      ],
+      "nationwide": false,
+      "phone": "(513) 774-2043",
+      "email": "",
+      "website": "http://www.limelightmedicalspa.com/",
+      "address": "11867 Mason Rd Cincinnati, Ohio 45249",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "pain-specialists-of-cincinnati-laser-and-regener-oh",
+      "name": "Pain Specialists of Cincinnati & Laser and Regenerative Center",
+      "description": "",
+      "states": [
+        "OH"
+      ],
+      "nationwide": false,
+      "phone": "(513) 922-2204",
+      "email": "",
+      "website": "https://www.landrcenter.com",
+      "address": "3328 Westbourne Dr Cincinnati, Ohio 45248",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "vitality-natural-wellness-an-medspa-oh",
+      "name": "Vitality Natural Wellness an Medspa",
+      "description": "",
+      "states": [
+        "OH"
+      ],
+      "nationwide": false,
+      "phone": "(419) 989-4342",
+      "email": "claroche@vitalitynaturalwellness.com",
+      "website": "http://www.vitalitynaturalwellness.com/",
+      "address": "42 N Main Street Suite B, Mansfield, Ohio Mansfield, Ohio 44902",
+      "contact": "Christy Laroche, NP",
+      "contactTitle": "Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "gregg-s-govett-m-d-p-c-ok",
+      "name": "Gregg S Govett, M.D., P. C.",
+      "description": "",
+      "states": [
+        "OK"
+      ],
+      "nationwide": false,
+      "phone": "(405) 732-3755",
+      "email": "",
+      "website": "https://www.okement.com/",
+      "address": "1201 S Post Rd Midwest City, Oklahoma 73130",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "kelly-stephens-md-ok",
+      "name": "Kelly Stephens MD",
+      "description": "",
+      "states": [
+        "OK"
+      ],
+      "nationwide": false,
+      "phone": "(405) 315-8510",
+      "email": "",
+      "website": "http://www.mercy.net/drkellystephens",
+      "address": "2305 Pawnee Crossing Edmond, Oklahoma 73034",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "revolution-health-wellness-clinic-ok",
+      "name": "Revolution Health & Wellness Clinic",
+      "description": "",
+      "states": [
+        "OK"
+      ],
+      "nationwide": false,
+      "phone": "(918) 935-3636",
+      "email": "drrigler@revolutionhealthandwellness.com",
+      "website": "https://www.revolutionhealth.org/",
+      "address": "12142 S Yukon Ave Glenpool, Oklahoma 74033",
+      "contact": "Dr. Brian Rigler",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "richey-wellness-and-aesthetics-ok",
+      "name": "Richey Wellness and Aesthetics",
+      "description": "",
+      "states": [
+        "OK"
+      ],
+      "nationwide": false,
+      "phone": "(405) 608-4430",
+      "email": "",
+      "website": "https://richeywellness.com/",
+      "address": "910 NW 139th Street Parkway Edmond, Oklahoma 73013",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "terrell-clinic-ok",
+      "name": "Terrell Clinic",
+      "description": "",
+      "states": [
+        "OK"
+      ],
+      "nationwide": false,
+      "phone": "(405) 302-0060",
+      "email": "",
+      "website": "http://www.terrellclinicokc.com/",
+      "address": "5025 Gaillardia Corporate Pl Oklahoma City, Oklahoma 73142",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bear-creek-naturopathic-clinic-or",
+      "name": "Bear Creek Naturopathic Clinic",
+      "description": "",
+      "states": [
+        "OR"
+      ],
+      "nationwide": false,
+      "phone": "(541) 770-5563",
+      "email": "",
+      "website": "",
+      "address": "2608 E Barnett Rd Medford, Oregon 97504",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bear-creek-naturopathic-clinic-or-2",
+      "name": "Bear Creek Naturopathic Clinic",
+      "description": "",
+      "states": [
+        "OR"
+      ],
+      "nationwide": false,
+      "phone": "(541) 770-5563",
+      "email": "",
+      "website": "http://www.bearcreekclinic.com/",
+      "address": "2612 E. Barnett Rd Medford, Oregon 97504",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "medipro-holistic-health-or",
+      "name": "MediPro Holistic Health",
+      "description": "",
+      "states": [
+        "OR"
+      ],
+      "nationwide": false,
+      "phone": "(503) 828-9265",
+      "email": "",
+      "website": "https://www.mediproholistichealth.com/",
+      "address": "17933 NW Evergreen Pl #285 Beaverton, Oregon 97006",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "medipro-pain-performance-or",
+      "name": "MediPro Pain & Performance",
+      "description": "",
+      "states": [
+        "OR"
+      ],
+      "nationwide": false,
+      "phone": "(503) 828-9265",
+      "email": "",
+      "website": "https://www.mediproholistichealth.com/",
+      "address": "17933 NW Evergreen Pl Suite 285 Beaverton, Oregon 97006",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "synergy-women-s-health-care-or",
+      "name": "Synergy Women’s Health Care",
+      "description": "",
+      "states": [
+        "OR"
+      ],
+      "nationwide": false,
+      "phone": "(503) 227-4050",
+      "email": "drsang@synergypdx.com",
+      "website": "http://www.synergypdx.com/",
+      "address": "2701 NW Vaughn St Portland, Oregon 97210",
+      "contact": "Dr. Michelle Sang",
+      "contactTitle": "Medical Doctor / Co-owner",
+      "sample": false
+    },
+    {
+      "id": "the-new-you-doctor-or",
+      "name": "The New You Doctor",
+      "description": "",
+      "states": [
+        "OR"
+      ],
+      "nationwide": false,
+      "phone": "(503) 667-9300",
+      "email": "",
+      "website": "http://www.thenewyoudoctor.com/",
+      "address": "701 NE Hood Ave, Gresham, OR 97030 Gresham, Oregon 97030",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "aether-medicine-pa",
+      "name": "Aether Medicine",
+      "description": "",
+      "states": [
+        "PA"
+      ],
+      "nationwide": false,
+      "phone": "(484) 806-1101",
+      "email": "cforman@aethermedicine.com",
+      "website": "https://aethermedicine.com/",
+      "address": "565 Swedesford Rd Wayne, Pennsylvania 19087",
+      "contact": "Chad Forman",
+      "contactTitle": "Medical Assistant",
+      "sample": false
+    },
+    {
+      "id": "burick-center-for-health-wellness-pa",
+      "name": "Burick Center for Health & Wellness",
+      "description": "",
+      "states": [
+        "PA"
+      ],
+      "nationwide": false,
+      "phone": "(717) 730-9000",
+      "email": "tburick@burickcenter.com",
+      "website": "http://burickcenter.com/",
+      "address": "2005 Technology Pkwy # 350 Mechanicsburg, Pennsylvania 17050",
+      "contact": "Dr. Theresa Burick",
+      "contactTitle": "President & Founder",
+      "sample": false
+    },
+    {
+      "id": "integrated-wellness-clinic-pa",
+      "name": "Integrated Wellness Clinic",
+      "description": "",
+      "states": [
+        "PA"
+      ],
+      "nationwide": false,
+      "phone": "(610) 265-0500",
+      "email": "",
+      "website": "https://iwc-philly.com/",
+      "address": "491 Allendale Rd King of Prussia, Pennsylvania 19406",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "meeting-point-health-pa",
+      "name": "Meeting Point Health",
+      "description": "",
+      "states": [
+        "PA"
+      ],
+      "nationwide": false,
+      "phone": "(215) 298-9928",
+      "email": "",
+      "website": "https://www.meetingpointhealth.com/about/",
+      "address": "161 Leverington Ave Ste 101 Philadelphia, Pennsylvania 19127",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "regeneration-pittsburgh-pa",
+      "name": "Regeneration Pittsburgh",
+      "description": "",
+      "states": [
+        "PA"
+      ],
+      "nationwide": false,
+      "phone": "(724) 382-7272",
+      "email": "burnett@regenpitt.com",
+      "website": "https://www.regenpitt.com/",
+      "address": "12590 Perry Hwy #100 Wexford, Pennsylvania 15090",
+      "contact": "Dr. Thomas Burnett",
+      "contactTitle": "Owner",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-ri",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
         "RI"
       ],
       "nationwide": false,
-      "phone": "+1-555-0144",
-      "email": "reception@example.com",
-      "website": "https://example.com",
-      "sample": true
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-ri",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "RI"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-ri",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "RI"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-ri",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "RI"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "alpha-male-men-s-clinic-sc",
+      "name": "Alpha Male Men’s Clinic",
+      "description": "",
+      "states": [
+        "SC"
+      ],
+      "nationwide": false,
+      "phone": "(803) 766-0999",
+      "email": "",
+      "website": "http://scalphamale.com/",
+      "address": "2528 Sunset Blvd West Columbia, South Carolina 29169",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "gesundheit-carolina-llc-sc",
+      "name": "Gesundheit Carolina LLC",
+      "description": "",
+      "states": [
+        "SC"
+      ],
+      "nationwide": false,
+      "phone": "(843) 929-1634",
+      "email": "",
+      "website": "https://www.gesundheitcarolina.com/",
+      "address": "852 Lowcountry Blvd Mount Pleasant, South Carolina 29464",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "intervenemd-sc",
+      "name": "InterveneMD",
+      "description": "",
+      "states": [
+        "SC"
+      ],
+      "nationwide": false,
+      "phone": "(843) 216-4844",
+      "email": "jpedersen@intervenemd.com",
+      "website": "http://www.intervenemd.com/",
+      "address": "1341 Old Georgetown Rd Mount Pleasant, South Carolina 29464",
+      "contact": "Jennifer Pedersen, PA-C",
+      "contactTitle": "Physician Assistant",
+      "sample": false
+    },
+    {
+      "id": "optimalself-md-sc",
+      "name": "OptimalSelf MD",
+      "description": "",
+      "states": [
+        "SC"
+      ],
+      "nationwide": false,
+      "phone": "(864) 214-5232",
+      "email": "kb@optimalselfmd.com",
+      "website": "http://www.optimalselfmd.com/",
+      "address": "25 S Laurens St Greenville, South Carolina 29601",
+      "contact": "Dr. Katherine Birchenough",
+      "contactTitle": "Owner / CEO",
+      "sample": false
+    },
+    {
+      "id": "southern-grace-pain-regenerative-medicine-sc",
+      "name": "Southern Grace Pain & Regenerative Medicine",
+      "description": "",
+      "states": [
+        "SC"
+      ],
+      "nationwide": false,
+      "phone": "(843) 754-4231",
+      "email": "",
+      "website": "http://www.southerngracepain.com/",
+      "address": "3520 Park Ave Blvd Mount Pleasant, South Carolina 29466",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "health-concepts-sd",
+      "name": "Health Concepts",
+      "description": "",
+      "states": [
+        "SD"
+      ],
+      "nationwide": false,
+      "phone": "(605) 348-4141",
+      "email": "",
+      "website": "http://rbhealthconcepts.com/",
+      "address": "5410 Sheridan Lake Rd Rapid City, South Dakota 57702",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "ford-center-for-antiaging-and-pain-management-tn",
+      "name": "Ford Center for Antiaging and Pain Management",
+      "description": "",
+      "states": [
+        "TN"
+      ],
+      "nationwide": false,
+      "phone": "(423) 614-0535",
+      "email": "",
+      "website": "http://www.fordcenters.cc/",
+      "address": "2020 Keith St NW Cleveland, Tennessee 37311",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "lile-wellness-partners-tn",
+      "name": "Lile Wellness Partners",
+      "description": "",
+      "states": [
+        "TN"
+      ],
+      "nationwide": false,
+      "phone": "(678) 381-1420",
+      "email": "drlaura@lilewellness.com",
+      "website": "https://www.lilewellness.com/",
+      "address": "120 3rd Ave S Franklin, Tennessee 37064",
+      "contact": "Dr. Laura Lile",
+      "contactTitle": "Founder & CEO",
+      "sample": false
+    },
+    {
+      "id": "mcdonald-murrmann-center-for-wellness-and-health-tn",
+      "name": "McDonald Murrmann Center for Wellness and Health",
+      "description": "",
+      "states": [
+        "TN"
+      ],
+      "nationwide": false,
+      "phone": "(901) 752-4000",
+      "email": "",
+      "website": "http://www.mmcwh360.com/",
+      "address": "7205 Wolf River Blvd Germantown, Tennessee 38138",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-fork-functional-medicine-tn",
+      "name": "The Fork Functional Medicine",
+      "description": "",
+      "states": [
+        "TN"
+      ],
+      "nationwide": false,
+      "phone": "(615) 721-8008",
+      "email": "chyrl@theforkclinic.com",
+      "website": "http://www.theforkclinic.com/",
+      "address": "110 3rd Ave N Franklin, Tennessee 37064",
+      "contact": "Chyrl Mosley, FNP-BC",
+      "contactTitle": "Owner & Provider",
+      "sample": false
+    },
+    {
+      "id": "the-functional-medicine-md-tn",
+      "name": "The Functional Medicine MD",
+      "description": "",
+      "states": [
+        "TN"
+      ],
+      "nationwide": false,
+      "phone": "(865) 275-5024",
+      "email": "",
+      "website": "https://thefunctionalmedicinemd.com/",
+      "address": "3020 tazewell pike knoxville, Tennessee 37918",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-restore-clinic-llc-tn",
+      "name": "The Restore Clinic, LLC",
+      "description": "",
+      "states": [
+        "TN"
+      ],
+      "nationwide": false,
+      "phone": "(615) 488-4172",
+      "email": "",
+      "website": "http://www.therestoreclinic.com/",
+      "address": "530 W Jackson St Cookeville, Tennessee 38501",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "vitality-medical-wellness-center-tn",
+      "name": "Vitality Medical Wellness Center",
+      "description": "",
+      "states": [
+        "TN"
+      ],
+      "nationwide": false,
+      "phone": "(615) 891-7500",
+      "email": "",
+      "website": "http://www.sommerwhitemd.com/",
+      "address": "125 Belle Forest Circle Nashville, Tennessee 37221",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "agewait-tx",
+      "name": "AgeWait",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(214) 265-8400",
+      "email": "lhaggard@agewait.com",
+      "website": "http://www.agewait.com/",
+      "address": "6211 W Northwest Hwy Suite C255 Dallas, Texas 75225",
+      "contact": "Dr. Lloyd Haggard",
+      "contactTitle": "Medical Director",
+      "sample": false
+    },
+    {
+      "id": "apothecary-shoppe-tx",
+      "name": "Apothecary Shoppe",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(830) 257-0732",
+      "email": "",
+      "website": "",
+      "address": "103 Loma Vista Dr Kerrville, Texas 78028",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "atlas-premier-health-tx",
+      "name": "Atlas Premier Health",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(713) 493-1346",
+      "email": "",
+      "website": "https://www.atlaspremierhealth.com/tx",
+      "address": "13630 Beamer Rd Houston, Texas 77089",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "balanced-body-functional-medicine-tx",
+      "name": "Balanced Body Functional Medicine",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(281) 710-3380",
+      "email": "",
+      "website": "http://balancedbodyfunctionalmed.com/",
+      "address": "3533 Town Center Blvd. South, Suite #200, Sugar Land TX 77479 Sugar Land, Texas 77479",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "balanced-vitality-institute-for-cellular-health--tx",
+      "name": "Balanced Vitality Institute For Cellular Health and Longevity",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(214) 769-1560",
+      "email": "",
+      "website": "https://.balancedvitalitymd.com/",
+      "address": "2603 Oak Lawn Ave Dallas, Texas 75219",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bio-drip-tx",
+      "name": "Bio Drip",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(915) 433-3573",
+      "email": "",
+      "website": "http://www.biodripiv.com/",
+      "address": "935 Sunland Park Dr El Paso, Texas 79922",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "bio-drip-iv-functional-anti-aging-medical-center-tx",
+      "name": "Bio Drip IV, Functional & Anti-Aging Medical Center",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(915) 444-8536",
+      "email": "",
+      "website": "http://www.biodripiv.com/",
+      "address": "935 Sunland Park Dr El Paso, Texas 79922",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "body-by-aura-tx",
+      "name": "Body by Aura",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(832) 804-7948",
+      "email": "",
+      "website": "https://www.bodybyaura.com/",
+      "address": "952 Echo Ln Hedwig Village, Texas 77024",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "dr-bob-harding-tx",
+      "name": "Dr Bob Harding",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(512) 705-9020",
+      "email": "",
+      "website": "http://drbobharding.com/",
+      "address": "Austin Austin, Texas 78701",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "dr-bob-harding-apeiron-center-for-human-potentia-tx",
+      "name": "Dr Bob Harding Apeiron Center for Human Potential",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(512) 705-9020",
+      "email": "",
+      "website": "http://drbobharding.com",
+      "address": "910 Congress Ave Austin, Texas 78701",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "evexias-medical-centers-tx",
+      "name": "EVEXIAS Medical Centers",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(817) 328-8376",
+      "email": "katelyn.mccormack@evexiasmedical.com",
+      "website": "https://evexiasmedical.com/",
+      "address": "920 S Kimball Ave Southlake, Texas 76092",
+      "contact": "Katelyn McCormack",
+      "contactTitle": "Clinic Operations Manager",
+      "sample": false
+    },
+    {
+      "id": "hill-country-integrative-medicine-tx",
+      "name": "Hill Country Integrative Medicine",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(830) 992-3042",
+      "email": "",
+      "website": "https://www.hillcountryintegrativemedicine.com/",
+      "address": "1603 E Main St Fredericksburg, Texas 78624",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "integrative-wellness-fx-tx",
+      "name": "Integrative Wellness Fx",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(469) 333-1298",
+      "email": "drdavid@integrativewellnessfx.com",
+      "website": "http://www.integrativewellnessfx.com/",
+      "address": "10670 N US 75-Central Expy 1000 suite 110 Dallas, Texas 75231",
+      "contact": "David Morcom",
+      "contactTitle": "PharmD, Functional Medicine",
+      "sample": false
+    },
+    {
+      "id": "john-staniland-md-tx",
+      "name": "John Staniland MD",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(817) 346-5111",
+      "email": "",
+      "website": "http://findingtherootcause.com/",
+      "address": "6100 Harris Pkwy Fort Worth, Texas 76132",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "keyt-wellness-tx",
+      "name": "KeyT Wellness",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(833) 539-8123",
+      "email": "",
+      "website": "http://www.keytwellness.com/",
+      "address": "1621 FM 517 Road EAST Dickinson, Texas 77539",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "krystal-anesthesia-pain-specialists-tx",
+      "name": "Krystal Anesthesia & Pain Specialists",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(972) 619-5350",
+      "email": "ashley@krystalanesthesia.com",
+      "website": "http://www.krystalanesthesia.com/",
+      "address": "3930 Naaman School Rd, Suite B Garland, Texas 75040",
+      "contact": "Ashley Taylor",
+      "contactTitle": "Medical Office Assistant",
+      "sample": false
+    },
+    {
+      "id": "living-health-tx",
+      "name": "Living Health",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(830) 708-9578",
+      "email": "",
+      "website": "https://www.livinghealthholistic.com/",
+      "address": "3016 Independence Drive New Braunfels, Texas 78132",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "luxe-med-compounding-pharmacy-tx",
+      "name": "LUXE MED COMPOUNDING PHARMACY",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(972) 906-0800",
+      "email": "darryl@luxemedpharmacy.com",
+      "website": "https://www.luxemedpharmacy.com/",
+      "address": "560 W Main St Suite 101 Lewisville, Texas 75057",
+      "contact": "Darryl Mason",
+      "contactTitle": "Managing Partner",
+      "sample": false
+    },
+    {
+      "id": "matrix-age-management-tx",
+      "name": "Matrix Age Management",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(806) 352-1185",
+      "email": "",
+      "website": "http://www.matrixagemanagement.com/",
+      "address": "5501 Wallace Blvd Amarillo, Texas 79119",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "new-era-wellness-center-tx",
+      "name": "New Era Wellness Center",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(210) 437-2759",
+      "email": "",
+      "website": "https://www.newerawellnesscenter.com/",
+      "address": "18249 Blanco Rd San Antonio, Texas 78258",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "optimal-balance-center-tx",
+      "name": "Optimal Balance Center",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(512) 618-7494",
+      "email": "",
+      "website": "http://www.optimalbalancecenter.com/",
+      "address": "701 Farm to Market 685 #120 Pflugerville, Texas 78660",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "regenacell-therapies-tx",
+      "name": "Regenacell Therapies",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(903) 636-3033",
+      "email": "",
+      "website": "https://regenacelltherapies.com/",
+      "address": "1402 Rice Rd Tyler, Texas 75703",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "regenacell-therapies-llc-tx",
+      "name": "Regenacell Therapies, LLC",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(903) 636-3033",
+      "email": "",
+      "website": "https://regenacelltherapies.com/",
+      "address": "1402 Rice Rd Tyler, Texas 75703",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "revive-med-spa-and-wellness-tx",
+      "name": "RevIVe Med Spa and Wellness",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(409) 299-4785",
+      "email": "amyjacobs@revivemedspawellness.com",
+      "website": "https://revivemedspawellness.com/",
+      "address": "1110 S Friendswood Dr Friendswood, Texas 77546",
+      "contact": "Amy Jacobs, NP",
+      "contactTitle": "Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "synergy-integrative-medical-clinic-tx",
+      "name": "Synergy Integrative Medical Clinic",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(432) 570-0052",
+      "email": "jessica.lai@rastogisimcmidland.com",
+      "website": "http://www.rastogisimcmidland.com/",
+      "address": "5813 W Wadley Ave Midland, Texas 79707",
+      "contact": "Jessica Lai",
+      "contactTitle": "Practice Manager",
+      "sample": false
+    },
+    {
+      "id": "texas-center-wellness-tx",
+      "name": "TEXAS Center Wellness",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(512) 563-5015",
+      "email": "",
+      "website": "http://www.texascenterwellness.com/",
+      "address": "12812 Hacienda Ridge austin, Texas 78738",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "texas-center-wellness-tx-2",
+      "name": "Texas Center Wellness",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(512) 563-5015",
+      "email": "",
+      "website": "http://texascenterwellness.com/",
+      "address": "12816 Hacienda Ridge Austin, Texas 78738",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-resurge-clinic-tx",
+      "name": "The Resurge Clinic",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(817) 599-9902",
+      "email": "cresenta@theresurgeclinic.com",
+      "website": "https://www.theresurgeclinic.com/",
+      "address": "2105 Clear Lake Rd Weatherford, Texas 76087",
+      "contact": "Cresenta Wusterhausen",
+      "contactTitle": "Co-Owner",
+      "sample": false
+    },
+    {
+      "id": "the-wellness-firm-tx",
+      "name": "The Wellness Firm",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(409) 730-7005",
+      "email": "maryann@wellness-firm.com",
+      "website": "http://www.wellness-firm.com/",
+      "address": "2990 Laurel Ave Beaumont, Texas 77702",
+      "contact": "Mary Butler",
+      "contactTitle": "Owner / Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "thrive-performance-and-regenerative-medicine-tx",
+      "name": "Thrive Performance and Regenerative Medicine",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(814) 558-4677",
+      "email": "dr.g@thrivemedicineclinic.com",
+      "website": "https://thrivemedicineclinic.com/",
+      "address": "15555 Creek Bend Dr., Suite 200 Sugar Land, Texas 77478",
+      "contact": "Dr. Phillip Gallegos",
+      "contactTitle": "Co-Founder",
+      "sample": false
+    },
+    {
+      "id": "truemd-tx",
+      "name": "TrueMD",
+      "description": "",
+      "states": [
+        "TX"
+      ],
+      "nationwide": false,
+      "phone": "(817) 399-8783",
+      "email": "",
+      "website": "http://www.truemd.com/",
+      "address": "5216 Fairmount Dr Grapevine, Texas 76051",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-ut",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "UT"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-ut",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "UT"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-ut",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "UT"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-ut",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "UT"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "center-for-integrastive-regenerative-medicine-va",
+      "name": "Center for Integrastive & Regenerative Medicine",
+      "description": "",
+      "states": [
+        "VA"
+      ],
+      "nationwide": false,
+      "phone": "(434) 361-1896",
+      "email": "",
+      "website": "http://www,cirm1.org/",
+      "address": "10190 Critzer Shop Rd Afton, Virginia 22920",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "center-for-integrative-regenerative-medicine-c-i-va",
+      "name": "Center for Integrative & Regenerative Medicine (C.I.R.M.)",
+      "description": "",
+      "states": [
+        "VA"
+      ],
+      "nationwide": false,
+      "phone": "(434) 361-1896",
+      "email": "",
+      "website": "http://www.cirm1.org/",
+      "address": "10190 Critzers Shop Rd. Afton, Virginia 22920",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "harriet-mccoy-np-va",
+      "name": "Harriet McCoy NP",
+      "description": "",
+      "states": [
+        "VA"
+      ],
+      "nationwide": false,
+      "phone": "(757) 208-7397",
+      "email": "",
+      "website": "https://www.harrietshormones.com/",
+      "address": "12700 McManus Blvd Newport News, Virginia 23602",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "truong-rehabilitation-center-va",
+      "name": "Truong Rehabilitation Center",
+      "description": "",
+      "states": [
+        "VA"
+      ],
+      "nationwide": false,
+      "phone": "(540) 374-3164",
+      "email": "",
+      "website": "https://www.truongrehab.com/",
+      "address": "10340 Spotsylvania Ave Fredericksburg, Virginia 22408",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "valley-wellness-va",
+      "name": "Valley Wellness",
+      "description": "",
+      "states": [
+        "VA"
+      ],
+      "nationwide": false,
+      "phone": "(540) 682-8558",
+      "email": "",
+      "website": "http://edcastromd.com/",
+      "address": "1315 2nd St SW Roanoke, Virginia 24016",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-vt",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "VT"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-vt",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "VT"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-vt",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "VT"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-vt",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "VT"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "am-medical-llc-wa",
+      "name": "AM Medical LLC",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(360) 960-8538",
+      "email": "",
+      "website": "https://ammedicalmd.com/",
+      "address": "715 E Yelm Ave Yelm, Washington 98597",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "apollo-health-wa",
+      "name": "Apollo Health",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(253) 900-2185",
+      "email": "",
+      "website": "https://apollohealthdoc.com/",
+      "address": "5401 32nd Ave Gig Harbor, Washington 98335",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "center-for-complex-diseases-david-l-kaufman-md-wa",
+      "name": "Center for Complex Diseases – David L Kaufman, MD",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(650) 447-3001",
+      "email": "david@centerforcomplexdiseases.com",
+      "website": "https://www.centerforcomplexdiseases.com/",
+      "address": "2900 NE Blakeley St Seattle, Washington 98105",
+      "contact": "Dr. David Kaufman",
+      "contactTitle": "Founder & Physician",
+      "sample": false
+    },
+    {
+      "id": "center-for-healing-neurology-wa",
+      "name": "Center for Healing Neurology",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(206) 379-1213",
+      "email": "",
+      "website": "http://www.centerforhealingneurology.com/",
+      "address": "2900 NE Blakeley St Seattle, Washington 98105",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "centered-in-wellness-wa",
+      "name": "Centered in Wellness",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(425) 898-4732",
+      "email": "",
+      "website": "http://www.centeredinwellness.com/",
+      "address": "12815 120th Ave NE kirkland, Washington 98034",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "elysium-medical-arts-center-wa",
+      "name": "Elysium Medical Arts Center",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(425) 582-9617",
+      "email": "",
+      "website": "https://georgedelaneymd.com/",
+      "address": "7500 212th St SW Edmonds, Washington 98026",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "immanence-health-wa",
+      "name": "Immanence Health",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(206) 659-0690",
+      "email": "",
+      "website": "https://www.drchristineschaffner.com/",
+      "address": "1629 Queen Anne Ave N Seattle, Washington 98109",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "stanwood-integrative-medicine-wa",
+      "name": "Stanwood Integrative Medicine",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(360) 629-2222",
+      "email": "",
+      "website": "http://stanwoodintegrativemedicine.com/",
+      "address": "7206 267th St NW Stanwood, Washington 98292",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "the-metabolic-institute-wa",
+      "name": "The Metabolic Institute",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(509) 747-7066",
+      "email": "",
+      "website": "https://www.themetabolic-institute.com/",
+      "address": "2204 E 29th Ave Suite 202 Spokane, Washington 99203",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "zelo-living-a-health-and-wellness-company-wa",
+      "name": "Zelo Living – a Health and Wellness Company",
+      "description": "",
+      "states": [
+        "WA"
+      ],
+      "nationwide": false,
+      "phone": "(509) 866-5301",
+      "email": "",
+      "website": "https://zeloliving.com/",
+      "address": "169 S Stevens St Spokane, Washington 99201",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "great-lakes-vital-health-wi",
+      "name": "Great Lakes Vital Health",
+      "description": "",
+      "states": [
+        "WI"
+      ],
+      "nationwide": false,
+      "phone": "(414) 446-5389",
+      "email": "",
+      "website": "http://www.glvhealth.com/",
+      "address": "6789 N Green Bay Ave Glendale, Wisconsin 53209",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "lindgren-functional-medicine-wi",
+      "name": "Lindgren Functional Medicine",
+      "description": "",
+      "states": [
+        "WI"
+      ],
+      "nationwide": false,
+      "phone": "(920) 737-1625",
+      "email": "kayla@lindgren.health",
+      "website": "http://www.lindgren.health/",
+      "address": "2593 Development Drive, Ste 240 Green Bay, Wisconsin 54311",
+      "contact": "Kayla Guns, FNP",
+      "contactTitle": "Family Nurse Practitioner",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-wv",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "WV"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-wv",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "WV"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-wv",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "WV"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-wv",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "WV"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
+    },
+    {
+      "id": "defy-medical-wy",
+      "name": "Defy Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "WY"
+      ],
+      "nationwide": false,
+      "phone": "(813) 445-7342",
+      "email": "nicole@defymedical.com",
+      "website": "https://www.defymedical.com/",
+      "address": "Online nationwide (HQ: 4809 N Armenia Ave, Ste 220, Tampa, FL 33603)",
+      "contact": "Nicole Bruce",
+      "contactTitle": "Vice President",
+      "sample": false
+    },
+    {
+      "id": "infusion-health-wy",
+      "name": "Infusion Health",
+      "description": "Telehealth · 4.8★ Trustpilot",
+      "states": [
+        "WY"
+      ],
+      "nationwide": false,
+      "phone": "(520) 396-4866",
+      "email": "",
+      "website": "https://infusionhealth.org/",
+      "address": "Online nationwide (HQ: Tucson, AZ)",
+      "contact": "",
+      "contactTitle": "",
+      "sample": false
+    },
+    {
+      "id": "invigor-medical-wy",
+      "name": "Invigor Medical",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "WY"
+      ],
+      "nationwide": false,
+      "phone": "(888) 966-4854",
+      "email": "jon@invigormedical.com",
+      "website": "https://invigormedical.com/",
+      "address": "Online nationwide (HQ: Kennewick, WA)",
+      "contact": "Jonathan Colson",
+      "contactTitle": "Founder & Chief Strategy Officer",
+      "sample": false
+    },
+    {
+      "id": "marek-health-wy",
+      "name": "Marek Health",
+      "description": "Telehealth · 4.9★ Trustpilot",
+      "states": [
+        "WY"
+      ],
+      "nationwide": false,
+      "phone": "(877) 572-2582",
+      "email": "info@marekhealth.com",
+      "website": "https://marekhealth.com/",
+      "address": "Online — serves all 50 states (HQ: Pontiac, MI)",
+      "contact": "Josh Turner",
+      "contactTitle": "Executive VP",
+      "sample": false
     }
-  ]
+  ],
+  "site": {
+    "url": "https://idasllc23-bit.github.io/peptiderx-feed",
+    "findADoctorUrl": "https://idasllc23-bit.github.io/peptiderx-feed"
+  }
 }
