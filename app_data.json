@@ -592,7 +592,7 @@
         "content": "Eli Lilly reported positive topline Phase 3 TRIUMPH-1 results for the triple GLP-1/GIP/glucagon agonist retatrutide, with up to ~24-28% mean weight loss at high doses over ~80 weeks in adults with obesity without diabetes. Source: [Drugs.com](https://www.drugs.com/history/retatrutide.html)"
       }
     ],
-    "generatedAt": "2026-06-23T16:34:21Z"
+    "generatedAt": "2026-06-23T16:39:00Z"
   },
   "podcasts": [
     {
@@ -830,6 +830,28 @@
       "topics": [
         "Weight & metabolism",
         "Gut health"
+      ]
+    },
+    {
+      "id": "pod-attia",
+      "show": "The Peter Attia Drive",
+      "host": "Dr. Peter Attia, MD (Stanford / Johns Hopkins-trained)",
+      "description": "April 2026 deep-dive evaluating the science, safety and hype around peptides — including a BPC-157 case study and a framework for assessing any peptide.",
+      "launchedLabel": "Apr 2026",
+      "sort": 102,
+      "links": [
+        {
+          "label": "Apple",
+          "url": "https://podcasts.apple.com/us/podcast/387-ama-83-peptides-evaluating-the-science-safety/id1400828889?i=1000761033313"
+        },
+        {
+          "label": "Website",
+          "url": "https://peterattiamd.com/ama83/"
+        }
+      ],
+      "topics": [
+        "Recovery",
+        "Weight & metabolism"
       ]
     }
   ],
