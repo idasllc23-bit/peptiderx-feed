@@ -519,7 +519,7 @@
     }
   ],
   "news": {
-    "summary": "Recent peptide research continues to center on the GLP-class weight and metabolic drugs (semaglutide, tirzepatide, retatrutide) and the mitochondrial peptide MOTS-c, alongside new preclinical work on BPC-157 and thymosin α1. The latest entries discuss BPC-157's reported vascular-recovery effects in a rat adrenalectomy model, thymosin α1 augmenting CD8+ T-cell activation in vitro, and mitochondrial-derived microproteins (including MOTS-c) measured in people with cerebral palsy. On the regulatory side, the FDA's proposal to bar bulk 503B compounding of GLP-1s and the July 2026 Pharmacy Compounding Advisory Committee review of seven peptides (including BPC-157 and TB-500) remain the key open items. Most peptides discussed here are unapproved research substances. This is general research information and is not medical advice.",
+    "summary": "Peptide news this period is dominated by two converging FDA timelines: the public comment window on the FDA proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List closes June 29, 2026, and the Pharmacy Compounding Advisory Committee meets July 23-24, 2026 to weigh BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for the 503A list. On the research side, recent reviews continue to frame BPC-157 as investigational, with no approved formulation or completed Phase II trial, while the GLP-class drugs (semaglutide, tirzepatide, retatrutide) remain the most active area of clinical study. Most peptides discussed here are unapproved research substances. This is general research information and is not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -572,27 +572,47 @@
     ],
     "timeline": [
       {
+        "date": "2026-06-28",
+        "title": "This week in peptides: GLP-1 503B comment window closes as the July peptide hearing nears",
+        "content": "The public comment window on the FDA proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List is set to close June 29, 2026, about four weeks before the Pharmacy Compounding Advisory Committee meeting on July 23-24, 2026. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026)"
+      },
+      {
+        "date": "2026-06-26",
+        "title": "This week in peptides: countdown to the FDA's July 23-24 compounding review",
+        "content": "BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon and Emideltide are slated for the FDA Pharmacy Compounding Advisory Committee review on July 23-24, 2026, for possible inclusion on the 503A Bulk Drug Substances List. Source: [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
+      },
+      {
         "date": "2026-06-29",
         "title": "Comment period closes on FDA proposal to bar bulk compounding of GLP-1s",
-        "content": "The public comment window for the FDA proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List closes June 29, 2026; a final rule is expected in late summer 2026. Source: [Pharmacy Times](https://www.pharmacytimes.com/view/fda-moves-to-permanently-close-the-door-on-compounded-glp-1s)"
+        "content": "The public comment window for the FDA proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List closes June 29, 2026. Source: [Pharmacy Times](https://www.pharmacytimes.com/view/fda-moves-to-permanently-close-the-door-on-compounded-glp-1s)"
       },
       {
         "date": "2026-06-19",
         "title": "FDA opens public docket ahead of July PCAC peptide review",
-        "content": "The comment window for the July 23-24 Pharmacy Compounding Advisory Committee review of seven peptide bulk substances (docket FDA-2025-N-6895) is open through July 9, 2026; BPC-157 is being evaluated for a potential ulcerative-colitis use. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026)"
+        "content": "The FDA public comment window for the July 23-24 Pharmacy Compounding Advisory Committee review of seven peptide bulk substances is open ahead of the meeting. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026)"
       },
       {
         "date": "2026-06-09",
         "title": "Retatrutide Phase 3 TRANSCEND-T2D-1 published in The Lancet (ADA 2026)",
-        "content": "In a 40-week Phase 3 trial (n=537) in early type 2 diabetes, retatrutide monotherapy cut A1C by up to -1.94% and body weight by up to ~15.3% versus placebo; it remains investigational and is not FDA-approved. Source: [HCPLive](https://www.hcplive.com/view/retatrutide-delivers-a1c-reduction-weight-loss-in-phase-3-transcend-t2d-1-trial)"
+        "content": "Eli Lilly presented and published the 40-week Phase 3 TRANSCEND-T2D-1 trial of retatrutide as monotherapy in early type 2 diabetes, reporting A1C and body-weight reductions at higher doses. Retatrutide remains investigational and is not FDA-approved. Source: [HCPLive](https://www.hcplive.com/view/retatrutide-delivers-a1c-reduction-weight-loss-in-phase-3-transcend-t2d-1-trial)"
       },
       {
         "date": "2026-05-21",
         "title": "Retatrutide TRIUMPH-1 topline results reported",
-        "content": "Eli Lilly reported positive topline Phase 3 TRIUMPH-1 results for the triple GLP-1/GIP/glucagon agonist retatrutide, with up to ~24-28% mean weight loss at high doses over ~80 weeks in adults with obesity without diabetes. Source: [Drugs.com](https://www.drugs.com/history/retatrutide.html)"
+        "content": "Eli Lilly reported positive topline Phase 3 TRIUMPH-1 results for the triple GLP-1/GIP/glucagon agonist retatrutide, with up to roughly 24-28% mean weight loss at high doses over about 80 weeks in adults with obesity. Retatrutide remains investigational and is not FDA-approved. Source: [Eli Lilly](https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss)"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "FDA proposes excluding semaglutide, tirzepatide, and liraglutide from 503B bulks list",
+        "content": "The FDA found no clinical need for outsourcing facilities to compound these GLP-1 drugs from bulk substances and proposed removing them from the 503B list, opening a docket for public comment. Source: [FDA.gov](https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list)"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "FDA Pharmacy Compounding Advisory Committee to review 7 peptides",
+        "content": "The committee is scheduled to evaluate BPC-157, KPV, TB-500 and MOTS-c (July 23) and Emideltide/DSIP, Semax and Epitalon (July 24) for inclusion on the 503A Bulk Drug Substances List. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026)"
       }
     ],
-    "generatedAt": "2026-06-26T18:27:50Z"
+    "generatedAt": "2026-06-28T15:07:41Z"
   },
   "podcasts": [
     {
