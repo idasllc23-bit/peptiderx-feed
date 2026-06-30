@@ -3,73 +3,80 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<meta name="theme-color" content="#0f766e" />
+<meta name="theme-color" content="#eaf3fd" />
 <title>PeptideRx — Telemedicine peptide care</title>
 <meta name="description" content="PeptideRx connects patients with licensed U.S. physicians and licensed compounding pharmacies. Choose your portal to get started." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 <style>
-  :root{--bg:#f5f7f8;--card:#fff;--ink:#0b1220;--muted:#5b6776;--line:#e6eaee;--teal:#0f766e;--teal-700:#0c5e57;--teal-50:#ecfdf5;--teal-100:#d1fae5;--shadow:0 1px 2px rgba(16,24,40,.05),0 8px 24px rgba(16,24,40,.06);--radius:18px}
+
+  :root{--ink:#0c1626;--muted:#5d6b80;--line:#d7e3f3;--blue:#3f86ef;--blue-600:#2f6fe0;--blue-50:#eaf3ff;--blue-100:#d9e8fe;--chip:#d3e6fd;--shadow:0 1px 2px rgba(20,50,100,.05),0 12px 30px rgba(40,90,170,.10);--radius:22px}
   *{box-sizing:border-box}html,body{margin:0;padding:0}
-  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased;line-height:1.45}
-  a{color:inherit;text-decoration:none}.wrap{max-width:980px;margin:0 auto;padding:0 18px}
-  header.hero{background:radial-gradient(1200px 360px at 80% -40%,rgba(45,212,191,.28),transparent 60%),linear-gradient(135deg,#0f766e 0%,#115e59 45%,#1e3a8a 130%);color:#fff;position:relative;overflow:hidden}
-  header.hero::after{content:"";position:absolute;inset:auto 0 -1px 0;height:28px;background:var(--bg);border-radius:28px 28px 0 0}
-  .hero-inner{padding:46px 0 64px;text-align:center}
-  .brand{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:700;letter-spacing:.2px;opacity:.96}
-  .brand .dot{width:26px;height:26px;border-radius:8px;background:rgba(255,255,255,.16);display:grid;place-items:center;font-weight:800}
-  .hero h1{font-size:29px;line-height:1.14;margin:20px auto 10px;font-weight:800;letter-spacing:-.5px;max-width:640px}
-  .hero .sub{margin:0 auto;color:rgba(255,255,255,.86);font-size:16px;max-width:560px}
-  main{padding:0 0 26px}
-  .choose{display:grid;grid-template-columns:1fr;gap:16px;margin:-34px 0 8px;position:relative;z-index:2}@media(min-width:760px){.choose{grid-template-columns:1fr 1fr 1fr}}
-  .opt{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px 20px;display:flex;flex-direction:column;gap:10px;text-align:center;transition:transform .15s,box-shadow .15s}
-  .opt:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(16,24,40,.06),0 18px 36px rgba(16,24,40,.12)}
-  .opt .ic{width:54px;height:54px;border-radius:16px;margin:2px auto 0;display:grid;place-items:center;background:linear-gradient(135deg,var(--teal-50),var(--teal-100));color:var(--teal-700)}
-  .opt h2{margin:8px 0 0;font-size:19px;font-weight:800;letter-spacing:-.2px}
-  .opt p{margin:0;color:var(--muted);font-size:14px;line-height:1.5;flex:1}
-  .opt .go{margin-top:8px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 14px;border-radius:12px;font-weight:700;font-size:14.5px;background:var(--teal);color:#fff;transition:background .12s}
-  .opt .go:hover{background:var(--teal-700)}
-  .band{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px 22px;margin:18px 0}
-  .band h2{margin:0 0 8px;font-size:21px;font-weight:800;letter-spacing:-.3px}
-  .band .lead{margin:0 0 18px;color:var(--muted);font-size:15px;line-height:1.55}
-  .steps{display:grid;grid-template-columns:1fr;gap:14px}@media(min-width:680px){.steps{grid-template-columns:1fr 1fr 1fr}}
-  .step{border:1px solid var(--line);border-radius:14px;padding:16px;background:#fbfdfd}
-  .step .num{width:28px;height:28px;border-radius:8px;background:var(--teal-100);color:var(--teal-700);font-weight:800;display:grid;place-items:center;margin-bottom:10px}
-  .step h3{margin:0 0 6px;font-size:15.5px;font-weight:700}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.45;min-height:100vh;background:radial-gradient(900px 440px at 85% -8%,rgba(120,178,255,.32),transparent 62%),radial-gradient(720px 380px at -12% 16%,rgba(150,195,255,.24),transparent 60%),linear-gradient(180deg,#eef5fd 0%,#e4eefb 60%,#eaf3fd 100%);background-attachment:fixed}
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(circle,rgba(63,134,239,.12) 1.3px,transparent 1.6px);background-size:30px 30px;-webkit-mask-image:radial-gradient(135% 95% at 50% 0%,#000 32%,transparent 80%);mask-image:radial-gradient(135% 95% at 50% 0%,#000 32%,transparent 80%)}
+  a{color:inherit;text-decoration:none}.wrap{max-width:1000px;margin:0 auto;padding:0 20px;position:relative;z-index:1}.hidden{display:none!important}
+  .topbrand{padding:30px 0 2px}
+  .brand{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:18px;letter-spacing:-.2px;color:var(--ink)}
+  .brand .dot{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#5a9bf3,#2f6fe0);color:#fff;display:grid;place-items:center;font-weight:800;font-size:13px;box-shadow:0 6px 16px rgba(47,111,224,.35)}
+  .banner{display:flex;gap:12px;align-items:flex-start;background:linear-gradient(180deg,#eaf3ff,#dcebfd);border:1px solid #c7ddfb;border-radius:18px;padding:15px 17px;box-shadow:var(--shadow)}
+  .banner .i{flex:0 0 auto;width:24px;height:24px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:800;font-size:14px;font-style:italic;margin-top:1px}
+  .banner p{margin:0;font-size:13.5px;line-height:1.5;color:#243a57;font-weight:600}
+  footer{margin-top:10px;border-top:1px solid #d7e3f3;padding:24px 0 46px;color:var(--muted);font-size:12.5px;position:relative;z-index:1}
+  footer .wrap{display:flex;flex-direction:column;gap:9px}.disc{line-height:1.55}
+  .legal-links a{color:var(--blue-600);font-weight:700}.legal-links a:hover{text-decoration:underline}
+
+  .hero{padding:16px 0 4px}
+  .hero h1{font-size:36px;line-height:1.08;margin:12px 0 12px;font-weight:900;letter-spacing:-1.1px;max-width:780px}
+  .hero .sub{margin:0;color:var(--muted);font-size:16.5px;line-height:1.5;max-width:640px}
+  .hero .banner{margin:22px 0 2px}
+  main{padding:8px 0 26px}
+  .choose{display:grid;grid-template-columns:1fr;gap:18px;margin:22px 0 8px}@media(min-width:760px){.choose{grid-template-columns:1fr 1fr 1fr}}
+  .opt{background:linear-gradient(180deg,#ffffff 0%,#dcebfb 100%);border:1px solid #d7e6f7;border-radius:24px;box-shadow:var(--shadow);padding:26px 22px;display:flex;flex-direction:column;gap:11px;text-align:center;transition:transform .16s,box-shadow .16s}
+  .opt:hover{transform:translateY(-4px);box-shadow:0 2px 4px rgba(20,50,100,.06),0 22px 46px rgba(40,90,170,.18)}
+  .opt .ic{width:60px;height:60px;border-radius:18px;margin:0 auto;display:grid;place-items:center;background:linear-gradient(135deg,#dcebfd,#bcd9fb);color:#2f6fe0;box-shadow:inset 0 0 0 1px rgba(63,134,239,.18)}
+  .opt h2{margin:8px 0 0;font-size:21px;font-weight:800;letter-spacing:-.4px}
+  .opt p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.5;flex:1}
+  .pill{margin-top:8px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 16px;border-radius:999px;font-weight:800;font-size:15px;background:linear-gradient(180deg,#5a9bf3,#3f86ef);color:#fff;box-shadow:0 8px 20px rgba(63,134,239,.30);transition:transform .12s,box-shadow .12s}
+  .pill:hover{transform:translateY(-1px);box-shadow:0 12px 28px rgba(63,134,239,.42)}
+  .band{background:linear-gradient(180deg,#ffffff,#e9f2fc);border:1px solid #d7e6f7;border-radius:24px;box-shadow:var(--shadow);padding:28px 26px;margin:22px 0}
+  .band h2{margin:0 0 8px;font-size:25px;font-weight:900;letter-spacing:-.6px}
+  .band .lead{margin:0 0 22px;color:var(--muted);font-size:15.5px;line-height:1.55}
+  .steps{display:grid;grid-template-columns:1fr;gap:16px}@media(min-width:680px){.steps{grid-template-columns:1fr 1fr 1fr}}
+  .step{border:1px solid #d7e6f7;border-radius:18px;padding:20px;background:linear-gradient(180deg,#ffffff,#eef5fd)}
+  .step .num{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,#5a9bf3,#2f6fe0);color:#fff;font-weight:800;display:grid;place-items:center;margin-bottom:13px;box-shadow:0 6px 14px rgba(47,111,224,.30)}
+  .step h3{margin:0 0 6px;font-size:16px;font-weight:800;letter-spacing:-.2px}
   .step p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.5}
-  .fine{margin:16px 0 0;color:var(--muted);font-size:12.5px;line-height:1.55}
-  footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:12.5px}
-  footer .wrap{display:flex;flex-direction:column;gap:8px}.disc{line-height:1.5}
-  .legal-links a{color:var(--teal-700);font-weight:600}.legal-links a:hover{text-decoration:underline}
+  .fine{margin:18px 0 0;color:var(--muted);font-size:12.5px;line-height:1.55}
 </style>
 </head>
 <body>
-  <header class="hero"><div class="wrap hero-inner">
-    <div class="brand"><span class="dot">Rx</span> PeptideRx</div>
-    <h1>Telemedicine peptide care &mdash; connecting patients, physicians, and pharmacies</h1>
+  <div class="wrap topbrand"><div class="brand"><span class="dot">Rx</span> PeptideRx</div></div>
+  <header class="wrap hero">
+    <h1>Telemedicine peptide care &mdash; connecting patients, physicians &amp; pharmacies</h1>
     <p class="sub">PeptideRx connects patients with licensed U.S. physicians and licensed compounding pharmacies. Choose how you'd like to continue.</p>
-  </div></header>
+    <div class="banner"><div class="i">i</div><p>PeptideRx is a telemedicine platform &mdash; not medical advice. All medications require a valid prescription from a licensed U.S. physician. Always consult your doctor.</p></div>
+  </header>
 
   <main><div class="wrap">
     <div class="choose">
       <div class="opt">
-        <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/></svg></div>
+        <div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/></svg></div>
         <h2>I'm a Patient</h2>
         <p>Find a licensed clinic in your state and connect with a physician about peptide therapy.</p>
-        <a class="go" href="find-a-doctor.html">Find a clinic &rarr;</a>
+        <a class="pill" href="find-a-doctor.html">Find a clinic &rarr;</a>
       </div>
       <div class="opt">
-        <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a6 6 0 0012 0V3"/><path d="M6 3H4M6 3h2M18 3h-2M18 3h2"/><path d="M12 15v3a4 4 0 008 0v-1"/><circle cx="20" cy="13" r="2"/></svg></div>
+        <div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a6 6 0 0012 0V3"/><path d="M6 3H4M6 3h2M18 3h-2M18 3h2"/><path d="M12 15v3a4 4 0 008 0v-1"/><circle cx="20" cy="13" r="2"/></svg></div>
         <h2>I'm a Doctor</h2>
         <p>Licensed physicians: log in to the Doctor Portal to manage patients, prescriptions, and orders.</p>
-        <a class="go" href="https://portal.peptiderx.co">Doctor Portal &rarr;</a>
+        <a class="pill" href="https://portal.peptiderx.co">Doctor Portal &rarr;</a>
       </div>
       <div class="opt">
-        <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16l-1.2 12.1A2 2 0 0116.8 21H7.2a2 2 0 01-2-1.9L4 7z"/><path d="M9 7V5a3 3 0 016 0v2"/><path d="M12 11v5M9.5 13.5h5"/></svg></div>
+        <div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16l-1.2 12.1A2 2 0 0116.8 21H7.2a2 2 0 01-2-1.9L4 7z"/><path d="M9 7V5a3 3 0 016 0v2"/><path d="M12 11v5M9.5 13.5h5"/></svg></div>
         <h2>I'm a Pharmacy</h2>
         <p>Licensed compounding pharmacies: log in to the Pharmacy Portal to receive and fulfill orders.</p>
-        <a class="go" href="https://portal.peptiderx.co/pharmacy-orders">Pharmacy Portal &rarr;</a>
+        <a class="pill" href="https://portal.peptiderx.co/pharmacy-orders">Pharmacy Portal &rarr;</a>
       </div>
     </div>
 
@@ -92,13 +99,13 @@
     <div>&copy; <span id="yr"></span> Peptide RX LLC. All rights reserved.</div>
   </div></footer>
   <script>document.getElementById("yr").textContent=new Date().getFullYear();</script>
-<div id="ageGate" style="position:fixed;inset:0;z-index:9999;background:rgba(11,18,32,.72);display:none;align-items:center;justify-content:center;padding:20px">
-  <div style="background:#fff;max-width:420px;width:100%;border-radius:18px;padding:26px 24px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3);font-family:'Inter',-apple-system,Segoe UI,Roboto,sans-serif">
-    <div style="font-weight:800;font-size:19px;color:#0b1220;margin-bottom:8px">Age verification</div>
-    <p style="color:#5b6776;font-size:14.5px;line-height:1.55;margin:0 0 20px">PeptideRx provides access to prescription telemedicine services. You must be <strong>18 years or older</strong> to continue.</p>
+<div id="ageGate" style="position:fixed;inset:0;z-index:9999;background:rgba(11,22,38,.66);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:20px">
+  <div style="background:linear-gradient(180deg,#ffffff,#eaf3fd);max-width:420px;width:100%;border-radius:22px;padding:28px 24px;text-align:center;box-shadow:0 24px 64px rgba(20,50,110,.32);font-family:'Inter',-apple-system,Segoe UI,Roboto,sans-serif">
+    <div style="font-weight:800;font-size:20px;color:#0c1626;margin-bottom:8px;letter-spacing:-.3px">Age verification</div>
+    <p style="color:#5d6b80;font-size:14.5px;line-height:1.55;margin:0 0 20px">PeptideRx provides access to prescription telemedicine services. You must be <strong>18 years or older</strong> to continue.</p>
     <div style="display:flex;flex-direction:column;gap:10px">
-      <button id="ageYes" type="button" style="border:0;border-radius:12px;padding:14px;font-family:inherit;font-size:15px;font-weight:700;color:#fff;background:#0f766e;cursor:pointer">I am 18 or older</button>
-      <button id="ageNo" type="button" style="border:1px solid #e6eaee;border-radius:12px;padding:13px;font-family:inherit;font-size:14px;font-weight:600;color:#5b6776;background:#fff;cursor:pointer">I am under 18</button>
+      <button id="ageYes" type="button" style="border:0;border-radius:999px;padding:14px;font-family:inherit;font-size:15px;font-weight:800;color:#fff;background:linear-gradient(180deg,#5a9bf3,#3f86ef);box-shadow:0 8px 20px rgba(63,134,239,.32);cursor:pointer">I am 18 or older</button>
+      <button id="ageNo" type="button" style="border:1px solid #d7e3f3;border-radius:999px;padding:13px;font-family:inherit;font-size:14px;font-weight:700;color:#5d6b80;background:#fff;cursor:pointer">I am under 18</button>
     </div>
     <div id="ageBlock" style="display:none;color:#b91c1c;font-size:13.5px;margin-top:16px;line-height:1.5">You must be 18 or older to use PeptideRx.</div>
   </div>
