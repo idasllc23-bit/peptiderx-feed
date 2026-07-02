@@ -519,7 +519,7 @@
     }
   ],
   "news": {
-    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee meeting scheduled for July 23-24, 2026, which will weigh seven research peptides (BPC-157, KPV, TB-500, MOTS-c, Emideltide/DSIP, Semax, Epitalon) for the 503A Bulk Drug Substances List, while a separate FDA proposal would exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list. Peer-reviewed research continues to accumulate for GLP-1 and multi-agonist metabolic peptides and for thymosin-based approaches, most of it early-stage or preclinical. Entries here summarize public sources for general research only. This is not medical advice.",
+    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee meeting on July 23–24, 2026, which will weigh seven research peptides (BPC-157, KPV, TB-500, MOTS-c, Emideltide/DSIP, Semax, Epitalon) for the 503A Bulk Drug Substances List; analysts note a favorable vote would only start a 12–24 month FDA rulemaking process, so compounding eligibility remains distinct from — and slower than — near-term access. A separate FDA proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list is in its post-comment review phase. Peer-reviewed research continues to accumulate for GLP-1 and multi-agonist metabolic peptides, most of it early-stage or preclinical. Entries here summarize public sources for general research only. This is not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -573,6 +573,11 @@
     ],
     "timeline": [
       {
+        "date": "2026-07-02",
+        "title": "This week in peptides: even a favorable July 23–24 vote would only start a 12–24 month rulemaking clock",
+        "content": "Legal and regulatory analysts stress that a positive PCAC recommendation for the seven nominated research peptides (BPC-157, KPV, TB-500, MOTS-c, Emideltide/DSIP, Semax, Epitalon) would only begin FDA rulemaking to add a substance to the 503A Bulk Drug Substances List — a notice-and-comment process that typically runs roughly 12–24 months before any final rule. The July 23–24, 2026 hearing shapes the direction of travel but would not by itself make these peptides immediately eligible for patient-specific compounding; compounding eligibility stays distinct from FDA approval. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [National Law Review](https://natlawreview.com/article/tiny-chains-big-changes-what-fdas-latest-actions-mean-peptide-compounding)"
+      },
+      {
         "date": "2026-07-01",
         "title": "This week in peptides: both FDA comment clocks have run out; the July 9 relay cutoff is the last lever before the hearing",
         "content": "With the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23–24, 2026 now roughly three weeks away, two procedural windows have closed. The deadline to request an oral presentation passed on June 30, 2026, and the public-comment window on the FDA's separate proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List closed June 29, 2026 — moving both matters into the agency's review phase. For the seven nominated research peptides slated for the 503A Bulk Drug Substances List — BPC-157, KPV, TB-500, and MOTS-c on day one, then Emideltide (DSIP), Semax, and Epitalon on day two — written comments to docket FDA-2025-N-6895 are still accepted through July 22, 2026, but only those received by July 9, 2026 are guaranteed to reach committee members before they deliberate, making that July 9 cutoff the last practical lever for public input. Context worth keeping straight: BPC-157 came off the FDA's Category 2 \"do-not-compound\" list effective April 23, 2026, and a positive PCAC recommendation would only begin FDA rulemaking to add a substance to the 503A list — \"compounding eligibility\" remains distinct from \"FDA approval.\" General research only — not medical advice. Source: [FDA.gov PCAC meeting](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Federal Register PCAC notice](https://www.federalregister.gov/documents/2026/04/16/2026-07361/pharmacy-compounding-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request), [FDA.gov 503B proposal](https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list)"
@@ -593,6 +598,11 @@
         "content": "Reporting around the upcoming FDA Pharmacy Compounding Advisory Committee meeting (July 23–24, 2026) highlights a divergence in the agency's posture. On the compounding side, seven peptides are slated for review for the 503A Bulk Drug Substances List — BPC-157, KPV, TB-500, and MOTS-c on July 23, then Emideltide (DSIP), Semax, and Epitalon on July 24 — with the public-comment docket (FDA-2025-N-6895) open through July 9, 2026; this sits alongside the FDA's separate move to tighten 503B bulk compounding of GLP-1 drugs. For contrast, a mitochondria-targeted peptide that pursued the full approval route, elamipretide (Forzinity), holds FDA accelerated approval for Barth syndrome (September 2025) — a reminder that \"FDA approval\" and \"compounding eligibility\" are distinct regulatory pathways. General research only — not medical advice. Source: [FDA.gov PCAC meeting](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies), [FDA.gov Barth approval](https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-first-treatment-barth-syndrome)"
       },
       {
+        "date": "2026-06-29",
+        "title": "Comment period closes on FDA proposal to bar bulk compounding of GLP-1s",
+        "content": "The public comment window for the FDA's proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List closes June 29, 2026. If finalized, the rule would end large-scale compounding of these GLP-1 drugs by outsourcing facilities, though limited patient-specific 503A compounding could continue; legal and industry analysts expect a final rule in late summer 2026. Source: [Orrick](https://www.orrick.com/en/Insights/2026/05/FDA-Moves-to-Shut-the-Door-on-Large-Scale-Compounding-of-GLP1-Drugs), [Pharmacy Times](https://www.pharmacytimes.com/view/fda-moves-to-permanently-close-the-door-on-compounded-glp-1s)"
+      },
+      {
         "date": "2026-06-28",
         "title": "This week in peptides: GLP-1 503B comment window closes as the July peptide hearing nears",
         "content": "With roughly four weeks until the FDA Pharmacy Compounding Advisory Committee meeting on July 23–24, 2026, the public comment window on the FDA's separate proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List is set to close June 29, 2026. At the July meeting the committee is scheduled to weigh BPC-157, KPV, TB-500, and MOTS-c on day one (July 23) and Emideltide (delta sleep-inducing peptide/DSIP), Semax, and Epitalon on day two (July 24) for possible inclusion on the 503A Bulk Drug Substances List. The FDA's 503B proposal states the agency did not identify sufficient evidence of a clinical need for outsourcing-facility bulk compounding of the three GLP-1 drugs. General research only — not medical advice. Source: [FDA.gov meeting page](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [FDA.gov 503B proposal](https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list)"
@@ -601,11 +611,6 @@
         "date": "2026-06-26",
         "title": "This week in peptides: countdown to the FDA's July 23–24 compounding review",
         "content": "Attention is building ahead of the FDA Pharmacy Compounding Advisory Committee meeting on July 23–24, 2026, where BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon and Emideltide are slated for review for possible inclusion on the 503A Bulk Drug Substances List, and BPC-157 is being moved off the restrictive Category 2 list. Public comment dockets remain open. General research only — not medical advice. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
-      },
-      {
-        "date": "2026-06-29",
-        "title": "Comment period closes on FDA proposal to bar bulk compounding of GLP-1s",
-        "content": "The public comment window for the FDA's proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List closes June 29, 2026. If finalized, the rule would end large-scale compounding of these GLP-1 drugs by outsourcing facilities, though limited patient-specific 503A compounding could continue; legal and industry analysts expect a final rule in late summer 2026. Source: [Orrick](https://www.orrick.com/en/Insights/2026/05/FDA-Moves-to-Shut-the-Door-on-Large-Scale-Compounding-of-GLP1-Drugs), [Pharmacy Times](https://www.pharmacytimes.com/view/fda-moves-to-permanently-close-the-door-on-compounded-glp-1s)"
       },
       {
         "date": "2026-06-19",
@@ -618,42 +623,12 @@
         "content": "At the American Diabetes Association 86th Scientific Sessions, Eli Lilly presented and simultaneously published in The Lancet the 40-week Phase 3 TRANSCEND-T2D-1 trial (n=537) of retatrutide as monotherapy in early type 2 diabetes: A1C fell by up to −1.94% and body weight by up to ~15.3% at the 12 mg dose (vs −0.81% and −2.6% with placebo). Companion ADA presentations also reported benefits in knee-osteoarthritis pain and obstructive sleep apnea. Retatrutide remains investigational and is not FDA-approved. Source: [Eli Lilly/PR Newswire](https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-drove-substantial-improvements-in-weight-a1c-knee-osteoarthritis-pain-and-obstructive-sleep-apnea-demonstrating-its-remarkable-potential-to-treat-obesity-and-its-complications-302793169.html), [HCPLive](https://www.hcplive.com/view/retatrutide-delivers-a1c-reduction-weight-loss-in-phase-3-transcend-t2d-1-trial)"
       },
       {
-        "date": "2026-05-21",
-        "title": "Retatrutide TRIUMPH-1 topline results reported",
-        "content": "Eli Lilly reported positive topline Phase 3 TRIUMPH-1 results for the triple GLP-1/GIP/glucagon agonist retatrutide, with up to ~24–28% mean weight loss at high doses over ~80 weeks in adults with obesity (without diabetes) — among the highest figures for an injectable obesity drug. Retatrutide remains investigational and is not FDA-approved; approval is not expected before late 2027. Source: [Drugs.com](https://www.drugs.com/history/retatrutide.html)"
-      },
-      {
-        "date": "2026-04-30",
-        "title": "FDA proposes excluding semaglutide, tirzepatide, and liraglutide from 503B bulks list",
-        "content": "The FDA announced it found no clinical need for outsourcing facilities to compound these GLP-1 drugs from bulk substances and proposed removing them from the 503B list, opening a docket for public comment. The agency cited shortage resolution and adverse-event reports tied to compounded products (455+ for semaglutide and 320+ for tirzepatide as of early 2025, including dosing errors). Source: [FDA.gov](https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list), [Medical News Today](https://www.medicalnewstoday.com/articles/fda-proposes-ban-bulk-compounding-semaglutide-tirzepatide)"
-      },
-      {
-        "date": "2026-04-15",
-        "title": "FDA to remove 12 peptides from Category 2 \"do-not-compound\" list",
-        "content": "Alongside scheduling the July 2026 PCAC meeting, the FDA announced its intent to remove twelve peptide bulk drug substances — including BPC-157 — from Category 2 (\"substances that raise significant safety concerns\") within seven calendar days, referring them for evidence-based 503A evaluation. Source: [Orrick](https://www.orrick.com/en/Insights/2026/04/FDA-Announces-Removal-of-12-Peptides-from-Category-2-and-Schedules-PCAC-Meetings), [Foley & Lardner](https://www.foley.com/insights/publications/2026/05/fda-to-consider-lifting-restrictions-on-numerous-compounded-peptides/)"
-      },
-      {
         "date": "2026-07-23",
         "title": "FDA Pharmacy Compounding Advisory Committee to review 7 peptides",
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
-      },
-      {
-        "date": "2026-02-27",
-        "title": "RFK Jr. signals rollback of FDA peptide \"do-not-compound\" list (developing)",
-        "content": "Per news reporting, HHS Secretary Robert F. Kennedy Jr. indicated ~14 of 19 peptides on the FDA's Category 2 list would move back to Category 1, naming BPC-157, Thymosin Alpha-1, TB-500, CJC-1295, Ipamorelin, AOD-9604, GHK-Cu, Selank, and MOTS-c among others. Verify against primary HHS/FDA sources. Source: [Pharmacy Times](https://www.pharmacytimes.com/view/the-peptide-reclassification-everyone-s-talking-about-a-pharmacist-s-take-on-what-rfk-jr-s-announcement-actually-means), [CNBC](https://www.cnbc.com/2026/04/16/rfk-jr-peptides-hims-hers-glp-1.html)"
-      },
-      {
-        "date": "2026-03",
-        "title": "HHS \"Restoring Access to Regenerative Medicine\" briefing",
-        "content": "Secretary Kennedy addressed peptides, regenerative medicine, and compounding access. Source: [Skytale Group](https://skytalegroup.com/news/a-turning-point-for-peptides-what-rfk-jrs-announcement-could-mean-for-the-future-of-wellness-and-longevity/)"
-      },
-      {
-        "date": "2026",
-        "title": "GLP-1 compounding legal fight continues",
-        "content": "Semaglutide and tirzepatide remain the subject of a legal battle between patent holders and compounding facilities, affecting compounded-access availability. Source: [New Drug Loft](https://newdrugloft.com/recent-regulatory-updates-on-compounded-peptide-injections/)"
       }
     ],
-    "generatedAt": "2026-07-01T14:55:42Z"
+    "generatedAt": "2026-07-02T15:20:57Z"
   },
   "podcasts": [
     {
