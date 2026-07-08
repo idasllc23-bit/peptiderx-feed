@@ -221,7 +221,7 @@ async function submitRequest(){
     const j=await r.json().catch(()=>({}));
     if(r.ok&&(j.success===true||j.success==="true")){
       mForm.style.display="none";mReq.style.display="none";mPrice.style.display="none";
-      mMsg.className="ok";mMsg.textContent="Request received! We’ll email an invoice with payment details to "+email+" shortly.";
+      mMsg.className="ok";mMsg.textContent="Order received — we’ll email you the next steps to finalize your order.";
     }else{throw new Error(j.message||"failed");}
   }catch(e){
     sending=false;mReq.classList.remove("disabled");
