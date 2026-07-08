@@ -201,7 +201,7 @@ async function submitRequest(){
   const email=mEmail.value.trim(),phone=mPhone.value.trim();
   if(!validEmail(email)||!validPhone(phone))return;
   sending=true;mReq.classList.add("disabled");mReqLabel.textContent="Sending…";
-  mMsg.className="";mMsg.style.display="none";
+  mMsg.className="";
   const priceTxt=opt.p!=null?("$"+opt.p+" per vial"):"price on request";
   const fd=new FormData();
   fd.append("_subject","New peptide order — "+current.name+" "+opt.s+(opt.p!=null?" ($"+opt.p+")":""));
