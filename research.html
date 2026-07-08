@@ -46,6 +46,29 @@
   .pcard.sel{border-color:var(--blue);box-shadow:0 0 0 2px rgba(63,134,239,.35),var(--shadow);background:linear-gradient(180deg,#eef6ff,#d9e8fe)}
   .pcard .pname{font-weight:800;font-size:14.5px;letter-spacing:-.2px;line-height:1.25;color:var(--ink)}
   .pcard .psub{font-size:11.5px;color:var(--blue-600);font-weight:700}
+  .pcard .pnote{font-size:10.5px;color:var(--muted);font-weight:600;line-height:1.3}
+  .pcard .szlabel{font-size:10.5px;font-weight:700;color:var(--muted);margin-top:6px;padding-left:1px}
+  .pcard select{width:100%;appearance:none;-webkit-appearance:none;font-family:inherit;font-size:13.5px;font-weight:700;color:var(--ink);background:#fff;border:1px solid #d2e2f5;border-radius:11px;padding:10px 30px 10px 11px;outline:none;cursor:pointer;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%232f6fe0' stroke-width='2' viewBox='0 0 24 24'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 10px center}
+  .pcard select:focus{border-color:var(--blue)}
+  .pcard .phint{margin-top:auto;display:inline-flex;align-items:center;gap:5px;color:var(--blue-600);font-weight:700;font-size:12.5px;padding-top:6px}
+  .pcard .phint svg{transition:transform .12s}.pcard:hover .phint svg{transform:translateX(2px)}
+  .modal{position:fixed;inset:0;z-index:80;display:none;align-items:flex-end;justify-content:center;background:rgba(11,22,38,.55);backdrop-filter:blur(3px);padding:0}
+  @media(min-width:620px){.modal{align-items:center;padding:20px}}
+  .modal.show{display:flex}
+  .sheet{position:relative;background:linear-gradient(180deg,#ffffff,#eef6ff);width:100%;max-width:460px;border-radius:22px 22px 0 0;box-shadow:0 -10px 40px rgba(20,50,110,.28);padding:26px 22px 24px}
+  @media(min-width:620px){.sheet{border-radius:22px}}
+  .mclose{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--muted);font-size:19px;line-height:1;cursor:pointer;display:grid;place-items:center}
+  .mclose:hover{background:#f4f9ff}
+  .mname{font-weight:900;font-size:21px;letter-spacing:-.4px;color:var(--ink);padding-right:34px}
+  .mnote{margin-top:6px;color:var(--muted);font-size:13px;font-weight:600;line-height:1.4}
+  .mlabel{display:block;margin:20px 0 7px;font-size:13px;font-weight:800;color:var(--ink)}
+  #mSize{width:100%;appearance:none;-webkit-appearance:none;font-family:inherit;font-size:15.5px;font-weight:700;color:var(--ink);background:#fff;border:1px solid #d2e2f5;border-radius:14px;padding:15px 40px 15px 15px;box-shadow:var(--shadow);outline:none;cursor:pointer;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%232f6fe0' stroke-width='2' viewBox='0 0 24 24'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 14px center}
+  #mSize:focus{border-color:var(--blue)}
+  .mreq{margin-top:16px;width:100%;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:16px;border-radius:999px;font-weight:800;font-size:15.5px;color:#fff;background:linear-gradient(180deg,#5a9bf3,#3f86ef);box-shadow:0 10px 24px rgba(63,134,239,.32);border:0;cursor:pointer;transition:filter .12s}
+  .mreq:hover{filter:brightness(1.03)}
+  .mreq.disabled{opacity:.45;cursor:not-allowed;box-shadow:none;pointer-events:none}
+  .mfro{margin-top:14px;color:var(--muted);font-size:11.5px;line-height:1.45;text-align:center}
+  .legal-links{font-size:12.5px}
   .pcard .check{position:absolute;top:10px;right:10px;width:20px;height:20px;border-radius:50%;border:1.5px solid #c2d6f0;background:#fff;display:grid;place-items:center;color:#fff}
   .pcard.sel .check{background:var(--blue);border-color:var(--blue)}
   .pcard .check svg{opacity:0}.pcard.sel .check svg{opacity:1}
@@ -56,6 +79,10 @@
   .tray .bar{background:linear-gradient(180deg,#ffffff,#e9f2fc);border:1px solid #cfe0f5;border-radius:18px;box-shadow:0 -6px 24px rgba(30,70,140,.16),0 12px 30px rgba(40,90,170,.14);padding:14px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
   .tray .sel-name{font-weight:800;font-size:15px;color:var(--ink);flex:1;min-width:160px}
   .tray .sel-name small{display:block;color:var(--muted);font-weight:600;font-size:12px}
+  .tray .sizewrap{display:flex;flex-direction:column;gap:4px;min-width:150px}
+  .tray .sizewrap label{font-size:11px;font-weight:700;color:var(--muted);padding-left:2px}
+  .tray select{appearance:none;-webkit-appearance:none;font-family:inherit;font-size:14px;font-weight:700;color:var(--ink);background:#fff;border:1px solid #d2e2f5;border-radius:12px;padding:11px 34px 11px 14px;box-shadow:var(--shadow);outline:none;cursor:pointer;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%232f6fe0' stroke-width='2' viewBox='0 0 24 24'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 12px center}
+  .tray select:focus{border-color:var(--blue)}
   .tray .req{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:800;font-size:14.5px;color:#fff;background:linear-gradient(180deg,#5a9bf3,#3f86ef);box-shadow:0 8px 20px rgba(63,134,239,.30);border:0;cursor:pointer}
   .tray .req:hover{filter:brightness(1.03)}
   .tray .clear{background:#fff;border:1px solid #d2e2f5;color:var(--blue-600);border-radius:999px;padding:11px 16px;font-family:inherit;font-weight:700;font-size:13.5px;cursor:pointer}
@@ -81,11 +108,15 @@
     <div class="grid" id="grid"></div>
   </div></main>
 
-  <div class="tray" id="tray"><div class="inner"><div class="bar">
-    <div class="sel-name" id="selName">No compound selected<small>Tap a compound above to select it</small></div>
-    <button class="clear" id="clearBtn" type="button">Clear</button>
-    <a class="req" id="reqBtn" href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg> Request this compound</a>
-  </div></div></div>
+  <div class="modal" id="modal"><div class="sheet">
+    <button class="mclose" id="mClose" type="button" aria-label="Close">&times;</button>
+    <div class="mname" id="mName"></div>
+    <div class="mnote" id="mNote"></div>
+    <label class="mlabel" for="mSize">Select a size</label>
+    <select id="mSize"></select>
+    <a class="mreq disabled" id="mReq" href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg> Request this compound</a>
+    <div class="mfro">For research use only &mdash; not for human consumption. Choose a size to request.</div>
+  </div></div>
 
   <footer><div class="wrap">
     <div class="disc"><strong>For Research Use Only.</strong> Products listed here are intended solely for laboratory research and are not drugs, foods, cosmetics, or medical devices. They are not intended to diagnose, treat, cure, or prevent any disease, and are not for human or veterinary consumption. Nothing on this page is medical advice.</div>
@@ -106,33 +137,47 @@
 </div>
 <script>(function(){try{var g=document.getElementById('ageGate');if(localStorage.getItem('peptiderx_age_ok')==='1'){return;}g.style.display='flex';document.getElementById('ageYes').onclick=function(){try{localStorage.setItem('peptiderx_age_ok','1');}catch(e){}g.style.display='none';};document.getElementById('ageNo').onclick=function(){document.getElementById('ageBlock').style.display='block';};}catch(e){}})();</script>
 <script>
-const COMPOUNDS = ["Tirzepatide","Semaglutide","Retatrutide","Cagrilintide","Klow (TB-500 + BPC-157)","Lipo-C","MIC (Lipo-C with B12)","Glow (TB-500 + BPC-157)","TB-500 (Thymosin Beta-4 Acetate)","BPC-157","BPC-157 + TB-500 Blend","NAD+","PT-141 (Bremelanotide)","B12","Cerebrolysin","AOD-9604","GHK-Cu","MOTS-c","HGH","HCG","SS-31","CJC-1295 (without DAC)","CJC-1295 (with DAC)","MGF","PEG-MGF","CJC-1295 (without DAC) + Ipamorelin","Melanotan I","Melanotan II","Melatonin","KPV","Bacteriostatic Water","Acetic Acid Water","Sermorelin","Tesamorelin","Caglitide + Semaglutide","IGF-1 LR3","5-Amino-1MQ","Lemon Bottle","L-Carnitine","Epitalon","HMG","Mazdutide","Survodutide","Ipamorelin","Adipotide","Semax","ARA-290","Hexarelin Acetate","Kisspeptin-10","Oxytocin Acetate","Selank","Thymosin Alpha-1","Thymalin","AICAR","GHRP-2 Acetate","GHRP-6 Acetate","Dermorphin","Glutathione","Snap-8","LL-37","VIP","FOXO4-DRI","AHK-Cu","Pinealon","SLU-PP-332","MK-677","DSIP","Testosterone Cypionate","Na931","Testosterone Enanthate","Super Test","Testosterone Propionate","Trenbolone","Cartalax","Orforglipron","Adamax","Nandrolone (NPP)","Deca-Durabolin","Methandienone","Stanozolol","Anavar","Halotestin"];
+const COMPOUNDS = [{"name":"Tirzepatide","sizes":["5mg","10mg","15mg","20mg","30mg","60mg","90mg","100mg","120mg"],"note":""},{"name":"Semaglutide","sizes":["5mg","10mg","15mg","20mg"],"note":""},{"name":"Retatrutide","sizes":["5mg","10mg","15mg","20mg","30mg","40mg","50mg","60mg"],"note":""},{"name":"Cagrilintide","sizes":["5mg","10mg"],"note":""},{"name":"Klow","sizes":["80mg"],"note":"Blend: TB-500 10mg + BPC-157 10mg + GHK-Cu 50mg + KPV 10mg"},{"name":"Lipo-C","sizes":["10ml"],"note":""},{"name":"MIC (Lipo-C with B12)","sizes":["10mg"],"note":""},{"name":"Glow","sizes":["70mg"],"note":"Blend: TB-500 10mg + BPC-157 10mg + GHK-Cu 50mg"},{"name":"TB-500 (Thymosin Beta-4 Acetate)","sizes":["5mg","10mg","20mg"],"note":""},{"name":"BPC-157","sizes":["5mg","10mg"],"note":""},{"name":"BPC-157 + TB-500 Blend","sizes":["10mg (5mg + 5mg)","20mg (10mg + 10mg)"],"note":""},{"name":"NAD+","sizes":["100mg","500mg","1000mg"],"note":""},{"name":"PT-141 (Bremelanotide)","sizes":["10mg"],"note":""},{"name":"B12","sizes":["10mg"],"note":""},{"name":"Cerebrolysin","sizes":["60mg"],"note":""},{"name":"AOD-9604","sizes":["5mg","10mg"],"note":""},{"name":"GHK-Cu","sizes":["50mg","100mg"],"note":""},{"name":"MOTS-c","sizes":["10mg","40mg"],"note":""},{"name":"HGH","sizes":["10iu","12iu","15iu","20iu","24iu","36iu"],"note":""},{"name":"HCG","sizes":["5000iu","10000iu"],"note":""},{"name":"SS-31","sizes":["10mg","50mg"],"note":""},{"name":"CJC-1295 (without DAC)","sizes":["2mg","5mg","10mg"],"note":""},{"name":"CJC-1295 (with DAC)","sizes":["2mg","5mg"],"note":""},{"name":"MGF","sizes":["2mg"],"note":""},{"name":"PEG-MGF","sizes":["2mg"],"note":""},{"name":"CJC-1295 (without DAC) + Ipamorelin","sizes":["10mg (5mg + 5mg)"],"note":""},{"name":"Melanotan I","sizes":["10mg"],"note":""},{"name":"Melanotan II","sizes":["10mg"],"note":""},{"name":"Melatonin","sizes":["10mg"],"note":""},{"name":"KPV","sizes":["10mg"],"note":""},{"name":"Bacteriostatic Water","sizes":["3ml","10ml"],"note":""},{"name":"Acetic Acid Water (1%)","sizes":["3ml","10ml"],"note":""},{"name":"Sermorelin","sizes":["5mg","10mg"],"note":""},{"name":"Tesamorelin","sizes":["5mg","10mg"],"note":""},{"name":"Caglitide + Semaglutide","sizes":["10mg"],"note":""},{"name":"IGF-1 LR3","sizes":["0.1mg","1mg"],"note":""},{"name":"5-Amino-1MQ","sizes":["10mg"],"note":""},{"name":"Lemon Bottle","sizes":["10ml"],"note":""},{"name":"L-Carnitine","sizes":["600mg","1200mg"],"note":""},{"name":"Epitalon","sizes":["10mg","50mg"],"note":""},{"name":"HMG","sizes":["75iu"],"note":""},{"name":"Mazdutide","sizes":["10mg"],"note":""},{"name":"Survodutide","sizes":["10mg"],"note":""},{"name":"Ipamorelin","sizes":["5mg","10mg"],"note":""},{"name":"Adipotide","sizes":["5mg"],"note":""},{"name":"Semax","sizes":["5mg","10mg"],"note":""},{"name":"ARA-290","sizes":["10mg"],"note":""},{"name":"Hexarelin Acetate","sizes":["5mg","10mg"],"note":""},{"name":"Kisspeptin-10","sizes":["5mg","10mg"],"note":""},{"name":"Oxytocin Acetate","sizes":["2mg","5mg"],"note":""},{"name":"Selank","sizes":["5mg","10mg"],"note":""},{"name":"Thymosin Alpha-1","sizes":["5mg","10mg"],"note":""},{"name":"Thymalin","sizes":["10mg"],"note":""},{"name":"AICAR","sizes":["50mg"],"note":""},{"name":"GHRP-2 Acetate","sizes":["5mg","10mg"],"note":""},{"name":"GHRP-6 Acetate","sizes":["5mg","10mg"],"note":""},{"name":"Dermorphin","sizes":["5mg"],"note":""},{"name":"Glutathione","sizes":["600mg","1500mg"],"note":""},{"name":"Snap-8","sizes":["10mg"],"note":""},{"name":"LL-37","sizes":["5mg"],"note":""},{"name":"VIP","sizes":["10mg"],"note":""},{"name":"FOXO4-DRI","sizes":["10mg"],"note":""},{"name":"AHK-Cu","sizes":["100mg","500mg"],"note":""},{"name":"Pinealon","sizes":["10mg","20mg"],"note":""},{"name":"SLU-PP-332","sizes":["10mg"],"note":""},{"name":"MK-677","sizes":["10mg (50 tabs)"],"note":""},{"name":"DSIP","sizes":["5mg","10mg"],"note":""},{"name":"Testosterone Cypionate","sizes":["200mg/ml (5ml)","250mg/ml (5ml)"],"note":""},{"name":"Na931","sizes":["100mg (30 caps)"],"note":""},{"name":"Testosterone Enanthate","sizes":["250mg/ml (10ml)"],"note":""},{"name":"Super Test","sizes":["450mg/ml (10ml)"],"note":""},{"name":"Testosterone Propionate","sizes":["100mg/ml (10ml)"],"note":""},{"name":"Trenbolone","sizes":["100mg/ml (10ml)"],"note":""},{"name":"Cartalax","sizes":["20mg"],"note":""},{"name":"Orforglipron","sizes":["0.8mg","2.5mg","5.5mg","9mg","17.2mg"],"note":""},{"name":"Adamax","sizes":["5mg","10mg"],"note":""},{"name":"Nandrolone (NPP)","sizes":["100mg/ml (10ml)"],"note":""},{"name":"Deca-Durabolin","sizes":["200mg/ml (10ml)","250mg/ml (10ml)"],"note":""},{"name":"Methandienone","sizes":["10mg (100 tabs)"],"note":""},{"name":"Stanozolol","sizes":["10mg (100 tabs)"],"note":""},{"name":"Anavar","sizes":["10mg (100 tabs)"],"note":""},{"name":"Halotestin","sizes":["5mg (100 tabs)"],"note":""}];
 const REQ_EMAIL = "support@peptiderx.co";
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 document.getElementById("yr").textContent=new Date().getFullYear();
 const grid=document.getElementById("grid"),qInput=document.getElementById("q"),countEl=document.getElementById("count");
-const tray=document.getElementById("tray"),selName=document.getElementById("selName"),reqBtn=document.getElementById("reqBtn"),clearBtn=document.getElementById("clearBtn");
-let selected=null;
+const modal=document.getElementById("modal"),mName=document.getElementById("mName"),mNote=document.getElementById("mNote"),mSize=document.getElementById("mSize"),mReq=document.getElementById("mReq"),mClose=document.getElementById("mClose");
+const byName=n=>COMPOUNDS.find(c=>c.name===n);
+let current=null;
 function render(){
   const q=qInput.value.trim().toLowerCase();
-  const list=COMPOUNDS.filter(n=>!q||n.toLowerCase().includes(q));
+  const list=COMPOUNDS.filter(c=>!q||c.name.toLowerCase().includes(q)||(c.note||"").toLowerCase().includes(q));
   countEl.textContent=list.length+" compound"+(list.length===1?"":"s")+(q?" match “"+qInput.value.trim()+"”":" available");
   if(!list.length){grid.innerHTML='<div class="empty"><div class="big">No compounds match your search</div><div>Try a different name, or clear the search.</div></div>';return;}
-  grid.innerHTML=list.map(n=>`<button type="button" class="pcard${n===selected?' sel':''}" data-n="${esc(n)}"><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span class="pname">${esc(n)}</span><span class="psub">Research use only</span></button>`).join("");
+  grid.innerHTML=list.map(c=>`<article class="pcard" data-n="${esc(c.name)}">
+    <div class="pname">${esc(c.name)}</div>
+    ${c.note?`<div class="pnote">${esc(c.note)}</div>`:`<div class="psub">Research use only</div>`}
+    <span class="phint">Select size &amp; request <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span>
+  </article>`).join("");
 }
-function select(n){
-  selected=(selected===n)?null:n;
-  if(selected){
-    selName.innerHTML=esc(selected)+"<small>For research use only — sizes &amp; pricing confirmed on request</small>";
-    const subject=encodeURIComponent("Research compound request: "+selected);
-    const body=encodeURIComponent("Compound: "+selected+"\nSize / mg per vial: \nQuantity (boxes): \n\nName: \nEmail: \nPhone: \n\nI confirm this request is for research use only.");
-    reqBtn.href="mailto:"+REQ_EMAIL+"?subject="+subject+"&body="+body;
-    tray.classList.add("show");
-  } else { tray.classList.remove("show"); }
-  render();
+function refreshReq(){
+  const size=mSize.value;
+  if(!size){mReq.classList.add("disabled");mReq.removeAttribute("href");return;}
+  mReq.classList.remove("disabled");
+  const subject=encodeURIComponent("Research compound request: "+current.name+" ("+size+")");
+  const body=encodeURIComponent("Compound: "+current.name+"\nSize: "+size+"\nQuantity (boxes): \n"+(current.note?"\nBlend contents: "+current.note+"\n":"")+"\nName: \nEmail: \nPhone: \n\nI confirm this request is for research use only.");
+  mReq.href="mailto:"+REQ_EMAIL+"?subject="+subject+"&body="+body;
 }
-grid.addEventListener("click",e=>{const b=e.target.closest(".pcard");if(b)select(b.dataset.n);});
-clearBtn.addEventListener("click",()=>{selected=null;tray.classList.remove("show");render();});
+function openModal(name){
+  current=byName(name);if(!current)return;
+  mName.textContent=current.name;
+  mNote.textContent=current.note||"For research use only.";
+  mSize.innerHTML='<option value="">Choose a size…</option>'+current.sizes.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join("");
+  mSize.value="";refreshReq();
+  modal.classList.add("show");document.body.style.overflow="hidden";
+}
+function closeModal(){modal.classList.remove("show");document.body.style.overflow="";current=null;}
+grid.addEventListener("click",e=>{const card=e.target.closest(".pcard");if(card)openModal(card.dataset.n);});
+mSize.addEventListener("change",refreshReq);
+mClose.addEventListener("click",closeModal);
+modal.addEventListener("click",e=>{if(e.target===modal)closeModal();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modal.classList.contains("show"))closeModal();});
 qInput.addEventListener("input",render);
 render();
 </script>
