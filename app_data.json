@@ -519,7 +519,7 @@
     }
   ],
   "news": {
-    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23–24, 2026, which will weigh seven research peptides (BPC-157, KPV, TB-500, MOTS-c, Emideltide/DSIP, Semax, Epitalon) for the 503A Bulk Drug Substances List. As of early July, the last practical window for public comments to reach committee members before they deliberate closes July 9, 2026, and FDA is expected to post its scientific briefing materials shortly before the meeting. Separately, the FDA's proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list is in post-comment review after that window closed June 29, 2026. Removal of BPC-157 from the Category 2 do-not-compound list (late April 2026) is not authorization to compound, and compounding eligibility remains distinct from FDA drug approval. This is not medical advice.",
+    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23–24, 2026: the FDA's newly posted scientific briefing materials recommend NOT adding the seven nominated research peptides (BPC-157, KPV, TB-500, MOTS-c, Emideltide/DSIP, Semax, Epitalon) to the 503A Bulk Drug Substances List, citing insufficient characterization, efficacy, and safety data; the committee vote and any rulemaking still follow, and July 9 is the comment-relay cutoff. Recent peer-reviewed research continues to focus on GLP-1 and dual/triple incretin agonists, including a large BMJ network meta-analysis of obesity drugs and real-world neuropsychiatric-safety comparisons of tirzepatide and semaglutide. This is not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -539,7 +539,7 @@
           "Retatrutide — GLP-1/GIP/glucagon triple agonist; Phase 3; NDA anticipated (not yet approved).",
           "Cagrilintide / CagriSema — amylin analog (± semaglutide); Phase 3; under regulatory development.",
           "Amycretin — GLP-1/amylin co-agonist (oral & injectable); Phase 3 initiated 2026.",
-          "Compounding reclassification (a compounding decision, not a drug approval): BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon — under FDA Pharmacy Compounding Advisory Committee (PCAC) review, meeting July 23–24, 2026, for the 503A Bulk Drug Substances List. See Recent Headlines for the RFK Jr. / HHS reclassification context."
+          "Compounding reclassification (a compounding decision, not a drug approval): BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, Emideltide (DSIP) — under FDA PCAC review, meeting July 23–24, 2026, for the 503A Bulk Drug Substances List. FDA's July 2026 briefing materials recommend NOT adding any of the seven; committee vote and any rulemaking still follow."
         ]
       },
       {
@@ -572,6 +572,11 @@
       }
     ],
     "timeline": [
+      {
+        "date": "2026-07-09",
+        "title": "This week in peptides: FDA's PCAC briefing materials are out — and they recommend against adding all seven peptides",
+        "content": "Ahead of the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23–24, 2026, the FDA has posted its scientific briefing documents for the seven nominated research peptides, and across all seven the agency's reviewers recommend they NOT be added to the 503A Bulk Drug Substances List. FDA cites that the substances are not well-characterized, that there is little or no human evidence of effectiveness for the proposed (mostly injectable) routes, and that human safety data are insufficient — including unassessed immunogenicity risk — across BPC-157 (evaluated for ulcerative colitis), KPV, TB-500, and MOTS-c on day one and Emideltide (DSIP), Semax, and Epitalon on day two. These are advisory-committee briefing proposals, not final determinations: the committee still votes on July 23–24 and any change would require subsequent FDA rulemaking. July 9, 2026 is also the cutoff for written comments to docket FDA-2025-N-6895 to be guaranteed relay to committee members. General research only — not medical advice. Source: [FDA.gov PCAC meeting & briefing materials](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-panel-to-evaluate-7-popular-peptides-for-compounding-substances-list)"
+      },
       {
         "date": "2026-07-04",
         "title": "This week in peptides: holiday-weekend status check — the July 9 comment-relay cutoff is now days away, and FDA's briefing materials come next",
@@ -633,7 +638,7 @@
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
       }
     ],
-    "generatedAt": "2026-07-04T17:21:26Z"
+    "generatedAt": "2026-07-09T14:36:12Z"
   },
   "podcasts": [
     {
