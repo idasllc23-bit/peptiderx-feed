@@ -519,7 +519,7 @@
     }
   ],
   "news": {
-    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23-24, 2026, now about nine days away. A key point of perspective: PCAC recommendations are advisory and non-binding, and the FDA itself makes the final call on whether the seven nominated research peptides are added to the 503A Bulk Drug Substances List. The agency's posted briefing materials already recommend against adding any of them, and even a favorable vote would only begin rulemaking rather than authorize compounding. BPC-157 remains off the Category 2 do-not-compound list (effective April 23, 2026, which is not authorization to compound), and the FDA's separate proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list is in post-comment review. This is not medical advice.",
+    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23-24, 2026, now about eight days away. The committee will weigh seven nominated research peptides - BPC-157, KPV, TB-500, MOTS-c, Emideltide (DSIP), Semax, and Epitalon - against the four statutory 503A factors (characterization, safety, effectiveness, and historical use); the FDA's own briefing materials recommend against adding any of them, and any committee vote is advisory and would still require FDA rulemaking. On the research side, new analyses this week link tirzepatide to lower major adverse cardiovascular events and mortality, and report no excess diabetic retinopathy versus matched controls over a year in type 1 diabetes. This is not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -572,6 +572,11 @@
       }
     ],
     "timeline": [
+      {
+        "date": "2026-07-15",
+        "title": "This week in peptides: ~8 days out, the four statutory tests the committee applies to each peptide",
+        "content": "With the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting about eight days away on July 23-24, 2026, it helps to understand the yardstick the panel actually uses. Under the Section 503A framework, the FDA evaluates each nominated bulk drug substance against four statutory factors - the substance's physical and chemical characterization; any safety issues raised by its use in compounded products; the available evidence of effectiveness (or lack of it); and the substance's historical use in compounding - and then asks the committee whether it should be added to the 503A Bulk Drug Substances List. Per the agency's posted briefing materials, FDA reviewers concluded the seven nominated research peptides fall short on characterization, human effectiveness evidence, and safety, and recommend against adding any of them - BPC-157, KPV, TB-500, and MOTS-c (each in free-base and acetate-salt forms) on July 23, then Emideltide (DSIP), Semax, and Epitalon on July 24. Context to keep straight: the committee's vote is advisory and any change would still require FDA rulemaking; BPC-157 came off the FDA's Category 2 \"do-not-compound\" list effective April 23, 2026 (removal is not authorization to compound); and the agency's separate proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list remains in post-comment review. General research only - not medical advice. Source: [FDA 503A bulk substances](https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act), [FDA.gov PCAC meeting](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [FDA briefing document](https://www.fda.gov/media/193343/download)"
+      },
       {
         "date": "2026-07-14",
         "title": "This week in peptides: ~9 days out, a reminder that the PCAC vote is advisory — the FDA makes the final call",
@@ -648,7 +653,7 @@
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
       }
     ],
-    "generatedAt": "2026-07-14T13:36:10Z"
+    "generatedAt": "2026-07-15T15:12:30Z"
   },
   "podcasts": [
     {
