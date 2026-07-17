@@ -519,7 +519,7 @@
     }
   ],
   "news": {
-    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23-24, 2026, now about eight days away. The committee will weigh seven nominated research peptides - BPC-157, KPV, TB-500, MOTS-c, Emideltide (DSIP), Semax, and Epitalon - against the four statutory 503A factors (characterization, safety, effectiveness, and historical use); the FDA's own briefing materials recommend against adding any of them, and any committee vote is advisory and would still require FDA rulemaking. On the research side, new analyses this week link tirzepatide to lower major adverse cardiovascular events and mortality, and report no excess diabetic retinopathy versus matched controls over a year in type 1 diabetes. This is not medical advice.",
+    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23-24, 2026, now about six days away, where seven nominated research peptides - BPC-157, KPV, TB-500, MOTS-c, Emideltide (DSIP), Semax, and Epitalon - are weighed for the 503A Bulk Drug Substances List. The FDA's own scientific reviewers recommend against adding any of the seven, a stance that sits in tension with HHS Secretary Robert F. Kennedy Jr.'s stated support for broader peptide access; the committee's vote is advisory and any change would require subsequent FDA rulemaking. Separately, recent research continues on the GLP-1 class, including real-world comparisons of semaglutide and liraglutide, tirzepatide's effects on kidney-function markers, a large cancer-risk analysis, and reviews of emerging amylin analogs such as cagrilintide. This is not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -572,6 +572,11 @@
       }
     ],
     "timeline": [
+      {
+        "date": "2026-07-17",
+        "title": "This week in peptides: political-versus-scientific split sharpens about 6 days before the FDA PCAC vote",
+        "content": "With the FDA Pharmacy Compounding Advisory Committee meeting about six days away (July 23-24, 2026), coverage highlights a tension inside the government: HHS Secretary Robert F. Kennedy Jr. has publicly favored broader access to research peptides, while the FDA's own career scientists recommend against adding any of the seven nominated peptides - BPC-157, KPV, TB-500, MOTS-c, Emideltide (DSIP), Semax, and Epitalon - to the 503A bulk substances list, citing insufficient characterization and human safety and efficacy data. The committee vote is advisory and any change would still require FDA rulemaking. Source: [NPR](https://www.npr.org/2026/06/30/nx-s1-5876301/peptides-fda-panel-compounding-rfk), [NBC News](https://www.nbcnews.com/health/health-news/rfk-jr-wants-make-easier-get-peptides-fda-scientists-disagree-rcna352323)"
+      },
       {
         "date": "2026-07-15",
         "title": "This week in peptides: ~8 days out, the four statutory tests the committee applies to each peptide",
@@ -653,7 +658,7 @@
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
       }
     ],
-    "generatedAt": "2026-07-15T15:12:30Z"
+    "generatedAt": "2026-07-17T15:33:47Z"
   },
   "podcasts": [
     {
