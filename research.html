@@ -133,7 +133,7 @@
     <label class="mlabel" for="mSize">Select a size</label>
     <select id="mSize"></select>
     <div id="mQtyRow">
-      <label class="mlabel" for="mQty">Quantity (kits &middot; 10 vials each)</label>
+      <label class="mlabel" for="mQty">How many vials?</label>
       <div class="qstep">
         <button type="button" id="mQtyMinus" class="qbtn" aria-label="Decrease quantity">&minus;</button>
         <input id="mQty" class="qnum" type="number" min="1" step="1" value="1" inputmode="numeric" />
@@ -176,6 +176,9 @@ document.getElementById("yr").textContent=new Date().getFullYear();
 const grid=document.getElementById("grid"),qInput=document.getElementById("q"),countEl=document.getElementById("count");
 const modal=document.getElementById("modal"),mName=document.getElementById("mName"),mNote=document.getElementById("mNote"),mSize=document.getElementById("mSize"),mReq=document.getElementById("mReq"),mClose=document.getElementById("mClose"),mPrice=document.getElementById("mPrice"),mReqLabel=document.getElementById("mReqLabel"),mForm=document.getElementById("mForm"),mEmail=document.getElementById("mEmail"),mPhone=document.getElementById("mPhone"),mMsg=document.getElementById("mMsg"),mQtyRow=document.getElementById("mQtyRow"),mQty=document.getElementById("mQty"),mQtyMinus=document.getElementById("mQtyMinus"),mQtyPlus=document.getElementById("mQtyPlus");
 const getQty=()=>{let n=parseInt(mQty.value,10);if(!n||n<1)n=1;return n;};
+// prices in the data are per KIT (10 vials). Per-vial = kit/10.
+const vialCents=kit=>kit*10;            // kit dollars -> per-vial cents
+const money=cents=>"$"+(cents/100).toFixed(2);
 const byName=n=>COMPOUNDS.find(c=>c.name===n);
 let current=null,sending=false;
 const selectedOpt=()=>current?current.sizes.find(o=>o.s===mSize.value):null;
@@ -189,7 +192,7 @@ function render(){
   grid.innerHTML=list.map(c=>`<article class="pcard" data-n="${esc(c.name)}">
     <div class="pname">${esc(c.name)}</div>
     ${c.note?`<div class="pnote">${esc(c.note)}</div>`:`<div class="psub">Research use only</div>`}
-    ${c.from!=null?`<div class="pprice">from $${c.from} / kit</div>`:``}
+    ${c.from!=null?`<div class="pprice">from $${(c.from/10).toFixed(2)} / vial</div>`:``}
     <span class="phint">Select size &amp; request <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span>
   </article>`).join("");
 }
@@ -203,13 +206,13 @@ function refreshReq(){
   mQtyRow.style.display="block";
   mPrice.classList.remove("onreq");
   if(opt.p!=null){
-    const total=opt.p*qty;
-    mPrice.innerHTML="$"+total+'<span class="per">'+qty+" kit"+(qty>1?"s":"")+" &times; $"+opt.p+" &middot; "+(qty*10)+" vials total</span>";
-    mReqLabel.textContent="Request "+qty+" kit"+(qty>1?"s":"")+" · $"+total;
+    const vc=vialCents(opt.p),totalCents=vc*qty;
+    mPrice.innerHTML=money(totalCents)+'<span class="per">'+qty+" vial"+(qty>1?"s":"")+" &times; "+money(vc)+"/vial</span>";
+    mReqLabel.textContent="Request "+qty+" vial"+(qty>1?"s":"")+" · "+money(totalCents);
   }else{
     mPrice.classList.add("onreq");
     mPrice.innerHTML="Price on request<span class=\"per\">we’ll confirm the price for this size</span>";
-    mReqLabel.textContent="Request "+qty+" kit"+(qty>1?"s":"");
+    mReqLabel.textContent="Request "+qty+" vial"+(qty>1?"s":"");
   }
   mPrice.style.display="block";
   mForm.style.display="block";
@@ -221,19 +224,20 @@ async function submitRequest(){
   const email=mEmail.value.trim(),phone=mPhone.value.trim();
   if(!validEmail(email)||!validPhone(phone))return;
   const qty=getQty();
-  const total=opt.p!=null?opt.p*qty:null;
+  const vc=opt.p!=null?vialCents(opt.p):null;
+  const totalCents=vc!=null?vc*qty:null;
   sending=true;mReq.classList.add("disabled");mReqLabel.textContent="Sending…";
   mMsg.className="";
-  const priceTxt=opt.p!=null?("$"+opt.p+" per kit (10 vials)"):"price on request";
+  const priceTxt=vc!=null?(money(vc)+" per vial"):"price on request";
   const fd=new FormData();
-  fd.append("_subject","New peptide order — "+current.name+" "+opt.s+" ×"+qty+" kit"+(qty>1?"s":"")+(total!=null?" ($"+total+")":""));
+  fd.append("_subject","New peptide order — "+current.name+" "+opt.s+" ×"+qty+" vial"+(qty>1?"s":"")+(totalCents!=null?" ("+money(totalCents)+")":""));
   fd.append("_captcha","false");
   fd.append("_template","table");
   fd.append("Compound",current.name);
   fd.append("Size",opt.s);
   fd.append("Unit price",priceTxt);
-  fd.append("Quantity",qty+" kit"+(qty>1?"s":"")+" ("+(qty*10)+" vials)");
-  fd.append("Order total",total!=null?("$"+total):"to be confirmed");
+  fd.append("Quantity",qty+" vial"+(qty>1?"s":""));
+  fd.append("Order total",totalCents!=null?money(totalCents):"to be confirmed");
   if(current.note)fd.append("Blend",current.note);
   fd.append("Customer email",email);
   fd.append("Customer phone",phone);
@@ -255,7 +259,7 @@ function openModal(name){
   current=byName(name);if(!current)return;
   mName.textContent=current.name;
   mNote.textContent=current.note||"For research use only.";
-  mSize.innerHTML='<option value="">Choose a size…</option>'+current.sizes.map(o=>`<option value="${esc(o.s)}">${esc(o.s)}${o.p!=null?" — $"+o.p:" — price on request"}</option>`).join("");
+  mSize.innerHTML='<option value="">Choose a size…</option>'+current.sizes.map(o=>`<option value="${esc(o.s)}">${esc(o.s)}${o.p!=null?" — $"+(o.p/10).toFixed(2)+"/vial":" — price on request"}</option>`).join("");
   mSize.value="";mEmail.value="";mPhone.value="";mQty.value="1";
   mQtyRow.style.display="none";mPrice.style.display="none";mForm.style.display="none";
   mMsg.className="";mMsg.textContent="";mReq.style.display="";
