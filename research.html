@@ -173,7 +173,7 @@ function render(){
   grid.innerHTML=list.map(c=>`<article class="pcard" data-n="${esc(c.name)}">
     <div class="pname">${esc(c.name)}</div>
     ${c.note?`<div class="pnote">${esc(c.note)}</div>`:`<div class="psub">Research use only</div>`}
-    ${c.from!=null?`<div class="pprice">from $${c.from} / vial</div>`:``}
+    ${c.from!=null?`<div class="pprice">from $${c.from} / kit</div>`:``}
     <span class="phint">Select size &amp; request <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span>
   </article>`).join("");
 }
