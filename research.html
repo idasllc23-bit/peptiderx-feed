@@ -64,6 +64,13 @@
   .mlabel{display:block;margin:20px 0 7px;font-size:13px;font-weight:800;color:var(--ink)}
   #mSize{width:100%;appearance:none;-webkit-appearance:none;font-family:inherit;font-size:15.5px;font-weight:700;color:var(--ink);background:#fff;border:1px solid #d2e2f5;border-radius:14px;padding:15px 40px 15px 15px;box-shadow:var(--shadow);outline:none;cursor:pointer;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%232f6fe0' stroke-width='2' viewBox='0 0 24 24'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 14px center}
   #mSize:focus{border-color:var(--blue)}
+  #mQtyRow{display:none;margin-top:14px}
+  #mQtyRow .qstep{display:flex;align-items:stretch;gap:10px;max-width:220px}
+  #mQtyRow .qbtn{width:52px;flex:0 0 52px;font-size:22px;font-weight:800;color:var(--blue-600);background:#fff;border:1px solid #d2e2f5;border-radius:14px;box-shadow:var(--shadow);cursor:pointer;line-height:1;transition:filter .12s}
+  #mQtyRow .qbtn:hover{filter:brightness(.97)}
+  #mQtyRow .qnum{flex:1;min-width:0;text-align:center;font-family:inherit;font-size:17px;font-weight:800;color:var(--ink);background:#fff;border:1px solid #d2e2f5;border-radius:14px;padding:13px 6px;box-shadow:var(--shadow);outline:none;-moz-appearance:textfield}
+  #mQtyRow .qnum::-webkit-outer-spin-button,#mQtyRow .qnum::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+  #mQtyRow .qnum:focus{border-color:var(--blue)}
   #mPrice{display:none;margin-top:16px;text-align:center;font-size:30px;font-weight:800;color:var(--ink);letter-spacing:-.6px}
   #mPrice .per{display:block;font-size:13.5px;font-weight:600;color:#5d6b80;letter-spacing:0;margin-top:2px;text-transform:none}
   #mPrice.onreq{font-size:19px;color:#3f6ea0}
@@ -125,6 +132,14 @@
     <div class="mnote" id="mNote"></div>
     <label class="mlabel" for="mSize">Select a size</label>
     <select id="mSize"></select>
+    <div id="mQtyRow">
+      <label class="mlabel" for="mQty">Quantity (kits &middot; 10 vials each)</label>
+      <div class="qstep">
+        <button type="button" id="mQtyMinus" class="qbtn" aria-label="Decrease quantity">&minus;</button>
+        <input id="mQty" class="qnum" type="number" min="1" step="1" value="1" inputmode="numeric" />
+        <button type="button" id="mQtyPlus" class="qbtn" aria-label="Increase quantity">+</button>
+      </div>
+    </div>
     <div id="mPrice"></div>
     <div id="mForm">
       <input id="mEmail" class="minput" type="email" inputmode="email" autocomplete="email" placeholder="Your email address" />
@@ -159,7 +174,8 @@ const ORDER_EMAIL = "idasllc23@gmail.com";
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 document.getElementById("yr").textContent=new Date().getFullYear();
 const grid=document.getElementById("grid"),qInput=document.getElementById("q"),countEl=document.getElementById("count");
-const modal=document.getElementById("modal"),mName=document.getElementById("mName"),mNote=document.getElementById("mNote"),mSize=document.getElementById("mSize"),mReq=document.getElementById("mReq"),mClose=document.getElementById("mClose"),mPrice=document.getElementById("mPrice"),mReqLabel=document.getElementById("mReqLabel"),mForm=document.getElementById("mForm"),mEmail=document.getElementById("mEmail"),mPhone=document.getElementById("mPhone"),mMsg=document.getElementById("mMsg");
+const modal=document.getElementById("modal"),mName=document.getElementById("mName"),mNote=document.getElementById("mNote"),mSize=document.getElementById("mSize"),mReq=document.getElementById("mReq"),mClose=document.getElementById("mClose"),mPrice=document.getElementById("mPrice"),mReqLabel=document.getElementById("mReqLabel"),mForm=document.getElementById("mForm"),mEmail=document.getElementById("mEmail"),mPhone=document.getElementById("mPhone"),mMsg=document.getElementById("mMsg"),mQtyRow=document.getElementById("mQtyRow"),mQty=document.getElementById("mQty"),mQtyMinus=document.getElementById("mQtyMinus"),mQtyPlus=document.getElementById("mQtyPlus");
+const getQty=()=>{let n=parseInt(mQty.value,10);if(!n||n<1)n=1;return n;};
 const byName=n=>COMPOUNDS.find(c=>c.name===n);
 let current=null,sending=false;
 const selectedOpt=()=>current?current.sizes.find(o=>o.s===mSize.value):null;
@@ -180,19 +196,23 @@ function render(){
 function refreshReq(){
   const opt=selectedOpt();
   if(!opt){
-    mPrice.style.display="none";mForm.style.display="none";
+    mQtyRow.style.display="none";mPrice.style.display="none";mForm.style.display="none";
     mReq.classList.add("disabled");mReqLabel.textContent="Request this compound";return;
   }
+  const qty=getQty();
+  mQtyRow.style.display="block";
   mPrice.classList.remove("onreq");
   if(opt.p!=null){
-    mPrice.innerHTML="$"+opt.p+'<span class="per">per kit &middot; 10 vials/kit</span>';
+    const total=opt.p*qty;
+    mPrice.innerHTML="$"+total+'<span class="per">'+qty+" kit"+(qty>1?"s":"")+" &times; $"+opt.p+" &middot; "+(qty*10)+" vials total</span>";
+    mReqLabel.textContent="Request "+qty+" kit"+(qty>1?"s":"")+" · $"+total;
   }else{
     mPrice.classList.add("onreq");
     mPrice.innerHTML="Price on request<span class=\"per\">we’ll confirm the price for this size</span>";
+    mReqLabel.textContent="Request "+qty+" kit"+(qty>1?"s":"");
   }
   mPrice.style.display="block";
   mForm.style.display="block";
-  mReqLabel.textContent=opt.p!=null?("Request 1 vial · $"+opt.p):"Request this size";
   const ok=validEmail(mEmail.value.trim())&&validPhone(mPhone.value.trim());
   mReq.classList.toggle("disabled",!ok);
 }
@@ -200,17 +220,20 @@ async function submitRequest(){
   const opt=selectedOpt();if(!opt||sending)return;
   const email=mEmail.value.trim(),phone=mPhone.value.trim();
   if(!validEmail(email)||!validPhone(phone))return;
+  const qty=getQty();
+  const total=opt.p!=null?opt.p*qty:null;
   sending=true;mReq.classList.add("disabled");mReqLabel.textContent="Sending…";
   mMsg.className="";
   const priceTxt=opt.p!=null?("$"+opt.p+" per kit (10 vials)"):"price on request";
   const fd=new FormData();
-  fd.append("_subject","New peptide order — "+current.name+" "+opt.s+(opt.p!=null?" ($"+opt.p+")":""));
+  fd.append("_subject","New peptide order — "+current.name+" "+opt.s+" ×"+qty+" kit"+(qty>1?"s":"")+(total!=null?" ($"+total+")":""));
   fd.append("_captcha","false");
   fd.append("_template","table");
   fd.append("Compound",current.name);
   fd.append("Size",opt.s);
-  fd.append("Price",priceTxt);
-  fd.append("Quantity","1 vial");
+  fd.append("Unit price",priceTxt);
+  fd.append("Quantity",qty+" kit"+(qty>1?"s":"")+" ("+(qty*10)+" vials)");
+  fd.append("Order total",total!=null?("$"+total):"to be confirmed");
   if(current.note)fd.append("Blend",current.note);
   fd.append("Customer email",email);
   fd.append("Customer phone",phone);
@@ -224,8 +247,7 @@ async function submitRequest(){
       mMsg.className="ok";mMsg.textContent="Order received — we’ll email you the next steps to finalize your order.";
     }else{throw new Error(j.message||"failed");}
   }catch(e){
-    sending=false;mReq.classList.remove("disabled");
-    mReqLabel.textContent=opt.p!=null?("Request 1 vial · $"+opt.p):"Request this size";
+    sending=false;mReq.classList.remove("disabled");refreshReq();
     mMsg.className="err";mMsg.textContent="Sorry — that didn’t send. Please email "+ORDER_EMAIL+" directly, or try again.";
   }
 }
@@ -234,8 +256,8 @@ function openModal(name){
   mName.textContent=current.name;
   mNote.textContent=current.note||"For research use only.";
   mSize.innerHTML='<option value="">Choose a size…</option>'+current.sizes.map(o=>`<option value="${esc(o.s)}">${esc(o.s)}${o.p!=null?" — $"+o.p:" — price on request"}</option>`).join("");
-  mSize.value="";mEmail.value="";mPhone.value="";
-  mPrice.style.display="none";mForm.style.display="none";
+  mSize.value="";mEmail.value="";mPhone.value="";mQty.value="1";
+  mQtyRow.style.display="none";mPrice.style.display="none";mForm.style.display="none";
   mMsg.className="";mMsg.textContent="";mReq.style.display="";
   mReqLabel.textContent="Request this compound";mReq.classList.add("disabled");sending=false;
   modal.classList.add("show");document.body.style.overflow="hidden";
@@ -245,6 +267,9 @@ grid.addEventListener("click",e=>{const card=e.target.closest(".pcard");if(card)
 mSize.addEventListener("change",refreshReq);
 mEmail.addEventListener("input",refreshReq);
 mPhone.addEventListener("input",refreshReq);
+mQty.addEventListener("input",refreshReq);
+mQtyMinus.addEventListener("click",()=>{mQty.value=Math.max(1,getQty()-1);refreshReq();});
+mQtyPlus.addEventListener("click",()=>{mQty.value=getQty()+1;refreshReq();});
 mReq.addEventListener("click",submitRequest);
 mClose.addEventListener("click",closeModal);
 modal.addEventListener("click",e=>{if(e.target===modal)closeModal();});
