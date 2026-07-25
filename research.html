@@ -177,8 +177,8 @@ document.getElementById("yr").textContent=new Date().getFullYear();
 const grid=document.getElementById("grid"),qInput=document.getElementById("q"),countEl=document.getElementById("count");
 const modal=document.getElementById("modal"),mName=document.getElementById("mName"),mNote=document.getElementById("mNote"),mSize=document.getElementById("mSize"),mReq=document.getElementById("mReq"),mClose=document.getElementById("mClose"),mPrice=document.getElementById("mPrice"),mReqLabel=document.getElementById("mReqLabel"),mForm=document.getElementById("mForm"),mEmail=document.getElementById("mEmail"),mPhone=document.getElementById("mPhone"),mMsg=document.getElementById("mMsg"),mQtyRow=document.getElementById("mQtyRow"),mQty=document.getElementById("mQty"),mQtyMinus=document.getElementById("mQtyMinus"),mQtyPlus=document.getElementById("mQtyPlus");
 const getQty=()=>{let n=parseInt(mQty.value,10);if(!n||n<1)n=1;return n;};
-// prices in the data are per KIT (10 vials). Per-vial = kit/10.
-const vialCents=kit=>kit*10;            // kit dollars -> per-vial cents
+// prices in the data are per KIT (10 vials). Cost/vial = kit/10; retail = 2x cost = kit/5.
+const vialCents=kit=>kit*20;            // kit dollars -> per-vial retail cents (2x cost)
 const money=cents=>"$"+(cents/100).toFixed(2);
 const byName=n=>COMPOUNDS.find(c=>c.name===n);
 let current=null,sending=false;
