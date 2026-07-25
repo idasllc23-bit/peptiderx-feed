@@ -519,7 +519,7 @@
     }
   ],
   "news": {
-    "summary": "Regulatory attention centers on the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23-24, 2026, now about three days away, where seven nominated research peptides - BPC-157, KPV, TB-500, and MOTS-c on day one, then Emideltide (DSIP), Semax, and Epitalon on day two, each in free-base and acetate-salt forms - are reviewed for possible addition to the 503A Bulk Drug Substances List; the FDA's own briefing materials recommend against adding any of them, and the committee's vote is advisory. In parallel, recent research on GLP-1-class peptides (semaglutide, tirzepatide) continues to accumulate across metabolic, cardiovascular, and surgical settings. This is general research, not medical advice.",
+    "summary": "Regulatory attention still centers on the July 23-24, 2026 FDA Pharmacy Compounding Advisory Committee (PCAC), which voted to recommend adding six of seven nominated research peptides (BPC-157, KPV, TB-500, MOTS-c, Epitalon, Semax) to the 503A bulk list while rejecting Emideltide (DSIP); those votes are advisory only and concern compounding eligibility, not FDA drug approval. Beyond the hearing, clinical research on next-generation obesity peptides continues to advance — ADA 2026 featured new data on retatrutide (up to ~30% weight loss at 104 weeks), survodutide, CagriSema, and oral GLP-1s — and clinicians (e.g., Stanford Medicine) and commentators continue to weigh benefits against safety and evidence gaps, especially for compounded GLP-1s. This is general research, not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -539,7 +539,7 @@
           "Retatrutide — GLP-1/GIP/glucagon triple agonist; Phase 3; NDA anticipated (not yet approved).",
           "Cagrilintide / CagriSema — amylin analog (± semaglutide); Phase 3; under regulatory development.",
           "Amycretin — GLP-1/amylin co-agonist (oral & injectable); Phase 3 initiated 2026.",
-          "Compounding reclassification (a compounding decision, not a drug approval): BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, Emideltide (DSIP) — under FDA Pharmacy Compounding Advisory Committee (PCAC) review, meeting July 23–24, 2026, for the 503A Bulk Drug Substances List. FDA's July 2026 scientific briefing materials recommend NOT adding any of the seven (citing insufficient characterization, efficacy, and safety data); the committee vote and any rulemaking still follow. See Recent Headlines for the RFK Jr. / HHS reclassification context."
+          "Compounding reclassification (a compounding decision, not a drug approval): at its July 23–24, 2026 meeting the FDA Pharmacy Compounding Advisory Committee (PCAC) voted to recommend adding six of seven nominated peptides — BPC-157, KPV, TB-500, MOTS-c, Epitalon, and Semax — to the 503A Bulk Drug Substances List, and voted against Emideltide (DSIP). The votes overrode FDA's own briefing recommendation, are advisory only, and any listing now depends on FDA notice-and-comment rulemaking. See Recent Headlines for the outcome and RFK Jr. / HHS context."
         ]
       },
       {
@@ -572,6 +572,26 @@
       }
     ],
     "timeline": [
+      {
+        "date": "2026-07-21",
+        "title": "Physician commentary: FDA's peptide review reflects a science-vs-hype public-health gap",
+        "content": "A Forbes piece by physician Omer Awan argues the FDA's review of seven peptides for compounding highlights a public-health challenge: many peptides remain popular on social media despite limited robust human clinical evidence, and he raises questions about advisory-committee members' ties to the peptide industry. Opinion/analysis, general information only — not medical advice. Source: [Forbes](https://www.forbes.com/sites/omerawan/2026/07/21/fdas-review-of-peptides-signals-a-growing-public-health-challenge--separating-science-from-hype/)"
+      },
+      {
+        "date": "2026-07-16",
+        "title": "Stanford Medicine: clinicians outline safety concerns with compounded GLP-1 peptides",
+        "content": "Stanford Medicine published an explainer in which clinicians describe why compounded GLP-1 weight-loss peptides can carry added safety risks versus FDA-approved versions, citing unproven formulations, potential dosing errors, and untested ingredient combinations. General information only — not medical advice. Source: [Stanford Medicine](https://med.stanford.edu/news/insights/2026/07/glp1s-compounded-why-doctors-worry-about-safety.html)"
+      },
+      {
+        "date": "2026-07-06",
+        "title": "ADA 2026: next-generation obesity peptides post new trial data (retatrutide, survodutide, CagriSema, oral GLP-1s)",
+        "content": "Coverage of the American Diabetes Association 2026 sessions summarized new obesity-drug data: the triple agonist retatrutide reached roughly 20% weight loss at 80 weeks and over 30% at 104 weeks in TRIUMPH-1; the dual agonist survodutide showed about 16.6% weight loss; CagriSema (cagrilintide + semaglutide) outperformed either component alone in phase 3 diabetes trials; and small-molecule oral GLP-1s showed ~10-11% reductions. These are investigational or trial-stage findings, not treatment recommendations — not medical advice. Source: [Docwire News](https://www.docwirenews.com/post/ada-2026-obesity-drug-updates-retatrutide-cagrisema-and-oral-glp-1s)"
+      },
+      {
+        "date": "2026-07-25",
+        "title": "This week in peptides: the PCAC has voted — panel backs 6 of 7 peptides for the 503A list, rejects Emideltide, and the FDA now decides",
+        "content": "At the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting that concluded July 24, 2026, the panel voted to recommend adding six of the seven nominated research peptides to the 503A Bulk Drug Substances List, overriding the FDA's own career scientists, who had recommended against all seven. On July 23 the committee backed BPC-157 (nominated for ulcerative colitis) and KPV (wound and inflammatory conditions) by 8–6 with one abstention, along with TB-500 and MOTS-c (MOTS-c by a narrower 7–5, two abstentions). On July 24 it backed Epitalon (nominated for insomnia) 7–5 with one abstention and Semax (cerebral ischemia, migraine, trigeminal neuralgia) 8–5, while rejecting Emideltide (DSIP) — nominated for insomnia, narcotic dependence, and opioid withdrawal — in a 6–7 vote with one abstention. Reporting frames the outcome as aligned with HHS Secretary Robert F. Kennedy Jr.'s stated support for broader peptide access. Context to keep straight: the votes are advisory and non-binding — the FDA makes the final determination through notice-and-comment rulemaking, which commentators note can take many months, and a listing decision concerns compounding eligibility, not FDA approval of a drug. Separately, BPC-157 came off the FDA's Category 2 \"do-not-compound\" list effective April 23, 2026 (removal is not authorization to compound), and the agency's proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list remains in post-comment review. General research only — not medical advice. Source: [RAPS / Regulatory Focus (day two)](https://www.raps.org/resource/fda-advisory-committee-backs-two-more-peptides-rejects-one-for-compounding-list.html), [RAPS / Regulatory Focus (day one)](https://www.raps.org/resource/fda-advisory-committee-backs-two-controversial-peptides.html), [STAT](https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/), [The Hill](https://thehill.com/homenews/5987510-fda-committee-votes-peptides/), [FDA.gov PCAC meeting](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026)"
+      },
       {
         "date": "2026-07-20",
         "title": "This week in peptides: ~3 days out, the two-day agenda and how the public can watch the PCAC vote",
@@ -663,7 +683,7 @@
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
       }
     ],
-    "generatedAt": "2026-07-20T15:19:48Z"
+    "generatedAt": "2026-07-25T21:42:15Z"
   },
   "podcasts": [
     {
@@ -817,6 +837,10 @@
         {
           "label": "Website",
           "url": "https://www.hubermanlab.com/episode/peptides-the-science-uses-and-safety-abud-bakri"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hubermanlab"
         }
       ],
       "topics": [
@@ -918,6 +942,10 @@
         {
           "label": "Website",
           "url": "https://peterattiamd.com/ama83/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PeterAttiaMD"
         }
       ],
       "topics": [
