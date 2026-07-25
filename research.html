@@ -117,11 +117,12 @@
     <a class="homelink" href="index.html"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg> PeptideRx home</a>
     <div class="brand" style="margin-top:14px"><span class="dot">Rx</span> PeptideRx</div>
     <h1>Research-grade peptides &mdash; independently verified</h1>
-    <p class="sub">Every batch is third-party tested by <strong>Janoshik Analytical</strong> for identity and purity. Premium compounds, verified quality, <strong>free shipping on every order</strong>. Tap a compound to select a size and request it.</p>
+    <p class="sub">Every batch is third-party tested by <strong>Janoshik Analytical</strong> for identity and purity. Premium compounds, verified quality, <strong>free shipping</strong> and a <strong>free bottle of bacteriostatic water</strong> with every order. Tap a compound to select a size and request it.</p>
     <div class="trust-strip">
       <span class="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg> Third-party tested by Janoshik</span>
       <span class="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Verified identity &amp; purity (COA per batch)</span>
       <span class="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Free shipping on every order</span>
+      <span class="tb"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2h8"/><path d="M9 2v4l-4 9a3 3 0 003 4h8a3 3 0 003-4l-4-9V2"/><path d="M6.5 13h11"/></svg> Free bacteriostatic water with every order</span>
     </div>
     <div class="rfo"><div class="i">!</div><p><strong>For Research Use Only.</strong> All products are sold strictly for laboratory and research purposes and are <strong>not for human or veterinary use, consumption, or diagnostic purposes</strong>. By requesting a product you confirm you are a qualified researcher and will use it in compliance with all applicable laws.</p></div>
   </header>
@@ -250,6 +251,7 @@ async function submitRequest(){
   fd.append("Unit price",priceTxt);
   fd.append("Quantity",qty+" vial"+(qty>1?"s":""));
   fd.append("Order total",totalCents!=null?money(totalCents):"to be confirmed");
+  fd.append("Includes","Free bacteriostatic water + free shipping");
   if(current.note)fd.append("Blend",current.note);
   fd.append("Customer email",email);
   fd.append("Customer phone",phone);
@@ -263,7 +265,7 @@ async function submitRequest(){
       var payTotal=totalCents!=null?money(totalCents):"your order total";
       var qr=ZELLE_QR?'<img src="'+ZELLE_QR+'" alt="Zelle QR code" style="display:block;margin:10px auto 6px;width:150px;height:150px;border-radius:8px;background:#fff;padding:6px;border:1px solid #e2e8f0">':"";
       mMsg.className="ok";
-      mMsg.innerHTML="<strong>Order received!</strong><br>To complete it now, send <strong>"+payTotal+"</strong> via <strong>Zelle</strong> to <strong>"+ZELLE_HANDLE+"</strong> ("+ZELLE_NAME+") — scan the QR in your banking app:"+qr+"Include your email address in the payment memo so we can match your order. Prefer another method? We’ll also email you an invoice with all payment options. Orders ship once payment is received.";
+      mMsg.innerHTML="<strong>Order received!</strong><br>To complete it now, send <strong>"+payTotal+"</strong> via <strong>Zelle</strong> to <strong>"+ZELLE_HANDLE+"</strong> ("+ZELLE_NAME+") — scan the QR in your banking app:"+qr+"Include your email address in the payment memo so we can match your order. Every order ships free and includes a <strong>free bottle of bacteriostatic water</strong>. Prefer another method? We’ll also email you an invoice with all payment options. Orders ship once payment is received.";
     }else{throw new Error(j.message||"failed");}
   }catch(e){
     sending=false;mReq.classList.remove("disabled");refreshReq();
