@@ -519,7 +519,7 @@
     }
   ],
   "news": {
-    "summary": "Regulatory attention still centers on the July 23-24, 2026 FDA Pharmacy Compounding Advisory Committee (PCAC), which voted to recommend adding six of seven nominated research peptides (BPC-157, KPV, TB-500, MOTS-c, Epitalon, Semax) to the 503A bulk list while rejecting Emideltide (DSIP); those votes are advisory only and concern compounding eligibility, not FDA drug approval. Beyond the hearing, clinical research on next-generation obesity peptides continues to advance — ADA 2026 featured new data on retatrutide (up to ~30% weight loss at 104 weeks), survodutide, CagriSema, and oral GLP-1s — and clinicians (e.g., Stanford Medicine) and commentators continue to weigh benefits against safety and evidence gaps, especially for compounded GLP-1s. This is general research, not medical advice.",
+    "summary": "Scrutiny of the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting held July 23-24, 2026 has turned to how narrow the votes were and who cast them: BPC-157, KPV, and TB-500 each cleared 8-6 with one abstention and MOTS-c passed 7-5 with two abstentions, over the objection of FDA's own reviewers, and reporting notes that half the 14-member panel was seated ahead of the meeting from clinics or businesses selling peptide treatments. The votes remain advisory only; FDA has issued no final determination, any listing runs through notice-and-comment rulemaking, and a listing concerns compounding eligibility rather than FDA approval of a drug. A further PCAC meeting is announced for before the end of February 2027 covering Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II, and Mechano Growth Factor, Pegylated (PEG-MGF). On the research side, new Phase 3 registrations appeared for amycretin (zenagamtide) head-to-head against semaglutide, CagriSema in adolescents, and semaglutide in alcohol use disorder, while a large real-world preprint reported weight change on tirzepatide and semaglutide below landmark-trial averages. This is general research, not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -538,8 +538,9 @@
         "items": [
           "Retatrutide — GLP-1/GIP/glucagon triple agonist; Phase 3; NDA anticipated (not yet approved).",
           "Cagrilintide / CagriSema — amylin analog (± semaglutide); Phase 3; under regulatory development.",
-          "Amycretin — GLP-1/amylin co-agonist (oral & injectable); Phase 3 initiated 2026.",
-          "Compounding reclassification (a compounding decision, not a drug approval): at its July 23–24, 2026 meeting the FDA Pharmacy Compounding Advisory Committee (PCAC) voted to recommend adding six of seven nominated peptides — BPC-157, KPV, TB-500, MOTS-c, Epitalon, and Semax — to the 503A Bulk Drug Substances List, and voted against Emideltide (DSIP). The votes overrode FDA's own briefing recommendation, are advisory only, and any listing now depends on FDA notice-and-comment rulemaking. See Recent Headlines for the outcome and RFK Jr. / HHS context."
+          "Amycretin (zenagamtide) — GLP-1/amylin co-agonist (oral & injectable); Phase 3; head-to-head Phase 3 vs semaglutide in obesity registered Jul 2026 (AMAZE 7, NCT07668414).",
+          "Compounding reclassification (a compounding decision, not a drug approval): at its July 23–24, 2026 meeting the FDA Pharmacy Compounding Advisory Committee (PCAC) voted to recommend adding six of seven nominated peptides — BPC-157, KPV, TB-500, MOTS-c, Epitalon, and Semax — to the 503A Bulk Drug Substances List, and voted against Emideltide (DSIP). The votes overrode FDA's own briefing recommendation, are advisory only, and any listing now depends on FDA notice-and-comment rulemaking. See Recent Headlines for the outcome and RFK Jr. / HHS context.",
+          "Next compounding review (scheduling stage, not a drug approval): FDA has posted an early announcement for a further PCAC meeting before the end of February 2027 to consider five more substances for the 503A Bulk Drug Substances List — Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II, and Mechano Growth Factor, Pegylated (PEG-MGF). Date, docket, and briefing materials are not yet published."
         ]
       },
       {
@@ -552,7 +553,7 @@
       {
         "category": "Coming Down the Pipeline (newest late-stage candidates)",
         "items": [
-          "Amycretin (Novo Nordisk) — GLP-1/amylin co-agonist; Phase 3 (2026).",
+          "Amycretin / zenagamtide (Novo Nordisk) — GLP-1/amylin co-agonist; Phase 3, incl. head-to-head vs semaglutide (AMAZE 7, NCT07668414, registered Jul 2026).",
           "Retatrutide (Eli Lilly) — GLP-1/GIP/glucagon triple agonist; Phase 3.",
           "Cagrilintide / CagriSema (Novo Nordisk) — amylin analog ± semaglutide; Phase 3."
         ]
@@ -561,7 +562,8 @@
         "category": "In Human Trials (clinical or early-human data; not yet FDA-approved)",
         "items": [
           "Kisspeptin, Selank, Semax, CJC-1295, Melanotan II, GHRP-2, AOD-9604, Thymosin Alpha-1, DSIP, LL-37, Epitalon, Pinealon.",
-          "GZR18 (bofanglutide) — long-acting GLP-1 RA (Gan & Lee); Phase 2b vs semaglutide in type 2 diabetes published Jun 2026 (NCT06256549); investigational, not FDA-approved."
+          "GZR18 (bofanglutide) — long-acting GLP-1 RA (Gan & Lee); Phase 2b vs semaglutide in type 2 diabetes published Jun 2026 (NCT06256549); confirmatory Phase 3 registered Jul 2026 (BALANCE-DM2 NCT07628985, BALANCE-OBS NCT07622810); investigational, not FDA-approved.",
+          "UBT251 — investigational GLP-1/GIP/glucagon triple agonist (United Bio-Technology); Phase 3 vs semaglutide in type 2 diabetes registered Jul 2026 (UNIGUIDE-2, NCT07653477); not FDA-approved. Candidate for a future monograph."
         ]
       },
       {
@@ -573,19 +575,39 @@
     ],
     "timeline": [
       {
-        "date": "2026-07-21",
-        "title": "Physician commentary: FDA's peptide review reflects a science-vs-hype public-health gap",
-        "content": "A Forbes piece by physician Omer Awan argues the FDA's review of seven peptides for compounding highlights a public-health challenge: many peptides remain popular on social media despite limited robust human clinical evidence, and he raises questions about advisory-committee members' ties to the peptide industry. Opinion/analysis, general information only — not medical advice. Source: [Forbes](https://www.forbes.com/sites/omerawan/2026/07/21/fdas-review-of-peptides-signals-a-growing-public-health-challenge--separating-science-from-hype/)"
+        "date": "2026-07-27",
+        "title": "This week in peptides: the margins were narrow — and the make-up of the panel that produced them is now part of the story",
+        "content": "With the Pharmacy Compounding Advisory Committee (PCAC) votes of July 23–24, 2026 now on the record, the detail drawing scrutiny is how close they were and who cast them. Per trade coverage citing Reuters, BPC-157, KPV and TB-500 each cleared on an 8-in-favour, 6-against vote with one abstention, and MOTs-C passed 7–5 with two abstentions — majorities of one or two members, not consensus. The votes also ran against the agency's own reviewers, who had recommended against expanding compounding access for all seven nominated substances, citing limited safety and effectiveness data; FDA officials used the hearing to note that compounded products carry no required labelling on dosing or risk and to urge sponsors toward formal applications and controlled human trials. Reporting notes that seven of the committee's fourteen members were added ahead of the meeting from clinics or businesses that sell peptide treatments, and that most members voting in favour have industry ties. A HHS spokesperson said all committee members underwent the same ethics review and vetting required of any FDA advisory committee member. Not every panellist was persuaded: committee member Elizabeth Rebello of the University of Texas said, \"I'm concerned that we're responding to a market-induced demand rather than a decision based in solid science.\" The practical position is unchanged — the agency is not bound by its advisers, has issued no final determination, and any listing would run through notice-and-comment rulemaking; a listing concerns compounding eligibility, not FDA approval of a drug. General research only — not medical advice. Source: [Pharmaceutical Technology](https://www.pharmtech.com/view/peptide-compounding-vote-raises-questions-drug-developers), [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/fda-panel-votes-place-popular-peptide-bpc-157-compounding-list-2026-07-23/), [FDA PCAC meeting page](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026)"
       },
       {
-        "date": "2026-07-16",
-        "title": "Stanford Medicine: clinicians outline safety concerns with compounded GLP-1 peptides",
-        "content": "Stanford Medicine published an explainer in which clinicians describe why compounded GLP-1 weight-loss peptides can carry added safety risks versus FDA-approved versions, citing unproven formulations, potential dosing errors, and untested ingredient combinations. General information only — not medical advice. Source: [Stanford Medicine](https://med.stanford.edu/news/insights/2026/07/glp1s-compounded-why-doctors-worry-about-safety.html)"
+        "date": "2026-07-27",
+        "title": "Novo Nordisk sues Eli Lilly over GLP-1 comparative advertising",
+        "content": "Novo Nordisk filed a federal lawsuit against Eli Lilly on July 21, 2026, alleging that Lilly's direct-to-consumer advertising for Zepbound and Mounjaro misleads patients by making comparative claims against Wegovy and Ozempic while omitting the higher-strength version of Wegovy that the FDA approved in March 2026. Novo's complaint argues that because no head-to-head trial has compared the highest strengths of the competing products, comparisons that leave out the newer approved strength are misleading. Eli Lilly defended its advertising as based on what it describes as the strongest available scientific evidence. The dispute is a commercial and advertising-law matter between two manufacturers of FDA-approved GLP-1 medicines and does not itself change any approval or clinical recommendation. General research only — not medical advice. Source: [CNBC](https://www.cnbc.com/2026/07/21/novo-nordisk-sues-eli-lilly-glp-1-ads.html), [Washington Post](https://www.washingtonpost.com/health/2026/07/21/glp-1-ad-war-leads-lawsuit-by-novo-nordisk-claiming-eli-lilly-misleads/), [PharmExec](https://www.pharmexec.com/view/novo-nordisk-sues-eli-lilly-glp-advertising-alleging-misleading-dosing-comparisons)"
       },
       {
-        "date": "2026-07-06",
-        "title": "ADA 2026: next-generation obesity peptides post new trial data (retatrutide, survodutide, CagriSema, oral GLP-1s)",
-        "content": "Coverage of the American Diabetes Association 2026 sessions summarized new obesity-drug data: the triple agonist retatrutide reached roughly 20% weight loss at 80 weeks and over 30% at 104 weeks in TRIUMPH-1; the dual agonist survodutide showed about 16.6% weight loss; CagriSema (cagrilintide + semaglutide) outperformed either component alone in phase 3 diabetes trials; and small-molecule oral GLP-1s showed ~10-11% reductions. These are investigational or trial-stage findings, not treatment recommendations — not medical advice. Source: [Docwire News](https://www.docwirenews.com/post/ada-2026-obesity-drug-updates-retatrutide-cagrisema-and-oral-glp-1s)"
+        "date": "2026-07-27",
+        "title": "Real-world preprint reports weight change on tirzepatide and semaglutide below landmark-trial figures",
+        "content": "A retrospective cohort preprint posted to medRxiv analysed 13,507 adults in a US telehealth obesity programme and reported a mean six-month weight loss of 11.5%, with 59.1% of patients reaching at least 10% total body weight loss. After propensity-score matching, patients using tirzepatide reached that 10% threshold 18.1 percentage points more often than those using semaglutide. The authors stress that these real-world figures sit meaningfully below the averages reported in the landmark randomised trials and that their six-month readout is not time-matched to those 68- and 72-week endpoints. The work is observational, drawn from a single telehealth platform, authored by contractors for that company, and has not been peer reviewed. General research only — not medical advice. Source: [medRxiv, DOI 10.64898/2026.07.14.26357502](https://doi.org/10.64898/2026.07.14.26357502)"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "New Phase 3 registrations appear for amycretin, CagriSema in adolescents, and semaglutide in alcohol use disorder",
+        "content": "Several Phase 3 trial registrations relevant to the GLP-1 and amylin classes have been posted to ClinicalTrials.gov. Novo Nordisk's AMAZE 7 (NCT07668414) is registered as a head-to-head comparison of once-weekly zenagamtide — the naming applied to the investigational GLP-1/amylin co-agonist amycretin — against once-weekly semaglutide in participants with overweight or obesity, with a planned 650 participants and a September 2026 start. A separate Novo trial (NCT07282613) extends CagriSema into children and adolescents with type 2 diabetes. Independently, the US Department of Veterans Affairs registered CSP #2041 \"CRAVE\" (NCT07218354), a placebo-controlled Phase 3 study of semaglutide in Veterans with alcohol use disorder, with a planned 622 participants. All three are registrations only — none has reported results, and none of the investigational uses is FDA approved. General research only — not medical advice. Source: [ClinicalTrials.gov NCT07668414](https://clinicaltrials.gov/study/NCT07668414), [NCT07282613](https://clinicaltrials.gov/study/NCT07282613), [NCT07218354](https://clinicaltrials.gov/study/NCT07218354)"
+      },
+      {
+        "date": "2026-07-26",
+        "title": "This week in peptides: the calendar already turns to the NEXT peptide review — FDA lists five more substances for a meeting before the end of February 2027",
+        "content": "Two days after the Pharmacy Compounding Advisory Committee (PCAC) finished voting on the first seven nominated research peptides, the more consequential detail for the months ahead is the one sitting on FDA's own advisory-committee pages: the agency has posted an early announcement that it will host another PCAC meeting **before the end of February 2027**, and the published agenda names five additional bulk drug substances being considered for the 503A Bulk Drug Substances List — Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II, and Mechano Growth Factor, Pegylated (PEG-MGF). Four of those five are already covered as monographs in this knowledge base; PEG-MGF is not, and is flagged here as a candidate for future coverage. Per the FDA notice, the meeting time and location have not yet been scheduled, no Federal Register notice or public-comment docket has published yet, and meeting materials are expected no later than two business days beforehand — so the substantive signal on FDA's scientific position on these five is still months away. Context to keep straight on the July round: the committee's six-of-seven vote is advisory and non-binding, and under FDA's 503A interim policy the agency publishes a Notice of Proposed Rulemaking upon completing its evaluation, meaning any listing runs through notice-and-comment rulemaking rather than taking effect from the vote. A listing decision concerns compounding eligibility, not FDA approval of a drug. General research only — not medical advice. Source: [FDA.gov PCAC February 2027 meeting announcement](https://www.fda.gov/advisory-committees/pharmacy-compounding-advisory-committee/meeting-pharmacy-compounding-advisory-committee), [FDA.gov 2027 meeting materials](https://www.fda.gov/advisory-committees/pharmacy-compounding-advisory-committee/2027-meeting-materials-pharmacy-compounding-advisory-committee), [RAPS / Regulatory Focus](https://www.raps.org/resource/fda-considers-adding-a-dozen-peptides-to-its-bulk-drug-compounding-list.html), [FDA 503A bulk substances](https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act)"
+      },
+      {
+        "date": "2026-07-26",
+        "title": "Nature Metabolism study maps separate brain regions behind GIP receptor activation versus blockade",
+        "content": "A mouse study published in Nature Metabolism reports that two anatomically distinct brain regions appear to explain a long-standing puzzle in metabolic pharmacology — why adding either a GIP receptor agonist or a GIP receptor antagonist to GLP-1 receptor agonism can each produce additional weight loss. Using region-selective genetic knockouts, the authors report that the area postrema mediates appetite suppression from GIP receptor agonism, while hypothalamic GIP receptors underlie the ability of GIP receptor antagonism to enhance the effect of GLP-1 and amylin receptor agonists. The work is preclinical and has not been tested in humans, but it bears on the mechanism of dual-agonist and amylin-based agents such as tirzepatide and cagrilintide. General research only — not medical advice. Source: [Nature Metabolism, DOI 10.1038/s42255-026-01575-z](https://doi.org/10.1038/s42255-026-01575-z) (PubMed)"
+      },
+      {
+        "date": "2026-07-26",
+        "title": "Meta-analysis reports semaglutide more than doubled odds of MASH resolution, with fibrosis effect still uncertain",
+        "content": "A systematic review and meta-analysis of placebo-controlled randomized trials, published in Medicine (Baltimore), pooled data on semaglutide in adults with metabolic dysfunction-associated steatotic liver disease and steatohepatitis. Semaglutide was associated with a more than doubled likelihood of steatohepatitis resolution without fibrosis progression (risk ratio 2.14) and with reductions in liver enzymes, body weight, and glycated hemoglobin, while improvement in fibrosis stage was not statistically significant. Gastrointestinal adverse events and treatment discontinuation were more frequent than with placebo, with serious adverse events comparable; the authors graded the fibrosis finding as uncertain and called for longer, adequately powered trials. General research only — not medical advice. Source: [Medicine (Baltimore), DOI 10.1097/MD.0000000000049916](https://doi.org/10.1097/MD.0000000000049916) (PubMed)"
       },
       {
         "date": "2026-07-25",
@@ -683,7 +705,7 @@
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
       }
     ],
-    "generatedAt": "2026-07-25T21:42:15Z"
+    "generatedAt": "2026-07-27T16:14:33Z"
   },
   "podcasts": [
     {
