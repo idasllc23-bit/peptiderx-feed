@@ -125,6 +125,29 @@
   .mreq.disabled{opacity:.45;cursor:not-allowed;box-shadow:none;pointer-events:none}
   .mfro{margin-top:14px;color:var(--muted);font-size:11.5px;line-height:1.45;text-align:center}
   .legal-links{font-size:12.5px}
+  /* --- cart --- */
+  .cartfab{position:fixed;right:18px;bottom:18px;z-index:60;display:inline-flex;align-items:center;gap:9px;padding:13px 18px;border:0;border-radius:999px;font-family:inherit;font-weight:800;font-size:14.5px;color:#fff;background:linear-gradient(180deg,#5a9bf3,#3f86ef);box-shadow:0 12px 30px rgba(63,134,239,.42);cursor:pointer;transition:transform .14s,filter .14s}
+  .cartfab:hover{transform:translateY(-2px);filter:brightness(1.04)}
+  .cartfab .cf-count{min-width:22px;height:22px;padding:0 6px;display:inline-grid;place-items:center;border-radius:999px;background:#fff;color:var(--blue-600);font-size:12.5px;font-weight:900}
+  .cartfab .cf-total{font-variant-numeric:tabular-nums}
+  .cartsheet{max-width:520px}
+  .citems{margin:14px 0 6px;display:flex;flex-direction:column;gap:10px;max-height:44vh;overflow:auto}
+  .citem{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e2ecfa;border-radius:16px;padding:12px 13px;box-shadow:var(--shadow)}
+  .citem .ci-main{flex:1;min-width:0}
+  .citem .ci-name{font-weight:800;font-size:14.5px;color:var(--ink);line-height:1.2}
+  .citem .ci-meta{font-size:12px;color:var(--muted);font-weight:600;margin-top:2px}
+  .citem .ci-step{display:inline-flex;align-items:center;gap:0;border:1px solid #d2e2f5;border-radius:999px;overflow:hidden;background:#fff}
+  .citem .ci-step button{width:30px;height:30px;border:0;background:#fff;color:var(--blue-600);font-size:17px;font-weight:800;cursor:pointer}
+  .citem .ci-step button:hover{background:#eef5ff}
+  .citem .ci-step span{min-width:26px;text-align:center;font-weight:800;font-size:13.5px}
+  .citem .ci-line{min-width:64px;text-align:right;font-weight:800;font-size:14px;font-variant-numeric:tabular-nums}
+  .citem .ci-rm{flex:none;width:26px;height:26px;border:0;background:transparent;color:#94a7c4;font-size:19px;cursor:pointer;line-height:1}
+  .citem .ci-rm:hover{color:#e05252}
+  .cempty{padding:26px 6px;text-align:center;color:var(--muted);font-weight:600}
+  .ccheckout{margin-top:8px}
+  .csub{display:flex;justify-content:space-between;align-items:baseline;font-weight:900;font-size:18px;margin:6px 0 2px}
+  .cperk{font-size:12px;font-weight:700;color:#0f7a4f;margin-bottom:12px}
+  .cart .minput{margin-top:8px}
   .pcard .check{position:absolute;top:10px;right:10px;width:20px;height:20px;border-radius:50%;border:1.5px solid #c2d6f0;background:#fff;display:grid;place-items:center;color:#fff}
   .pcard.sel .check{background:var(--blue);border-color:var(--blue)}
   .pcard .check svg{opacity:0}.pcard.sel .check svg{opacity:1}
@@ -194,13 +217,33 @@
       </div>
     </div>
     <div id="mPrice"></div>
-    <div id="mForm">
-      <input id="mEmail" class="minput" type="email" inputmode="email" autocomplete="email" placeholder="Your email address" />
-      <input id="mPhone" class="minput" type="tel" inputmode="tel" autocomplete="tel" placeholder="Your phone number" />
-    </div>
-    <button class="mreq disabled" id="mReq" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg> <span id="mReqLabel">Continue to payment</span></button>
+    <button class="mreq disabled" id="mReq" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> <span id="mReqLabel">Add to cart</span></button>
     <div id="mMsg"></div>
-    <div class="mfro">For research use only &mdash; not for human consumption. Pay instantly by Zelle after you order, or we&rsquo;ll email you an invoice with payment options.</div>
+    <div class="mfro">For research use only &mdash; not for human consumption. Free shipping and a free bottle of bacteriostatic water with every order.</div>
+  </div></div>
+
+  <!-- Cart floating button -->
+  <button id="cartFab" class="cartfab hidden" type="button" aria-label="Open cart">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg>
+    <span id="cartFabCount" class="cf-count">0</span>
+    <span id="cartFabTotal" class="cf-total">$0.00</span>
+  </button>
+
+  <!-- Cart drawer -->
+  <div class="modal" id="cart"><div class="sheet cartsheet">
+    <button class="mclose" id="cClose" type="button" aria-label="Close">&times;</button>
+    <div class="mname">Your cart</div>
+    <div id="cItems" class="citems"></div>
+    <div id="cEmpty" class="cempty">Your cart is empty. Tap a compound to add it.</div>
+    <div id="cCheckout" class="ccheckout">
+      <div class="csub"><span>Subtotal</span><span id="cSubtotal">$0.00</span></div>
+      <div class="cperk">&#10003; Free shipping &nbsp;&middot;&nbsp; &#10003; Free bacteriostatic water</div>
+      <input id="cEmail" class="minput" type="email" inputmode="email" autocomplete="email" placeholder="Your email address" />
+      <input id="cPhone" class="minput" type="tel" inputmode="tel" autocomplete="tel" placeholder="Your phone number" />
+      <button class="mreq disabled" id="cReq" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg> <span id="cReqLabel">Continue to payment</span></button>
+    </div>
+    <div id="cMsg"></div>
+    <div class="mfro" id="cFro">For research use only &mdash; not for human consumption. Pay instantly by Zelle after you order.</div>
   </div></div>
 
   <footer><div class="wrap">
@@ -229,7 +272,11 @@ const ZELLE_HANDLE="ipcranger55@gmail.com",ZELLE_NAME="Ian Cleveland",ZELLE_QR="
 const esc=s=>(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 document.getElementById("yr").textContent=new Date().getFullYear();
 const grid=document.getElementById("grid"),qInput=document.getElementById("q"),countEl=document.getElementById("count");
-const modal=document.getElementById("modal"),mName=document.getElementById("mName"),mNote=document.getElementById("mNote"),mSize=document.getElementById("mSize"),mReq=document.getElementById("mReq"),mClose=document.getElementById("mClose"),mPrice=document.getElementById("mPrice"),mReqLabel=document.getElementById("mReqLabel"),mForm=document.getElementById("mForm"),mEmail=document.getElementById("mEmail"),mPhone=document.getElementById("mPhone"),mMsg=document.getElementById("mMsg"),mQtyRow=document.getElementById("mQtyRow"),mQty=document.getElementById("mQty"),mQtyMinus=document.getElementById("mQtyMinus"),mQtyPlus=document.getElementById("mQtyPlus");
+const modal=document.getElementById("modal"),mName=document.getElementById("mName"),mNote=document.getElementById("mNote"),mSize=document.getElementById("mSize"),mReq=document.getElementById("mReq"),mClose=document.getElementById("mClose"),mPrice=document.getElementById("mPrice"),mReqLabel=document.getElementById("mReqLabel"),mMsg=document.getElementById("mMsg"),mQtyRow=document.getElementById("mQtyRow"),mQty=document.getElementById("mQty"),mQtyMinus=document.getElementById("mQtyMinus"),mQtyPlus=document.getElementById("mQtyPlus");
+// cart elements + state
+const cartEl=document.getElementById("cart"),cItems=document.getElementById("cItems"),cEmpty=document.getElementById("cEmpty"),cCheckout=document.getElementById("cCheckout"),cSubtotal=document.getElementById("cSubtotal"),cEmail=document.getElementById("cEmail"),cPhone=document.getElementById("cPhone"),cReq=document.getElementById("cReq"),cReqLabel=document.getElementById("cReqLabel"),cMsg=document.getElementById("cMsg"),cFro=document.getElementById("cFro"),cClose=document.getElementById("cClose");
+const fab=document.getElementById("cartFab"),fabCount=document.getElementById("cartFabCount"),fabTotal=document.getElementById("cartFabTotal");
+const cart=[]; // {name,size,note,unitCents,qty}
 const getQty=()=>{let n=parseInt(mQty.value,10);if(!n||n<1)n=1;return n;};
 // each size carries an explicit retail per-vial price (opt.r, in dollars).
 const vialCents=r=>Math.round(r*100);   // retail dollars -> cents
@@ -252,61 +299,83 @@ function render(){
     <span class="phint">Select size &amp; continue <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span>
   </article>`).join("");
 }
-function refreshReq(){
+function refreshReq(){ // compound modal → "Add to cart"
   const opt=selectedOpt();
   if(!opt){
-    mQtyRow.style.display="none";mPrice.style.display="none";mForm.style.display="none";
-    mReq.classList.add("disabled");mReqLabel.textContent="Continue to payment";return;
+    mQtyRow.style.display="none";mPrice.style.display="none";
+    mReq.classList.add("disabled");mReqLabel.textContent="Add to cart";return;
   }
   const qty=getQty();
   mQtyRow.style.display="block";
-  mPrice.classList.remove("onreq");
   const vc=vialCents(opt.r),totalCents=vc*qty;
   mPrice.innerHTML=money(totalCents)+'<span class="per">'+qty+" vial"+(qty>1?"s":"")+" &times; "+money(vc)+"/vial</span>";
-  mReqLabel.textContent="Continue to payment · "+money(totalCents);
+  mReqLabel.textContent="Add to cart · "+money(totalCents);
   mPrice.style.display="block";
-  mForm.style.display="block";
-  const ok=validEmail(mEmail.value.trim())&&validPhone(mPhone.value.trim());
-  mReq.classList.toggle("disabled",!ok);
+  mReq.classList.remove("disabled");
 }
-async function submitRequest(){
-  const opt=selectedOpt();if(!opt||sending)return;
-  const email=mEmail.value.trim(),phone=mPhone.value.trim();
+const cartTotalCents=()=>cart.reduce((s,it)=>s+it.unitCents*it.qty,0);
+const cartCount=()=>cart.reduce((s,it)=>s+it.qty,0);
+function updateFab(){const n=cartCount();fabCount.textContent=n;fabTotal.textContent=money(cartTotalCents());fab.classList.toggle("hidden",n===0);}
+function addToCart(){
+  const opt=selectedOpt();if(!opt)return;
+  const qty=getQty(),unit=vialCents(opt.r);
+  const ex=cart.find(it=>it.name===current.name&&it.size===opt.s);
+  if(ex){ex.qty+=qty;}else{cart.push({name:current.name,size:opt.s,note:current.note||"",unitCents:unit,qty:qty});}
+  updateFab();renderCart();
+  mReqLabel.textContent="Added ✓";mReq.classList.add("disabled");
+  setTimeout(closeModal,450);
+}
+function renderCart(){
+  if(!cart.length){cItems.innerHTML="";cItems.style.display="";cEmpty.style.display="block";cCheckout.style.display="none";cFro.style.display="none";return;}
+  cEmpty.style.display="none";cCheckout.style.display="block";cFro.style.display="block";cItems.style.display="";
+  cItems.innerHTML=cart.map((it,i)=>`<div class="citem">
+    <div class="ci-main"><div class="ci-name">${esc(it.name)}</div><div class="ci-meta">${esc(it.size)} &middot; ${money(it.unitCents)}/vial</div></div>
+    <div class="ci-step"><button data-d="-1" data-i="${i}" type="button" aria-label="Decrease">&minus;</button><span>${it.qty}</span><button data-d="1" data-i="${i}" type="button" aria-label="Increase">+</button></div>
+    <div class="ci-line">${money(it.unitCents*it.qty)}</div>
+    <button class="ci-rm" data-rm="${i}" type="button" aria-label="Remove">&times;</button>
+  </div>`).join("");
+  cSubtotal.textContent=money(cartTotalCents());
+  refreshCheckout();
+}
+function refreshCheckout(){
+  cReqLabel.textContent="Continue to payment · "+money(cartTotalCents());
+  const ok=cart.length&&validEmail(cEmail.value.trim())&&validPhone(cPhone.value.trim());
+  cReq.classList.toggle("disabled",!ok);
+}
+cItems.addEventListener("click",e=>{
+  const step=e.target.closest("[data-d]"),rm=e.target.closest("[data-rm]");
+  if(step){const i=+step.dataset.i;cart[i].qty=Math.max(1,cart[i].qty+ +step.dataset.d);updateFab();renderCart();}
+  else if(rm){cart.splice(+rm.dataset.rm,1);updateFab();renderCart();}
+});
+function openCart(){cMsg.className="";cMsg.textContent="";cReq.style.display="";cItems.style.display="";renderCart();cartEl.classList.add("show");document.body.style.overflow="hidden";}
+function closeCart(){cartEl.classList.remove("show");document.body.style.overflow="";}
+async function checkout(){
+  if(sending||!cart.length)return;
+  const email=cEmail.value.trim(),phone=cPhone.value.trim();
   if(!validEmail(email)||!validPhone(phone))return;
-  const qty=getQty();
-  const vc=vialCents(opt.r);
-  const totalCents=vc*qty;
-  sending=true;mReq.classList.add("disabled");mReqLabel.textContent="Processing…";
-  mMsg.className="";
-  const priceTxt=money(vc)+" per vial";
+  sending=true;cReq.classList.add("disabled");cReqLabel.textContent="Processing…";cMsg.className="";
+  const totalCents=cartTotalCents();
   const fd=new FormData();
-  fd.append("_subject","New peptide order — "+current.name+" "+opt.s+" ×"+qty+" vial"+(qty>1?"s":"")+(totalCents!=null?" ("+money(totalCents)+")":""));
-  fd.append("_captcha","false");
-  fd.append("_template","table");
-  fd.append("Compound",current.name);
-  fd.append("Size",opt.s);
-  fd.append("Unit price",priceTxt);
-  fd.append("Quantity",qty+" vial"+(qty>1?"s":""));
-  fd.append("Order total",totalCents!=null?money(totalCents):"to be confirmed");
+  fd.append("_subject","New peptide order — "+cartCount()+" vial(s) ("+money(totalCents)+")");
+  fd.append("_captcha","false");fd.append("_template","table");
+  cart.forEach((it,idx)=>{fd.append("Item "+(idx+1),it.name+" — "+it.size+" ×"+it.qty+" @ "+money(it.unitCents)+"/vial = "+money(it.unitCents*it.qty)+(it.note?" ("+it.note+")":""));});
+  fd.append("Order total",money(totalCents));
   fd.append("Includes","Free bacteriostatic water + free shipping");
-  if(current.note)fd.append("Blend",current.note);
-  fd.append("Customer email",email);
-  fd.append("Customer phone",phone);
-  fd.append("_replyto",email);
-  fd.append("_honey","");
+  fd.append("Customer email",email);fd.append("Customer phone",phone);
+  fd.append("_replyto",email);fd.append("_honey","");
   try{
     const r=await fetch("https://formsubmit.co/ajax/"+ORDER_EMAIL,{method:"POST",headers:{"Accept":"application/json"},body:fd});
     const j=await r.json().catch(()=>({}));
     if(r.ok&&(j.success===true||j.success==="true")){
-      mForm.style.display="none";mReq.style.display="none";mPrice.style.display="none";
-      var payTotal=totalCents!=null?money(totalCents):"your order total";
+      cItems.style.display="none";cCheckout.style.display="none";cFro.style.display="none";
       var qr=ZELLE_QR?'<img src="'+ZELLE_QR+'" alt="Zelle QR code" style="display:block;margin:10px auto 6px;width:150px;height:150px;border-radius:8px;background:#fff;padding:6px;border:1px solid #e2e8f0">':"";
-      mMsg.className="ok";
-      mMsg.innerHTML="<strong>Order received!</strong><br>To complete it now, send <strong>"+payTotal+"</strong> via <strong>Zelle</strong> to <strong>"+ZELLE_HANDLE+"</strong> ("+ZELLE_NAME+") — scan the QR in your banking app:"+qr+"Include your email address in the payment memo so we can match your order. Every order ships free and includes a <strong>free bottle of bacteriostatic water</strong>. Prefer another method? We’ll also email you an invoice with all payment options. Orders ship once payment is received.";
+      cMsg.className="ok";
+      cMsg.innerHTML="<strong>Order received!</strong><br>To complete it now, send <strong>"+money(totalCents)+"</strong> via <strong>Zelle</strong> to <strong>"+ZELLE_HANDLE+"</strong> ("+ZELLE_NAME+") — scan the QR in your banking app:"+qr+"Include your email address in the payment memo so we can match your order. Every order ships free and includes a <strong>free bottle of bacteriostatic water</strong>. Orders ship once payment is received.";
+      cart.length=0;updateFab();sending=false;
     }else{throw new Error(j.message||"failed");}
   }catch(e){
-    sending=false;mReq.classList.remove("disabled");refreshReq();
-    mMsg.className="err";mMsg.textContent="Sorry — that didn’t send. Please email "+ORDER_EMAIL+" directly, or try again.";
+    sending=false;cReq.classList.remove("disabled");refreshCheckout();
+    cMsg.className="err";cMsg.textContent="Sorry — that didn’t send. Please email "+ORDER_EMAIL+" directly, or try again.";
   }
 }
 function openModal(name){
@@ -314,25 +383,30 @@ function openModal(name){
   mName.textContent=current.name;
   mNote.textContent=current.note||"For research use only.";
   mSize.innerHTML='<option value="">Choose a size…</option>'+current.sizes.map(o=>`<option value="${esc(o.s)}">${esc(o.s)} — ${money(vialCents(o.r))}/vial</option>`).join("");
-  mSize.value="";mEmail.value="";mPhone.value="";mQty.value="1";
-  mQtyRow.style.display="none";mPrice.style.display="none";mForm.style.display="none";
+  mSize.value="";mQty.value="1";
+  mQtyRow.style.display="none";mPrice.style.display="none";
   mMsg.className="";mMsg.textContent="";mReq.style.display="";
-  mReqLabel.textContent="Continue to payment";mReq.classList.add("disabled");sending=false;
+  mReqLabel.textContent="Add to cart";mReq.classList.add("disabled");
   modal.classList.add("show");document.body.style.overflow="hidden";
 }
 function closeModal(){modal.classList.remove("show");document.body.style.overflow="";current=null;}
 grid.addEventListener("click",e=>{const card=e.target.closest(".pcard");if(card)openModal(card.dataset.n);});
 mSize.addEventListener("change",refreshReq);
-mEmail.addEventListener("input",refreshReq);
-mPhone.addEventListener("input",refreshReq);
 mQty.addEventListener("input",refreshReq);
 mQtyMinus.addEventListener("click",()=>{mQty.value=Math.max(1,getQty()-1);refreshReq();});
 mQtyPlus.addEventListener("click",()=>{mQty.value=getQty()+1;refreshReq();});
-mReq.addEventListener("click",submitRequest);
+mReq.addEventListener("click",addToCart);
 mClose.addEventListener("click",closeModal);
 modal.addEventListener("click",e=>{if(e.target===modal)closeModal();});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modal.classList.contains("show"))closeModal();});
+fab.addEventListener("click",openCart);
+cClose.addEventListener("click",closeCart);
+cartEl.addEventListener("click",e=>{if(e.target===cartEl)closeCart();});
+cEmail.addEventListener("input",refreshCheckout);
+cPhone.addEventListener("input",refreshCheckout);
+cReq.addEventListener("click",checkout);
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){if(modal.classList.contains("show"))closeModal();else if(cartEl.classList.contains("show"))closeCart();}});
 qInput.addEventListener("input",render);
+updateFab();
 render();
 </script>
 </body>
