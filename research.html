@@ -198,7 +198,7 @@
       <input id="mEmail" class="minput" type="email" inputmode="email" autocomplete="email" placeholder="Your email address" />
       <input id="mPhone" class="minput" type="tel" inputmode="tel" autocomplete="tel" placeholder="Your phone number" />
     </div>
-    <button class="mreq disabled" id="mReq" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg> <span id="mReqLabel">Request this compound</span></button>
+    <button class="mreq disabled" id="mReq" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg> <span id="mReqLabel">Continue to payment</span></button>
     <div id="mMsg"></div>
     <div class="mfro">For research use only &mdash; not for human consumption. Pay instantly by Zelle after you order, or we&rsquo;ll email you an invoice with payment options.</div>
   </div></div>
@@ -249,27 +249,21 @@ function render(){
     ${c.note?`<div class="pnote">${esc(c.note)}</div>`:`<div class="psub">Research use only</div>`}
     ${c.from!=null?`<div class="pprice">from $${c.from} / vial</div>`:``}
     <a class="ver" href="${COA_URL}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Janoshik tested &middot; view COA</a>
-    <span class="phint">Select size &amp; request <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span>
+    <span class="phint">Select size &amp; continue <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span>
   </article>`).join("");
 }
 function refreshReq(){
   const opt=selectedOpt();
   if(!opt){
     mQtyRow.style.display="none";mPrice.style.display="none";mForm.style.display="none";
-    mReq.classList.add("disabled");mReqLabel.textContent="Request this compound";return;
+    mReq.classList.add("disabled");mReqLabel.textContent="Continue to payment";return;
   }
   const qty=getQty();
   mQtyRow.style.display="block";
   mPrice.classList.remove("onreq");
-  if(opt.r!=null){
-    const vc=vialCents(opt.r),totalCents=vc*qty;
-    mPrice.innerHTML=money(totalCents)+'<span class="per">'+qty+" vial"+(qty>1?"s":"")+" &times; "+money(vc)+"/vial</span>";
-    mReqLabel.textContent="Request "+qty+" vial"+(qty>1?"s":"")+" · "+money(totalCents);
-  }else{
-    mPrice.classList.add("onreq");
-    mPrice.innerHTML="Price on request<span class=\"per\">we’ll confirm the price for this size</span>";
-    mReqLabel.textContent="Request "+qty+" vial"+(qty>1?"s":"");
-  }
+  const vc=vialCents(opt.r),totalCents=vc*qty;
+  mPrice.innerHTML=money(totalCents)+'<span class="per">'+qty+" vial"+(qty>1?"s":"")+" &times; "+money(vc)+"/vial</span>";
+  mReqLabel.textContent="Continue to payment · "+money(totalCents);
   mPrice.style.display="block";
   mForm.style.display="block";
   const ok=validEmail(mEmail.value.trim())&&validPhone(mPhone.value.trim());
@@ -280,11 +274,11 @@ async function submitRequest(){
   const email=mEmail.value.trim(),phone=mPhone.value.trim();
   if(!validEmail(email)||!validPhone(phone))return;
   const qty=getQty();
-  const vc=opt.r!=null?vialCents(opt.r):null;
-  const totalCents=vc!=null?vc*qty:null;
-  sending=true;mReq.classList.add("disabled");mReqLabel.textContent="Sending…";
+  const vc=vialCents(opt.r);
+  const totalCents=vc*qty;
+  sending=true;mReq.classList.add("disabled");mReqLabel.textContent="Processing…";
   mMsg.className="";
-  const priceTxt=vc!=null?(money(vc)+" per vial"):"price on request";
+  const priceTxt=money(vc)+" per vial";
   const fd=new FormData();
   fd.append("_subject","New peptide order — "+current.name+" "+opt.s+" ×"+qty+" vial"+(qty>1?"s":"")+(totalCents!=null?" ("+money(totalCents)+")":""));
   fd.append("_captcha","false");
@@ -319,11 +313,11 @@ function openModal(name){
   current=byName(name);if(!current)return;
   mName.textContent=current.name;
   mNote.textContent=current.note||"For research use only.";
-  mSize.innerHTML='<option value="">Choose a size…</option>'+current.sizes.map(o=>`<option value="${esc(o.s)}">${esc(o.s)}${o.p!=null?" — $"+(o.p/10).toFixed(2)+"/vial":" — price on request"}</option>`).join("");
+  mSize.innerHTML='<option value="">Choose a size…</option>'+current.sizes.map(o=>`<option value="${esc(o.s)}">${esc(o.s)} — ${money(vialCents(o.r))}/vial</option>`).join("");
   mSize.value="";mEmail.value="";mPhone.value="";mQty.value="1";
   mQtyRow.style.display="none";mPrice.style.display="none";mForm.style.display="none";
   mMsg.className="";mMsg.textContent="";mReq.style.display="";
-  mReqLabel.textContent="Request this compound";mReq.classList.add("disabled");sending=false;
+  mReqLabel.textContent="Continue to payment";mReq.classList.add("disabled");sending=false;
   modal.classList.add("show");document.body.style.overflow="hidden";
 }
 function closeModal(){modal.classList.remove("show");document.body.style.overflow="";current=null;}
