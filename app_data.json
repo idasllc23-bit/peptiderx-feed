@@ -516,10 +516,426 @@
           "summary": "Preclinical studies explored sleep-related signaling. Human evidence is limited."
         }
       ]
+    },
+    {
+      "id": "p-ll37",
+      "slug": "ll-37",
+      "name": "LL-37",
+      "aka": [
+        "Cathelicidin",
+        "hCAP18"
+      ],
+      "category": "immune",
+      "shortSummary": "The body's own cathelicidin peptide, discussed in research on innate immunity and wound healing.",
+      "overview": "LL-37 is a naturally occurring 37-amino-acid host-defense peptide of the human innate immune system, released from the precursor protein hCAP18. Research describes antimicrobial, immune-signaling and wound-healing roles. It is also studied as a driver of inflammatory skin conditions, which complicates therapeutic interest. No LL-37 drug is broadly approved.",
+      "mechanism": "Frequently discussed in relation to bacterial membrane disruption and immune signaling in research literature.",
+      "discussedFor": [
+        "Recovery",
+        "Skin & aging"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "LL-37 in innate immunity and wound repair",
+          "sourceType": "review",
+          "publication": "Basic science and translational reviews",
+          "year": 2023,
+          "summary": "Reviews describe antimicrobial and immunomodulatory activity, plus small studies in hard-to-heal ulcers. Not an approved therapy."
+        }
+      ]
+    },
+    {
+      "id": "p-melanotan2",
+      "slug": "melanotan-ii",
+      "name": "Melanotan II",
+      "aka": [
+        "MT-II",
+        "MT2"
+      ],
+      "category": "skin",
+      "shortSummary": "A synthetic melanocortin analog discussed in research on skin pigmentation.",
+      "overview": "Melanotan II is a synthetic cyclic analog of alpha-melanocyte-stimulating hormone that activates several melanocortin receptors. Early human pharmacology studies examined melanogenesis and, incidentally, arousal effects that led to the separate development of bremelanotide. It was never developed into an approved product and carries documented safety concerns, including darkening and proliferation of moles.",
+      "mechanism": "Frequently discussed in relation to non-selective melanocortin receptor activation in research literature.",
+      "discussedFor": [
+        "Skin & aging"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Early melanocortin analog human pharmacology",
+          "sourceType": "clinical",
+          "publication": "University of Arizona melanocortin program",
+          "year": 2000,
+          "summary": "Early studies reported melanogenesis with reduced UV exposure; development as an approved drug was not completed."
+        },
+        {
+          "title": "Community reports (summarized)",
+          "sourceType": "anecdotal",
+          "summary": "Aggregated gray-market reports describe nausea, flushing and pigment changes. Anecdotal and unverified."
+        }
+      ]
+    },
+    {
+      "id": "p-pt141",
+      "slug": "pt-141",
+      "name": "PT-141",
+      "aka": [
+        "Bremelanotide",
+        "Vyleesi"
+      ],
+      "category": "hormonal",
+      "shortSummary": "A melanocortin agonist that is FDA approved under the brand Vyleesi for one specific indication.",
+      "overview": "PT-141, generic name bremelanotide, is a synthetic melanocortin receptor agonist developed for sexual dysfunction and marketed as Vyleesi. Unlike vascular drugs it acts centrally on arousal pathways. It received FDA approval in 2019 for hypoactive sexual desire disorder in premenopausal women; other uses are off-label.",
+      "mechanism": "Frequently discussed in relation to central melanocortin-4 receptor signaling in research literature.",
+      "discussedFor": [],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "RECONNECT phase 3 trials",
+          "sourceType": "clinical",
+          "publication": "Obstetrics & Gynecology",
+          "year": 2019,
+          "summary": "Two randomized trials reported statistically significant but modest improvements in desire and distress versus placebo, supporting FDA approval."
+        }
+      ]
+    },
+    {
+      "id": "p-dihexa",
+      "slug": "dihexa",
+      "name": "Dihexa",
+      "aka": [
+        "PNB-0408",
+        "N-hexanoic-Tyr-Ile-(6) aminohexanoic amide"
+      ],
+      "category": "cognition",
+      "shortSummary": "An angiotensin IV analog studied in animals for effects on synapse formation.",
+      "overview": "Dihexa is a small synthetic oligopeptide developed at Washington State University as a metabolically stable procognitive compound. Animal work reported effects on synaptogenesis and on cognitive deficits in disease models. There are no published human clinical trials, long-term safety is unknown, and researchers have flagged theoretical concern about stimulating growth pathways implicated in some cancers.",
+      "mechanism": "Frequently discussed in relation to the hepatocyte growth factor and c-Met system in research literature.",
+      "discussedFor": [
+        "Cognition & focus"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Dihexa and synaptogenesis in rodent models",
+          "sourceType": "preclinical",
+          "publication": "Journal of Pharmacology and Experimental Therapeutics",
+          "year": 2014,
+          "summary": "Animal work reported facilitation of synapse formation and reversal of induced cognitive deficits. No human data."
+        }
+      ]
+    },
+    {
+      "id": "p-pinealon",
+      "slug": "pinealon",
+      "name": "Pinealon",
+      "aka": [
+        "Glu-Asp-Arg",
+        "Khavinson peptide bioregulator"
+      ],
+      "category": "cognition",
+      "shortSummary": "A short synthetic tripeptide from the Russian peptide bioregulator research tradition.",
+      "overview": "Pinealon is a synthetic tripeptide marketed as a peptide bioregulator intended to act on brain tissue, associated with the St. Petersburg Institute of Bioregulation and Gerontology. Reported neuroprotective and antioxidant findings come mainly from cell and animal studies within a single research tradition and have not been replicated in large independent trials.",
+      "mechanism": "Frequently discussed in relation to proposed regulation of gene expression in neuronal tissue in research literature.",
+      "discussedFor": [
+        "Cognition & focus",
+        "Sleep"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Peptide bioregulator neuroprotection studies",
+          "sourceType": "preclinical",
+          "publication": "Russian and Eastern European journals",
+          "year": 2015,
+          "summary": "Cell and animal studies report protection against hypoxic and oxidative stress. Small evidence base, largely from one research group."
+        }
+      ]
+    },
+    {
+      "id": "p-ss31",
+      "slug": "ss-31",
+      "name": "SS-31",
+      "aka": [
+        "Elamipretide",
+        "MTP-131",
+        "Bendavia",
+        "Forzinity"
+      ],
+      "category": "energy",
+      "shortSummary": "A mitochondria-targeting tetrapeptide; FDA approved in 2025 for Barth syndrome as Forzinity.",
+      "overview": "SS-31, developed as elamipretide, is a cell-permeable tetrapeptide that concentrates in the inner mitochondrial membrane and binds cardiolipin. It is the most clinically advanced mitochondria-targeted peptide, with human trials across mitochondrial myopathy, cardiac and ophthalmic indications and mixed results. It received FDA accelerated approval in September 2025 for Barth syndrome, with a confirmatory trial ongoing.",
+      "mechanism": "Frequently discussed in relation to cardiolipin binding and mitochondrial membrane structure in research literature.",
+      "discussedFor": [
+        "Energy",
+        "Recovery"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "Elamipretide clinical program including MMPOWER and Barth syndrome",
+          "sourceType": "clinical",
+          "publication": "Stealth BioTherapeutics trial program",
+          "year": 2024,
+          "summary": "Multiple human trials with mixed results; accelerated approval granted for Barth syndrome in September 2025."
+        }
+      ]
+    },
+    {
+      "id": "p-liraglutide",
+      "slug": "liraglutide",
+      "name": "Liraglutide",
+      "aka": [
+        "Victoza",
+        "Saxenda"
+      ],
+      "category": "metabolic",
+      "shortSummary": "An older once-daily GLP-1 receptor agonist, FDA approved for type 2 diabetes and weight management.",
+      "overview": "Liraglutide is a synthetic GLP-1 analog with a fatty-acid modification giving roughly a 13-hour half-life and once-daily dosing. It is FDA approved as Victoza for type 2 diabetes (2010) and as Saxenda for chronic weight management (2014). Trial programs reported smaller mean weight reduction than the newer weekly agents, alongside cardiovascular benefit in a high-risk diabetes population.",
+      "mechanism": "Frequently discussed in relation to GLP-1 receptor agonism, gastric emptying and central appetite regulation in research literature.",
+      "discussedFor": [
+        "Weight & metabolism"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "LEADER cardiovascular outcomes trial",
+          "sourceType": "clinical",
+          "publication": "New England Journal of Medicine",
+          "year": 2016,
+          "summary": "Reported cardiovascular benefit in high-risk type 2 diabetes."
+        },
+        {
+          "title": "SCALE obesity program",
+          "sourceType": "clinical",
+          "publication": "Randomized controlled trials",
+          "year": 2015,
+          "summary": "Supported the weight-management indication with mean weight loss in the roughly 5-8% range."
+        }
+      ]
+    },
+    {
+      "id": "p-cagrilintide",
+      "slug": "cagrilintide",
+      "name": "Cagrilintide",
+      "aka": [
+        "AM833",
+        "CagriSema (with semaglutide)"
+      ],
+      "category": "metabolic",
+      "shortSummary": "An investigational long-acting amylin analog, studied mainly in combination with semaglutide.",
+      "overview": "Cagrilintide is a synthetic long-acting analog of amylin, a hormone that works alongside insulin in satiety and gastric emptying. It is most advanced as CagriSema, a combination with semaglutide, which has been evaluated in the REDEFINE phase 3 program for obesity. It is investigational and not FDA approved.",
+      "mechanism": "Frequently discussed in relation to amylin and calcitonin receptor agonism, complementary to GLP-1, in research literature.",
+      "discussedFor": [
+        "Weight & metabolism"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "REDEFINE phase 3 program for CagriSema",
+          "sourceType": "clinical",
+          "publication": "Novo Nordisk phase 3 trials",
+          "year": 2025,
+          "summary": "Reported weight reduction in the roughly 15-22% range depending on trial and adherence. Not approved."
+        }
+      ]
+    },
+    {
+      "id": "p-ghrp6",
+      "slug": "ghrp-6",
+      "name": "GHRP-6",
+      "aka": [
+        "Growth Hormone Releasing Peptide-6"
+      ],
+      "category": "recovery",
+      "shortSummary": "One of the original synthetic growth hormone secretagogues, noted for a strong appetite effect.",
+      "overview": "GHRP-6 is a synthetic hexapeptide that acts at the ghrelin receptor to stimulate growth hormone release, and is characterized in the literature by a pronounced appetite-stimulating effect. Classic pharmacology also describes modest increases in cortisol and prolactin. It was superseded in research by more selective agents and never became an approved drug.",
+      "mechanism": "Frequently discussed in relation to ghrelin receptor agonism and pulsatile growth hormone release in research literature.",
+      "discussedFor": [
+        "Recovery",
+        "Energy"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Growth hormone secretagogue pharmacology",
+          "sourceType": "preclinical",
+          "publication": "Endocrinology literature",
+          "year": 2005,
+          "summary": "Established GH-releasing activity alongside cortisol, prolactin and appetite effects. Not an approved product; banned in sport by WADA."
+        }
+      ]
+    },
+    {
+      "id": "p-ghrp2",
+      "slug": "ghrp-2",
+      "name": "GHRP-2",
+      "aka": [
+        "Pralmorelin"
+      ],
+      "category": "recovery",
+      "shortSummary": "A growth hormone secretagogue approved in Japan as a diagnostic agent under the name pralmorelin.",
+      "overview": "GHRP-2 is a synthetic growth hormone releasing peptide similar to GHRP-6 but with stronger growth hormone release and less appetite stimulation. As pralmorelin it is approved in Japan as a diagnostic agent for growth hormone stimulation testing in adults. It is not approved for therapeutic or physique use elsewhere and is banned in sport by WADA.",
+      "mechanism": "Frequently discussed in relation to ghrelin receptor agonism and growth hormone release in research literature.",
+      "discussedFor": [
+        "Recovery"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Pralmorelin as a GH-deficiency diagnostic agent",
+          "sourceType": "clinical",
+          "publication": "Japanese regulatory approval and human pharmacology studies",
+          "year": 2006,
+          "summary": "Approved in Japan for diagnostic GH stimulation testing only."
+        }
+      ]
+    },
+    {
+      "id": "p-hexarelin",
+      "slug": "hexarelin",
+      "name": "Hexarelin",
+      "aka": [
+        "Examorelin"
+      ],
+      "category": "recovery",
+      "shortSummary": "A potent growth hormone secretagogue also studied for growth-hormone-independent cardiac effects.",
+      "overview": "Hexarelin is a synthetic hexapeptide structurally related to GHRP-6 and among the most potent of the group for acute growth hormone release, though the response is described as desensitizing with continued use. Animal work also describes direct cardiovascular effects mediated by the CD36 receptor, separate from growth hormone. No approved product resulted.",
+      "mechanism": "Frequently discussed in relation to ghrelin receptor agonism and CD36 signaling in research literature.",
+      "discussedFor": [
+        "Recovery"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "Hexarelin GH release and CD36-mediated cardiac effects",
+          "sourceType": "preclinical",
+          "publication": "Animal and early pharmacology studies",
+          "year": 2010,
+          "summary": "Reported potent acute GH release with desensitization, plus proposed direct cardiac effects. Not approved; banned in sport by WADA."
+        }
+      ]
+    },
+    {
+      "id": "p-igf1lr3",
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "aka": [
+        "Long R3 IGF-1"
+      ],
+      "category": "recovery",
+      "shortSummary": "A modified long-acting IGF-1 analog used primarily as a laboratory cell-culture reagent.",
+      "overview": "IGF-1 LR3 is a synthetic analog of insulin-like growth factor 1 engineered to bind IGF-binding proteins weakly and to have an extended half-life. It was developed as a research and cell-culture reagent rather than a human therapeutic, and there are no controlled human safety or efficacy data. Documented theoretical risks include low blood sugar from insulin-receptor cross-activity and concern about stimulating growth in existing tumors.",
+      "mechanism": "Frequently discussed in relation to IGF-1 receptor signaling through PI3K/Akt and MAPK pathways in research literature.",
+      "discussedFor": [
+        "Recovery"
+      ],
+      "researchStatus": "preclinical",
+      "sources": [
+        {
+          "title": "IGF-1 analogs as laboratory reagents",
+          "sourceType": "preclinical",
+          "publication": "Cell biology literature",
+          "year": 2018,
+          "summary": "Characterized as a research reagent; no controlled human trials for physique or therapeutic use."
+        }
+      ]
+    },
+    {
+      "id": "p-kisspeptin",
+      "slug": "kisspeptin",
+      "name": "Kisspeptin",
+      "aka": [
+        "KISS1",
+        "Kisspeptin-54",
+        "Kisspeptin-10"
+      ],
+      "category": "hormonal",
+      "shortSummary": "A reproductive neuropeptide under active clinical research, not an approved therapy.",
+      "overview": "Kisspeptin is a naturally occurring neuropeptide that acts as a master regulator of reproductive hormone signaling by stimulating GnRH release. Human studies, notably from Imperial College London, have examined kisspeptin-54 as a trigger for egg maturation in IVF with potentially lower ovarian hyperstimulation risk, and brain-imaging work has examined effects on arousal and mood. A randomized study published in August 2026 reported an intermittent administration schedule that sustained gonadotropin secretion over 12 days in healthy men, addressing a longstanding desensitization problem. It remains investigational.",
+      "mechanism": "Frequently discussed in relation to KISS1R (GPR54) signaling on hypothalamic neurons in research literature.",
+      "discussedFor": [],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Chronic subcutaneous kisspeptin-10 stimulates gonadotropin secretion for 12 days in healthy men",
+          "sourceType": "clinical",
+          "publication": "European Journal of Endocrinology",
+          "year": 2026,
+          "summary": "Randomized placebo-controlled study reporting an intermittent schedule that sustained gonadotropin increases where continuous infusion did not.",
+          "url": "https://doi.org/10.1093/ejendo/lvag134"
+        },
+        {
+          "title": "Kisspeptin-54 as an oocyte maturation trigger in IVF",
+          "sourceType": "clinical",
+          "publication": "Imperial College London clinical studies",
+          "year": 2017,
+          "summary": "Human studies reported reproductive hormone stimulation with potentially lower ovarian hyperstimulation syndrome risk."
+        }
+      ]
+    },
+    {
+      "id": "p-amycretin",
+      "slug": "amycretin",
+      "name": "Amycretin",
+      "aka": [
+        "Zenagamtide"
+      ],
+      "category": "metabolic",
+      "shortSummary": "An investigational single-molecule GLP-1 and amylin co-agonist in phase 3 development.",
+      "overview": "Amycretin is an investigational long-acting agonist of both the GLP-1 and amylin receptors in a single molecule, developed by Novo Nordisk in oral and subcutaneous forms for obesity and type 2 diabetes. Early-phase results published in The Lancet supported advancement, and both formulations entered phase 3 in 2026, including a head-to-head trial against semaglutide. It is not approved anywhere and final phase 3 outcomes are not yet available.",
+      "mechanism": "Frequently discussed in relation to combined GLP-1 and amylin receptor agonism in research literature.",
+      "discussedFor": [
+        "Weight & metabolism"
+      ],
+      "researchStatus": "clinical",
+      "sources": [
+        {
+          "title": "Early-phase amycretin obesity data",
+          "sourceType": "clinical",
+          "publication": "The Lancet",
+          "year": 2025,
+          "summary": "Early trials reported progressive weight reduction across durations, supporting advancement to phase 3."
+        },
+        {
+          "title": "AMAZE 7 phase 3 head-to-head versus semaglutide",
+          "sourceType": "clinical",
+          "publication": "ClinicalTrials.gov NCT07668414",
+          "year": 2026,
+          "summary": "Registered phase 3 comparison in overweight or obesity. Registration only; no results reported.",
+          "url": "https://clinicaltrials.gov/study/NCT07668414"
+        }
+      ]
+    },
+    {
+      "id": "p-gzr18",
+      "slug": "gzr18",
+      "name": "GZR18",
+      "aka": [
+        "Bofanglutide"
+      ],
+      "category": "metabolic",
+      "shortSummary": "An investigational once-weekly GLP-1 receptor agonist in early clinical development.",
+      "overview": "GZR18, proposed international name bofanglutide, is an investigational long-acting GLP-1 receptor agonist from Gan & Lee Pharmaceuticals designed for once-weekly dosing in type 2 diabetes and, in parallel programs, weight management. A randomized placebo-controlled phase 1b/2a trial in Chinese adults with type 2 diabetes reported reductions in HbA1c and body weight, and confirmatory phase 3 trials were registered in July 2026. It is not approved anywhere.",
+      "mechanism": "Frequently discussed in relation to GLP-1 receptor agonism in research literature.",
+      "discussedFor": [
+        "Weight & metabolism"
+      ],
+      "researchStatus": "mixed",
+      "sources": [
+        {
+          "title": "Phase 1b/2a trial of once-weekly GZR18 in type 2 diabetes",
+          "sourceType": "clinical",
+          "publication": "Cell Reports Medicine",
+          "year": 2026,
+          "summary": "Randomized double-blind placebo-controlled trial in 72 adults reporting HbA1c and body weight reductions versus placebo, with mostly mild-to-moderate gastrointestinal events.",
+          "url": "https://doi.org/10.1016/j.xcrm.2026.102874"
+        }
+      ]
     }
   ],
   "news": {
-    "summary": "Roughly ten days after the FDA Pharmacy Compounding Advisory Committee (PCAC) voted on July 23-24, 2026 to recommend adding six of seven nominated peptides to the 503A Bulk Drug Substances List - BPC-157, KPV and TB-500 each clearing 8-6 with one abstention, MOTS-c 7-5 with two abstentions, Semax and Epitalon also recommended, and Emideltide rejected - the practical position is unchanged: the votes are advisory, FDA has published no proposed rule, and any listing would run through notice-and-comment rulemaking. A listing concerns compounding eligibility, not FDA approval of a drug, and a further PCAC meeting is announced for before the end of February 2027 covering Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II and PEG-MGF. The research literature indexed this week ran on a separate track: the first rat study comparing BPC-157 and TB-500 head-to-head on tendon healing found no added benefit from combining them, a review summarised rare but potentially irreversible ocular events reported with GLP-1 drugs, another described an EMA pharmacovigilance signal for a lithium interaction, a third found no generalised neuroendocrine-tumour risk signal, and nationwide Icelandic and prospective Spanish cohorts added real-world weight data. This is general research, not medical advice.",
+    "summary": "Two weeks after the FDA Pharmacy Compounding Advisory Committee recommended six of seven nominated peptides - BPC-157, KPV, TB-500, MOTS-c, Epitalon and Semax - for the 503A Bulk Drug Substances List, the second wave of coverage is professional guidance rather than reporting, and it is uniform: client alerts from Holland & Knight, Buchanan Ingersoll & Rooney and McDermott Will & Emery, a note from the National Community Pharmacists Association, and even the August 4 statement from A4M and the International Peptide Society welcoming the outcome all state that the vote authorises nothing today, does not make these substances FDA-approved drugs, and leaves any listing to notice-and-comment rulemaking that could run into 2027 or beyond. Nothing has moved on FDA's own pages, and the further PCAC meeting on Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II and PEG-MGF is still scheduled only as before the end of February 2027. The research literature indexed this week ran separately: a BMJ cohort of 52,971 patients reported lower one-year cardiovascular event risk on tirzepatide against a placebo-proxy comparator, a randomised study in healthy men found an intermittent schedule that keeps kisspeptin working over 12 days, a systematic review catalogued peripheral nerve complications reported during rapid weight loss, two HIV-cohort analyses examined semaglutide alongside smoking and mood, and a Japanese cohort tracked near-universal weight regain after a nationally mandated treatment stop. This is general research, not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -561,7 +977,8 @@
       {
         "category": "In Human Trials (clinical or early-human data; not yet FDA-approved)",
         "items": [
-          "Kisspeptin, Selank, Semax, CJC-1295, Melanotan II, GHRP-2, AOD-9604, Thymosin Alpha-1, DSIP, LL-37, Epitalon, Pinealon.",
+          "Kisspeptin — randomised placebo-controlled study in healthy men (Eur J Endocrinol, Aug 2026) reported an intermittent administration schedule sustaining gonadotropin secretion over 12 days; investigational, not FDA-approved.",
+          "Selank, Semax, CJC-1295, Melanotan II, GHRP-2, AOD-9604, Thymosin Alpha-1, DSIP, LL-37, Epitalon, Pinealon.",
           "GZR18 (bofanglutide) — long-acting GLP-1 RA (Gan & Lee); Phase 2b vs semaglutide in type 2 diabetes published Jun 2026 (NCT06256549); confirmatory Phase 3 registered Jul 2026 (BALANCE-DM2 NCT07628985, BALANCE-OBS NCT07622810); investigational, not FDA-approved.",
           "Ecnoglutide — investigational long-acting GLP-1 receptor agonist (Hangzhou Sciwind Biosciences); Phase 3 in obesity with knee osteoarthritis registered Jul 2026 (NCT07734311); not FDA-approved.",
           "UBT251 — investigational GLP-1/GIP/glucagon triple agonist (United Bio-Technology); Phase 3 vs semaglutide in type 2 diabetes registered Jul 2026 (UNIGUIDE-2, NCT07653477); not FDA-approved. Candidate for a future monograph."
@@ -575,6 +992,36 @@
       }
     ],
     "timeline": [
+      {
+        "date": "2026-08-06",
+        "title": "This week in peptides: the law firms and pharmacy bodies have filed their read of the PCAC vote — and even the groups that welcomed it are telling members nothing has changed yet",
+        "content": "Two weeks after the Pharmacy Compounding Advisory Committee recommended six of seven nominated peptides for the 503A Bulk Drug Substances List, the second wave of coverage is not news reporting but professional guidance — and it is unusually uniform. Client alerts published in early August by Holland & Knight and by Buchanan Ingersoll & Rooney, an analysis from McDermott Will & Emery, a member note from the National Community Pharmacists Association, and explainer coverage from CNN and AJMC all land on the same operative sentence: the recommendations do not authorise anyone to compound these substances today, do not make them FDA-approved drugs, and do not alter the current legal position, because FDA must still decide whether to accept the recommendations and then work through notice-and-comment rulemaking. The Buchanan alert states directly that pharmacies should not interpret the vote as authorisation to begin compounding. Notably, the same caution appears in the statement issued August 4, 2026 by the American Academy of Anti-Aging Medicine and the International Peptide Society — two bodies that welcomed the outcome — which stressed that the vote is advisory and non-binding, that it does not change what is legally permitted to be compounded today, and that the process could extend into 2027 or beyond; readers should note both are membership organisations with a stated interest in broader peptide access, so their framing is a stakeholder position rather than a neutral one. Nothing on FDA's own pages has moved since the last update: no proposed rule has published, and the separately announced further PCAC meeting on Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II and PEG-MGF remains scheduled only as \"before the end of February 2027,\" with no date, docket, or briefing materials posted. A listing concerns compounding eligibility, not FDA approval of a drug. General research only — not medical advice. Source: [Holland & Knight](https://www.hklaw.com/en/insights/publications/2026/08/fda-advisory-committee-endorses-compounding-of-certain-peptides), [Buchanan Ingersoll & Rooney](https://www.bipc.com/fda-pcac-recommends-six-peptides-for-the-503a-bulks-list-what-compounding-pharmacies-need-to-know), [McDermott Will & Emery](https://www.mcdermottlaw.com/insights/bulk-list-bound-pcac-backs-majority-of-peptides-in-two-day-public-meeting/), [NCPA](https://ncpa.org/newsroom/qam/2026/07/31/fda-advisory-committee-nominates-six-peptides-pharmacies-compound), [CNN](https://www.cnn.com/2026/07/31/health/what-are-peptides-fda-next-steps-wellness), [AJMC](https://www.ajmc.com/view/fda-panel-backs-6-peptides-for-compounding), [A4M / International Peptide Society statement](https://www.globenewswire.com/news-release/2026/08/04/3338624/0/en/A4M-and-the-International-Peptide-Society-Welcome-PCAC-Recommendations-Supporting-Inclusion-of-Six-Reviewed-Peptides-on-the-503A-Bulk-List.html), [FDA — 503A bulk drug substances](https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act)"
+      },
+      {
+        "date": "2026-08-06",
+        "title": "BMJ cohort of 52,971 patients reports lower one-year cardiovascular event risk on tirzepatide than on a comparator chosen as a placebo proxy",
+        "content": "A population-based cohort study in The BMJ used two national US claims databases and a design previously benchmarked against randomised trials to compare 35,353 people who started tirzepatide with 17,618 who started sitagliptin, all aged 40 and over with type 2 diabetes and established atherosclerotic cardiovascular disease. At one year the weighted risk of major adverse cardiovascular events was 2.9% on tirzepatide versus 4.4% on sitagliptin (hazard ratio 0.68, 95% CI 0.58 to 0.80; number needed to treat 70), with lower myocardial infarction risk but no meaningful difference in ischaemic stroke. The authors also report lower rates of hospital-treated infection and of all-cause mortality, which they suggest points to mechanisms beyond atherosclerosis. This is observational claims-based research, not a randomised trial, and residual confounding cannot be excluded. General research only — not medical advice. Source: [BMJ, DOI 10.1136/bmj-2026-100011](https://doi.org/10.1136/bmj-2026-100011) (PubMed)"
+      },
+      {
+        "date": "2026-08-06",
+        "title": "Randomised study finds an intermittent schedule that keeps kisspeptin working for 12 days, sidestepping the desensitisation problem",
+        "content": "A randomised, single-blinded, placebo-controlled study in the European Journal of Endocrinology tested three kisspeptin-10 administration patterns in 15 healthy men with 12 controls. Continuous infusion over five days left gonadotropin concentrations no different from vehicle — the desensitisation that has limited the field — while a daily intermittent schedule of eight hours on and sixteen hours off sustained increases in luteinising hormone across twelve days, and a challenge bolus afterwards still produced a response, indicating the receptor remained functional. The authors frame the work as protocol development to inform future studies in reproductive disorders. The study is small, short, in healthy volunteers only, and reports no clinical outcomes; kisspeptin is not FDA approved. General research only — not medical advice. Source: [Eur J Endocrinol, DOI 10.1093/ejendo/lvag134](https://doi.org/10.1093/ejendo/lvag134) (PubMed)"
+      },
+      {
+        "date": "2026-08-06",
+        "title": "Systematic review catalogues nerve complications reported alongside rapid weight loss on GLP-1 and dual agonists",
+        "content": "A systematic review in the Journal of Neurology searched three databases through 30 June 2026 and identified 19 studies comprising 31 individual cases plus one cohort of 103 people who developed new or worsening peripheral nerve problems while taking weight-loss medications, with all but one study published from 2024 onward. Semaglutide or tirzepatide were implicated in 83% of the individual cases; median weight loss was 21.8% of starting body weight at a median 3.7 kg per month, with symptom onset at a median 150 days, and presentations included fibular neuropathy, lumbosacral radiculoplexus neuropathy and distal symmetric polyneuropathy. The authors urge attention to nutritional status and caution against ultra-rapid weight and HbA1c reduction, while noting explicitly that case reports cannot establish how often this happens. General research only — not medical advice. Source: [J Neurol, DOI 10.1007/s00415-026-14048-w](https://doi.org/10.1007/s00415-026-14048-w) (PubMed)"
+      },
+      {
+        "date": "2026-08-06",
+        "title": "Two HIV-cohort analyses look at semaglutide and smoking, and at semaglutide and mood",
+        "content": "Two within-person analyses from the CNICS clinical network were published in AIDS on the same day. One followed 123 people with HIV who smoked at the time they started semaglutide and reported a fall of 2.5 cigarettes per day from an average of 10.5 — a 24% drop in smoking intensity — with 21% reporting not smoking at the end of follow-up. The other tracked PHQ-9 scores in 354 people and found no overall change in depressive symptoms, with a small rise among those who had none at baseline and a larger fall among those with moderately-severe to severe symptoms. Both are uncontrolled observational studies with no comparator group, and semaglutide is not approved for smoking cessation or any psychiatric indication. General research only — not medical advice. Sources: [DOI 10.1097/QAD.0000000000004596](https://doi.org/10.1097/QAD.0000000000004596), [DOI 10.1097/QAD.0000000000004598](https://doi.org/10.1097/QAD.0000000000004598) (PubMed)"
+      },
+      {
+        "date": "2026-08-05",
+        "title": "Japanese cohort tracks what happens when a national policy forces patients off GLP-1 therapy",
+        "content": "A prospective real-world study in Diabetes, Obesity & Metabolism followed 104 patients treated under Japan's optimal use guideline, which mandates a six-month lifestyle phase before reimbursed therapy, caps treatment at 68 weeks for semaglutide or 72 weeks for tirzepatide, and then requires a washout. Weight fell to about -16% at the treatment endpoint with the two agents tracking closely from month four onward, but after the mandated stop 95% of patients had regained weight by two months and 83% by six months, with the mean change reverting from -14.4% at month 16 to -7.0% at month 22. The authors question whether a mandated cessation is compatible with the chronic nature of obesity. The study is observational and uncontrolled, with small numbers in the post-cessation windows. General research only — not medical advice. Source: [Diabetes Obes Metab, DOI 10.1111/dom.71190](https://doi.org/10.1111/dom.71190) (PubMed)"
+      },
       {
         "date": "2026-08-03",
         "title": "This week in peptides: the panel has voted, the rulemaking hasn't started — and the safety literature isn't waiting",
@@ -711,17 +1158,12 @@
         "content": "Ahead of the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23–24, 2026, the FDA has posted its scientific briefing documents for the seven nominated research peptides, and across all seven the agency's reviewers recommend they NOT be added to the 503A Bulk Drug Substances List. Per the briefing materials and reporting on them, FDA cites that the substances are not well-characterized, that there is little or no human evidence of effectiveness for the proposed (mostly injectable) routes, and that human safety data are insufficient — including unassessed immunogenicity risk — across BPC-157 (evaluated for ulcerative colitis), KPV, TB-500, and MOTS-c on day one and Emideltide (DSIP), Semax, and Epitalon on day two. These are advisory-committee briefing proposals, not final determinations: the committee still votes on July 23–24 and any change would require subsequent FDA rulemaking. Today, July 9, 2026, is also the cutoff for written comments to docket FDA-2025-N-6895 to be guaranteed relay to committee members before they deliberate. Context to keep straight: BPC-157 came off the FDA's Category 2 \"do-not-compound\" list effective April 23, 2026 (removal is not authorization to compound), and the agency's separate proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list is in post-comment review. General research only — not medical advice. Source: [FDA.gov PCAC meeting & briefing materials](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [FDA briefing document](https://www.fda.gov/media/193343/download), [Drug Topics](https://www.drugtopics.com/view/fda-panel-to-evaluate-7-popular-peptides-for-compounding-substances-list)"
       },
       {
-        "date": "2026-07-04",
-        "title": "This week in peptides: holiday-weekend status check — the July 9 comment-relay cutoff is now days away, and FDA's briefing materials come next",
-        "content": "Over the Independence Day weekend the regulatory calendar around the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting on July 23–24, 2026 continues to tighten. Per the Federal Register notice, written comments to docket FDA-2025-N-6895 on the seven nominated research peptides — BPC-157, KPV, TB-500, and MOTS-c (day one), then Emideltide (DSIP), Semax, and Epitalon (day two) — are accepted through July 22, 2026, but only those received by July 9, 2026 are guaranteed to reach committee members before they deliberate, putting that cutoff just days out. FDA's advisory-committee practice is to post its scientific briefing materials at least two business days before the meeting, and such documents typically set out the agency's own recommendation — so the next substantive signal on where FDA stands is expected in the days just ahead of July 23. Context to keep straight: BPC-157 was removed from the FDA's Category 2 \"do-not-compound\" list effective late April 2026 (removal is not authorization to compound), and the agency's separate proposal to exclude semaglutide, tirzepatide, and liraglutide from the 503B Bulk Drug Substances List is in its post-comment review phase after that window closed June 29, 2026. General research only — not medical advice. Source: [FDA.gov PCAC meeting](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Federal Register PCAC notice](https://www.federalregister.gov/documents/2026/04/16/2026-07361/pharmacy-compounding-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request), [FDA.gov 503B proposal](https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list)"
-      },
-      {
         "date": "2026-07-23",
         "title": "FDA Pharmacy Compounding Advisory Committee to review 7 peptides",
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
       }
     ],
-    "generatedAt": "2026-08-03T16:34:35Z"
+    "generatedAt": "2026-08-06T15:49:43Z"
   },
   "podcasts": [
     {
