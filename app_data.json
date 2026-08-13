@@ -935,7 +935,7 @@
     }
   ],
   "news": {
-    "summary": "Twenty days after the FDA Pharmacy Compounding Advisory Committee recommended six of seven nominated peptides - BPC-157, KPV, TB-500, MOTS-c, Epitalon and Semax - for the 503A Bulk Drug Substances List, the agency's compounding file remains unmoved: no proposed rule has published, no Federal Register notice has appeared, and the further PCAC meeting on Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II and PEG-MGF is still listed only as before the end of February 2027. This week the evidence conversation caught up with the peptides themselves: a sports-medicine scoping review of BPC-157, TB-500, CJC-1295, MK-677, ipamorelin and GHK-Cu concluded their claimed recovery benefits remain unsupported by human trials, a meta-analysis found no statistically significant depression signal on semaglutide, and large real-world cohorts examined laryngeal symptoms on GLP-1 drugs, tirzepatide use in youths, and cardiovascular outcomes after bariatric surgery versus semaglutide. On the industry side, second-quarter earnings sharpened the GLP-1 divide - Eli Lilly's revenue jumped 48% while Novo Nordisk disclosed that CagriSema fell short of tirzepatide on blood-glucose control in a head-to-head Phase 3 trial. Retatrutide's narrow expanded-access pathway remains open, with a BLA filing planned for the first quarter of 2027. This is general research, not medical advice.",
+    "summary": "Twenty-one days after the FDA Pharmacy Compounding Advisory Committee recommended six of seven nominated peptides - BPC-157, KPV, TB-500, MOTS-c, Epitalon and Semax - for the 503A Bulk Drug Substances List, FDA has still published no proposed rule or Federal Register notice, and the next PCAC review of five more peptides remains scheduled only as before the end of February 2027. This period's focus shifted to safety accounting: a BMJ feature examined the UK regulator's adverse-event tally for GLP-1 medicines (reports of suspicion, not confirmed causation), while new real-world analyses reported lower postoperative mortality with preoperative GLP-1 use and lower five-year liver-cancer risk in GLP-1 initiators. This is general research, not medical advice.",
     "board": [
       {
         "category": "FDA Approved",
@@ -992,6 +992,26 @@
       }
     ],
     "timeline": [
+      {
+        "date": "2026-08-13",
+        "title": "This week in peptides: three weeks after the PCAC vote the compounding file is still silent — and the scrutiny has shifted to the GLP-1 safety ledger on both sides of the Atlantic",
+        "content": "Twenty-one days after the Pharmacy Compounding Advisory Committee recommended six of seven nominated peptides — BPC-157, KPV, TB-500, MOTS-c, Epitalon and Semax — for the 503A Bulk Drug Substances List, FDA's own pages remain unchanged: no proposed rule has published, no Federal Register notice has appeared, and the further PCAC meeting on Cathelicidin (LL-37), GHK-Cu, Dihexa acetate, Melanotan II and PEG-MGF is still listed only as \"before the end of February 2027.\" With the regulatory file quiet, this week's story is safety accounting. A BMJ news feature published August 12 tallies the UK regulator MHRA's Yellow Card data on GLP-1 medicines — hundreds of thousands of adverse-event reports and about 216 reports with a fatal outcome — while stressing that such reports record suspicion, not confirmed causation, and quoting the MHRA's reassurance that the medicines are safe for the majority of users. The same day, an Anesthesiology analysis pushed in the other direction on a long-running safety question: in matched surgical patients, preoperative GLP-1 use was associated with lower short-term postoperative mortality and no added aspiration risk (covered below, alongside a new liver-cancer analysis). General research only — not medical advice. Source: [FDA — 503A bulk drug substances](https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act), [FDA — PCAC meetings](https://www.fda.gov/advisory-committees/pharmacy-compounding-advisory-committee/meeting-pharmacy-compounding-advisory-committee), [BMJ, DOI 10.1136/bmj-2026-100557](https://doi.org/10.1136/bmj-2026-100557), [Anesthesiology, DOI 10.1097/ALN.0000000000006326](https://doi.org/10.1097/ALN.0000000000006326)"
+      },
+      {
+        "date": "2026-08-12",
+        "title": "BMJ examines the UK regulator's tally of deaths reported in association with GLP-1 drugs — and what those reports do and don't mean",
+        "content": "A BMJ news feature reviews the UK Medicines and Healthcare products Regulatory Agency's Yellow Card pharmacovigilance data for GLP-1 medicines: roughly 106,000 adverse-reaction reports for tirzepatide (120 with fatal outcome), about 48,000 for semaglutide as Wegovy (59 deaths) and about 4,500 for liraglutide as Saxenda (37 deaths). The piece emphasises that a Yellow Card report reflects a reporter's suspicion rather than confirmed causation — underlying illness can account for many outcomes — and quotes the MHRA reassuring patients that GLP-1 medicines are safe for the majority of users while surveillance continues. Source: [BMJ, DOI 10.1136/bmj-2026-100557](https://doi.org/10.1136/bmj-2026-100557)"
+      },
+      {
+        "date": "2026-08-12",
+        "title": "Two real-world files: lower postoperative mortality with preoperative GLP-1 use, and lower five-year liver-cancer risk in GLP-1 initiators",
+        "content": "In Anesthesiology, a TriNetX propensity-matched analysis of adult surgical patients with type 2 diabetes (2013–2023) reported that preoperative GLP-1 receptor agonist use was associated with lower 14-day postoperative mortality versus metformin (0.98% vs 2.20%) and versus DPP-4 inhibitors, with less bacterial pneumonia and no increase in aspiration pneumonitis against any comparator — observational findings the authors say need prospective confirmation. In Hepatology International, a target-trial emulation using UT Southwestern PCORnet data linked GLP-1 initiation to a lower five-year risk of hepatocellular carcinoma versus metformin, insulin, DPP-4 inhibitors and sulfonylureas. Source: [Anesthesiology, DOI 10.1097/ALN.0000000000006326](https://doi.org/10.1097/ALN.0000000000006326), [Hepatol Int, DOI 10.1007/s12072-026-11138-9](https://doi.org/10.1007/s12072-026-11138-9) (PubMed)"
+      },
+      {
+        "date": "2026-08-12",
+        "title": "GHK-Cu — copper peptide provides the oxygen-generating step in a preclinical diabetic-wound dressing",
+        "content": "Researchers in Carbohydrate Polymers describe an injectable hydrogel for diabetic wounds in which glucose oxidase consumes excess wound glucose and produces hydrogen peroxide, and GHK-Cu then converts that peroxide to oxygen — pairing antibacterial action with relief of the hypoxic wound microenvironment. With tea-leaf-derived exosomes included to steer macrophages toward a reparative state, the dressing accelerated wound closure and blood-vessel formation in diabetic mice; the work is early-stage animal research. Source: [Carbohydr Polym, DOI 10.1016/j.carbpol.2026.125628](https://doi.org/10.1016/j.carbpol.2026.125628) (PubMed)"
+      },
       {
         "date": "2026-08-12",
         "title": "This week in peptides: day 20 after the PCAC vote — the compounding file stays quiet while the sports-medicine literature delivers its own verdict on the same peptides",
@@ -1213,7 +1233,7 @@
         "content": "The PCAC is scheduled to evaluate BPC-157, TB-500, MOTS-c, KPV, Semax, Epitalon, and Emideltide for inclusion on the 503A Bulk Drug Substances List; BPC-157 is being moved off the restrictive Category 2 list. Source: [FDA.gov](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026), [Drug Topics](https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies)"
       }
     ],
-    "generatedAt": "2026-08-12T15:47:17Z"
+    "generatedAt": "2026-08-13T17:25:06Z"
   },
   "podcasts": [
     {
