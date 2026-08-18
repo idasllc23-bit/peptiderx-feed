@@ -9,7 +9,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-
+<style>
+.tmodal{position:fixed;inset:0;background:rgba(15,23,42,.55);display:none;align-items:center;justify-content:center;z-index:9999;padding:16px}
+.tmodal.show{display:flex}
+.tsheet{background:#fff;border-radius:16px;max-width:440px;width:100%;padding:22px 20px;box-shadow:0 20px 60px rgba(0,0,0,.25);font-family:-apple-system,system-ui,'Segoe UI',Roboto,Arial,sans-serif}
+.tsheet h3{margin:0 0 2px;font-size:1.15rem;color:#0f172a}
+.tsheet .tsub{color:#64748b;font-size:.9rem;margin:0 0 14px}
+.tsheet input{width:100%;box-sizing:border-box;padding:11px 12px;margin:0 0 10px;border:1px solid #e2e8f0;border-radius:9px;font-size:1rem}
+.tbtn{width:100%;padding:13px;border:0;border-radius:10px;background:#0ea5e9;color:#fff;font-size:1.02rem;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.tbtn:hover{background:#0284c7}
+.tclose{float:right;background:none;border:0;font-size:1.5rem;line-height:1;color:#94a3b8;cursor:pointer}
+.tmsg{margin-top:10px;font-size:.9rem;font-weight:600}.tmsg.err{color:#b91c1c}.tmsg.ok{color:#047857}
+.tfine{font-size:.78rem;color:#94a3b8;margin-top:10px}
+</style>
 <style>
 
   :root{--ink:#0c1626;--muted:#5d6b80;--line:#d7e3f3;--blue:#3f86ef;--blue-600:#2f6fe0;--blue-50:#eaf3ff;--blue-100:#d9e8fe;--chip:#d3e6fd;--shadow:0 1px 2px rgba(20,50,100,.05),0 12px 30px rgba(40,90,170,.10);--radius:22px}
@@ -123,37 +135,37 @@
         <h3>Basic Blood Panel</h3>
         <div class="price">$125</div>
         <p>25-marker blood panel + easy-to-read lab report.</p>
-        <a class="cart-add" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px" href="https://buy.stripe.com/5kQ28sb0Md3tcCvb7vfQI00" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</a>
+        <button class="cart-add" type="button" style="display:inline-flex;align-items:center;justify-content:center;gap:8px" onclick="testBuy(this)" data-link="https://buy.stripe.com/5kQ28sb0Md3tcCvb7vfQI00" data-pkg="Basic Blood Panel" data-price="$125"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</button>
       </div>
       <div class="pkg">
         <h3>Review Blood Work — Provider Consultation</h3>
         <div class="price">$400</div>
         <p>Direct access to a licensed provider who reviews your existing blood work and gives prescriptions or personalized recommendations for peptides, supplements &amp; amino acids — includes a short video consultation.</p>
-        <a class="cart-add" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px" href="https://buy.stripe.com/6oU14od8Ue7xgSL7VjfQI05" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</a>
+        <button class="cart-add" type="button" style="display:inline-flex;align-items:center;justify-content:center;gap:8px" onclick="testBuy(this)" data-link="https://buy.stripe.com/6oU14od8Ue7xgSL7VjfQI05" data-pkg="Review Blood Work — Provider Consultation" data-price="$400"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</button>
       </div>
       <div class="pkg">
         <h3>Rhythm Baseline</h3>
         <div class="price">$699</div>
         <p>25 key biomarkers via Rhythm at-home test + doctor review + personalized peptide &amp; supplement recommendations.</p>
-        <a class="cart-add" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px" href="https://buy.stripe.com/6oUcN62ug6F51XRb7vfQI01" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</a>
+        <button class="cart-add" type="button" style="display:inline-flex;align-items:center;justify-content:center;gap:8px" onclick="testBuy(this)" data-link="https://buy.stripe.com/6oUcN62ug6F51XRb7vfQI01" data-pkg="Rhythm Baseline" data-price="$699"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</button>
       </div>
       <div class="pkg">
         <h3>Comprehensive Blood Panel</h3>
         <div class="price">$1,799</div>
         <p>Full deep blood panel + doctor review + personalized peptide &amp; supplement recommendations.</p>
-        <a class="cart-add" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px" href="https://buy.stripe.com/eVqeVefh27J9aunb7vfQI02" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</a>
+        <button class="cart-add" type="button" style="display:inline-flex;align-items:center;justify-content:center;gap:8px" onclick="testBuy(this)" data-link="https://buy.stripe.com/eVqeVefh27J9aunb7vfQI02" data-pkg="Comprehensive Blood Panel" data-price="$1,799"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</button>
       </div>
       <div class="pkg">
         <h3>Amino Acid Optimization</h3>
         <div class="price">$2,250</div>
         <p>Comprehensive amino acid profile test + doctor analysis + targeted recommendations.</p>
-        <a class="cart-add" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px" href="https://buy.stripe.com/dRm00k6KwaVlcCv3F3fQI03" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</a>
+        <button class="cart-add" type="button" style="display:inline-flex;align-items:center;justify-content:center;gap:8px" onclick="testBuy(this)" data-link="https://buy.stripe.com/dRm00k6KwaVlcCv3F3fQI03" data-pkg="Amino Acid Optimization" data-price="$2,250"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</button>
       </div>
       <div class="pkg">
         <h3>DNA Longevity Report</h3>
         <div class="price">$3,497</div>
         <p>Full DNA sequencing test + doctor analysis + personalized longevity &amp; peptide recommendations.</p>
-        <a class="cart-add" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px" href="https://buy.stripe.com/3cI14o5Gs2oP9qjcbzfQI04" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</a>
+        <button class="cart-add" type="button" style="display:inline-flex;align-items:center;justify-content:center;gap:8px" onclick="testBuy(this)" data-link="https://buy.stripe.com/3cI14o5Gs2oP9qjcbzfQI04" data-pkg="DNA Longevity Report" data-price="$3,497"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 002 1.6h9.7a2 2 0 002-1.6L23 6H6"/></svg> Buy Now</button>
       </div>
     </section>
     <div class="trust"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg> Secure checkout. Prices in USD.</div>
@@ -184,7 +196,67 @@
     <div>&copy; <span id="yr"></span> Peptide RX LLC. All rights reserved.</div>
   </div></footer>
   <script>document.getElementById("yr").textContent=new Date().getFullYear();</script>
-
+<div class="tmodal" id="tModal" role="dialog" aria-modal="true">
+  <div class="tsheet">
+    <button class="tclose" type="button" onclick="tClose()" aria-label="Close">&times;</button>
+    <h3 id="tHead">Your details</h3>
+    <p class="tsub" id="tSub">Enter your details to continue to payment.</p>
+    <input id="tName" type="text" autocomplete="name" placeholder="Full name" />
+    <input id="tEmail" type="email" autocomplete="email" inputmode="email" placeholder="Email address" />
+    <input id="tPhone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Phone number" />
+    <input id="tAddr" type="text" autocomplete="shipping street-address" placeholder="Shipping address (for kit delivery, if applicable)" />
+    <button class="tbtn" id="tSubmit" type="button" onclick="tContinue()">Continue to secure payment &rarr;</button>
+    <div class="tmsg" id="tMsg"></div>
+    <div class="tfine">Your details are sent securely to PeptideRx. Payment is completed on Stripe's secure checkout.</div>
+  </div>
+</div>
+<script>
+(function(){
+  var EMAIL="idasllc23@gmail.com";
+  var link="",pkg="",price="",busy=false;
+  window.testBuy=function(btn){
+    link=btn.getAttribute("data-link");pkg=btn.getAttribute("data-pkg");price=btn.getAttribute("data-price");
+    document.getElementById("tHead").textContent=pkg;
+    document.getElementById("tSub").textContent="Enter your details to continue to payment ("+price+").";
+    var m=document.getElementById("tMsg");m.className="tmsg";m.textContent="";
+    document.getElementById("tSubmit").textContent="Continue to secure payment \u2192";
+    document.getElementById("tModal").classList.add("show");document.body.style.overflow="hidden";
+  };
+  window.tClose=function(){document.getElementById("tModal").classList.remove("show");document.body.style.overflow="";};
+  function vEmail(e){return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);}
+  function vPhone(p){return p.replace(/\D/g,"").length>=10;}
+  window.tContinue=async function(){
+    if(busy)return;
+    var name=document.getElementById("tName").value.trim();
+    var email=document.getElementById("tEmail").value.trim();
+    var phone=document.getElementById("tPhone").value.trim();
+    var addr=document.getElementById("tAddr").value.trim();
+    var msg=document.getElementById("tMsg");
+    if(!name){msg.className="tmsg err";msg.textContent="Please enter your name.";return;}
+    if(!vEmail(email)){msg.className="tmsg err";msg.textContent="Please enter a valid email.";return;}
+    if(!vPhone(phone)){msg.className="tmsg err";msg.textContent="Please enter a valid phone number.";return;}
+    busy=true;var btn=document.getElementById("tSubmit");btn.textContent="Sending\u2026";
+    var fd=new FormData();
+    fd.append("_subject","New testing order \u2014 "+pkg+" ("+price+")");
+    fd.append("_captcha","false");fd.append("_template","table");
+    fd.append("Package",pkg);fd.append("Price",price);
+    fd.append("Customer name",name);fd.append("Customer email",email);fd.append("Customer phone",phone);
+    fd.append("Shipping address",addr||"(not provided)");
+    fd.append("_replyto",email);fd.append("_honey","");
+    try{
+      var r=await fetch("https://formsubmit.co/ajax/"+EMAIL,{method:"POST",headers:{"Accept":"application/json"},body:fd});
+      var j=await r.json().catch(function(){return {};});
+      if(r.ok&&(j.success===true||j.success==="true")){
+        msg.className="tmsg ok";msg.textContent="Got it! Redirecting you to secure payment\u2026";
+        setTimeout(function(){window.location.href=link;},700);
+      }else{throw new Error("failed");}
+    }catch(e){
+      busy=false;btn.textContent="Continue to secure payment \u2192";
+      msg.className="tmsg err";msg.innerHTML='Could not send that. <a href="'+link+'" style="color:#0284c7;font-weight:700">Continue to payment anyway \u2192</a>';
+    }
+  };
+})();
+</script>
 <div id="ageGate" style="position:fixed;inset:0;z-index:9999;background:rgba(11,22,38,.66);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:20px">
   <div style="background:linear-gradient(180deg,#ffffff,#eaf3fd);max-width:420px;width:100%;border-radius:22px;padding:28px 24px;text-align:center;box-shadow:0 24px 64px rgba(20,50,110,.32);font-family:'Inter',-apple-system,Segoe UI,Roboto,sans-serif">
     <div style="font-weight:800;font-size:20px;color:#0c1626;margin-bottom:8px;letter-spacing:-.3px">Age verification</div>
